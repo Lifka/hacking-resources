@@ -1,5 +1,5 @@
 # Hacking cheat sheet and resources
-List of hacking utilities. Resources that I consider useful that I have been and continue to collect during my study.
+List of hacking utilities. Resources that I consider useful and that I have been and continue to collect during my study.
 
 
 ## Tools
@@ -228,7 +228,12 @@ List of hacking utilities. Resources that I consider useful that I have been and
 
 
 ### Malwares
+ * [4n4lDetector](http://www.enelpc.com/p/4n4ldetector.html): It is a tool for analysis of Windows executable files, in order to quickly identify if this is or is not a malware. Most analyzes are based on the extraction of strings "ANSI" and "UNICODE" in disk, but also works with "Memory Dumps".
+ * [FakeNet](https://sourceforge.net/projects/fakenet/): FakeNet is Windows network simulation tool designed for malware analysis. It redirects all traffic leaving a machine to the localhost (including hard-coded IP traffic and DNS traffic) and implements several protocols to ensure that malicious code continues to execute and can be observed by an analyst.
  * [Indetectables Toolkit](https://github.com/indetectables-net/toolkit): Fundamental reverse/analysis/cracking toolkit.
+ * [Process Monitor](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon): Is an advanced monitoring tool for Windows that shows real-time file system, Registry and process/thread activity.
+ * [regshot](https://sourceforge.net/projects/regshot/): Regshot is an open-source (LGPL) registry compare utility that allows you to quickly take a snapshot of your registry and then compare it with a second one - done after doing system changes or installing a new software product.
+ * [Windows Sysinternals](https://docs.microsoft.com/en-us/sysinternals/)
 
 #### Databases
  * [ANY.RUN](https://app.any.run/submissions): Registration required
@@ -362,12 +367,16 @@ theZoo aka Malware DB
  * [DEF CON Safe Mode Red Team Village - Jason Haddix - The Bug Hunters Methodology](https://www.youtube.com/watch?v=qPlpN4BVnRY)
  * [Bugbounty en Español, todo lo que debes saber](https://www.youtube.com/watch?v=vLD34cGyHS8) (Spanish)
 
+### Forensics
+
+#### Books
+ * [Digital Forensics Workbook: Hands-on Activities in Digital Forensics](https://amzn.to/3r1PNo6)
+
 ### Hacking web
 
 #### Books
  * [The Web Application Hacker′s Handbook: Finding and Exploiting](https://amzn.to/3sB2ExI)
   
-
 ### Malwares / Reverse Engineering
 
 #### Articles
@@ -377,7 +386,11 @@ theZoo aka Malware DB
 
 #### Books
  * [Learning Malware Analysis: Explore the concepts, tools, and techniques to analyze and investigate Windows malware](https://amzn.to/3pYSwxj)
+ * [Malware Data Science: Attack, Detection, and Attribution](https://amzn.to/3aXLNzd)
+ * [Mastering Malware Analysis: The complete malware analyst's guide to combating malicious software, APT, cybercrime, and IoT attacks](https://amzn.to/3pZJ5O9)
+ * [Practical Binary Analysis: Build Your Own Linux Tools for Binary Instrumentation, Analysis, and Disassembly](https://amzn.to/3ssN3jK)
  * [Practical Malware Analysis. The Hands-On Guide to Dissecting](https://amzn.to/2NNHCgC)
+ * [The Art of Memory Forensics: Detecting Malware and Threats in Windows, Linux, and Mac Memory (Wile05)](https://amzn.to/3q76D3O)
  * [The IDA Pro Book: The Unofficial Guide to the World's Most Popular](https://amzn.to/3uAg0MB)
 
 #### Cheat sheets
@@ -416,6 +429,9 @@ theZoo aka Malware DB
 #### Tutorials
  * [PowerUp: A Usage Guide](https://www.harmj0y.net/blog/powershell/powerup-a-usage-guide/)
 
+#### Books
+ * [Rtfm: Red Team Field Manua](https://amzn.to/3pW8et7)
+
 ### Social engineering
 
 #### Books
@@ -426,10 +442,17 @@ theZoo aka Malware DB
 
 #### Books
  * [Clean Code](https://amzn.to/3ktAVMI)
+ * [Design Patterns: Elements of Reusable Object-Oriented Software](https://amzn.to/2O4TLOj)
+ * [Head First Design Patterns (A Brain Friendly Guide)](https://amzn.to/3uGdgNE)
+ * [Introduction to Algorithms](https://amzn.to/2ZU8myH)
  * [JavaScript - The Definitive Guide: Master the World's Most-Used](https://amzn.to/3sC2dn9)
+ * [Mythical Man-Month, The: Essays on Software Engineering](https://amzn.to/3aYrRfG)
  * [Patterns of Enterprise Application Architecture](https://amzn.to/3pU69Oc)
+ * [Pragmatic Programmer, The: From Journeyman to Master](https://amzn.to/3q2jfsC)
  * [Refactoring: Improving the Design of Existing Code](https://amzn.to/3sC2I0v)
+ * [Refactoring JavaScript: Turning Bad Code Into Good Code](https://amzn.to/3pWdMnb)
  * [The Linux Programming Interface: A Linux and UNIX System](https://amzn.to/3krYZjb)
+ * [Threat Modeling: Designing for Security](https://amzn.to/2ZZpnr4)
  * [Violent Python: A Cookbook for Hackers, Forensic Analysts, Penetration Testers and Security Engineers](https://amzn.to/3r0GV24)
 
 
