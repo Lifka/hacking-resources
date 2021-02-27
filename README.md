@@ -14,6 +14,7 @@ List of hacking utilities. Resources that I consider useful and that I have been
  * [CeWL](https://github.com/digininja/CeWL): Gathering Wordlist from the Target Website.
  * [DNSRecon](https://github.com/darkoperator/dnsrecon): Reverse DNS lookup.
  * [Extract Meta Data](https://citizenevidence.amnestyusa.org/): Gather Information from Video Search Engines.
+ * [Iky I Know You](https://kennbroorg.gitlab.io/ikyweb/): Is a tool that collects information from an email and shows results in a nice visual interface.
  * [NAPALM FTP Indexer](https://www.searchftps.net/): Gather Information from FTP Search Engines.
  * [networkappers](https://networkappers.com/tools/reverse-ip-checker#.X-fOden0nlw): Reverse DNS lookup.
  * [Network Tools by YouGetSignal.com](https://www.yougetsignal.com/)
@@ -47,12 +48,16 @@ List of hacking utilities. Resources that I consider useful and that I have been
 
 #### Enumerate people, emails,...
  * [Contact Out](https://contactout.com/): Get private information from LinkedIn accounts.
+ * [';--have i been pwned?](https://haveibeenpwned.com/): Check if your email address is in a data breach.
+ * [hunter.io](https://hunter.io/): Hunter lets you find email addresses in seconds and connect with the people that matter for your business.
  * [Instant People Search](https://www.privateeye.com/): Searching people.
  * [intelius](https://www.intelius.com/): Searching people.
  * [peekyou](https://www.peekyou.com/): Searching people.
  * [pipl](https://pipl.com/): Searching people.
+ * [pwndb](https://github.com/davidtavarez/pwndb): Search for leaked credentials.
  * [Social Catfish](https://socialcatfish.com/): Searching people.
  * [theHarvester](https://github.com/laramies/theHarvester): E-mails, subdomains and names Harvester - OSINT.
+ * [VerifyEmailAddress.org](http://verifyemailaddress.org/) 
 
 #### Email tracking tools
 * [eMailTrackerPro](http://www.emailtrackerpro.com/): Trace an email using the email header.
@@ -110,9 +115,12 @@ List of hacking utilities. Resources that I consider useful and that I have been
 
 #### Twitter
  * [#onemilliontweetmap](https://onemilliontweetmap.com/)
+ * [Creepy](https://www.geocreepy.com/): Creepy is a geolocation OSINT tool. Gathers geolocation related information from online sources, and allows for presentation on map, search filtering based on exact location and/or date, export in csv format or kml for further analysis in Google Maps.
  * [First Tweet - Who Said It First on Twitter](http://ctrlq.org/first/)
+ * [foller.me](https://foller.me/): Twitter analytics application that gives you rich insights about any public Twitter profile. We gather near real-time data about topics, mentions, hashtags, followers, location and more!
  * [Followerwonk](https://followerwonk.com/): Help to explore and grow one's social graph by digging deeper into Twitter analytics.
  * [Omnisci](https://www.omnisci.com/demos/tweetmap)
+ * [tinfoleak](https://github.com/vaguileradiaz/tinfoleak): The most complete open-source tool for Twitter intelligence analysis.
 
 #### Website footprinting
  * [Burp Suite](https://portswigger.net/burp)
@@ -163,7 +171,8 @@ List of hacking utilities. Resources that I consider useful and that I have been
  * [enum4linux](https://github.com/CiscoCXSecurity/enum4linux): Is a Linux alternative to enum.exe for enumerating data from Windows and Samba hosts.
  * [EyeWitness](https://github.com/FortyNorthSecurity/EyeWitness): EyeWitness is designed to take screenshots of websites, provide some server header info, and identify default credentials if possible.
  * [Global Network Inventory](http://www.magnetosoft.com/product/global_network_inventory/features): Global Network Inventory is a powerful and flexible software and hardware inventory system that can be used as an audit scanner in an agent-free and zero deployment environments. If used as an audit scanner, it only requires full administrator rights to the remote computers you wish to scan. Global Network Inventory can audit remote computers and even network appliances, including switches, network printers, document centers, etc.
- * [gobuster](gobuster): Directory/File, DNS and VHost busting tool written in Go.
+ * [gobuster](https://github.com/OJ/gobuster): Directory/File, DNS and VHost busting tool written in Go.
+ * [google-url-extractor.js](https://github.com/DragonJAR/Scripts/blob/master/google-url-extractor.js): Small script that extracts all URLs from a Google search result.
  * [httprobe](https://github.com/tomnomnom/httprobe): Take a list of domains and probe for working HTTP and HTTPS servers.
  * [Hurricane Electric BGP Toolkit](https://bgp.he.net/)
  * [jxplorer](http://jxplorer.org/downloads/): Is a cross platform LDAP browser and editor. It is a standards compliant general purpose LDAP client that can be used to search, read and edit any standard LDAP directory, or any directory service with an LDAP or DSML interface.
@@ -298,11 +307,20 @@ theZoo aka Malware DB
  * [Autopsy](https://www.autopsy.com/): Autopsy® is the premier end-to-end open source digital forensics platform. Built by Basis Technology with the core features you expect in commercial forensic tools, Autopsy is a fast, thorough, and efficient hard drive investigation solution that evolves with your needs.
  * [Volatility](https://github.com/volatilityfoundation/volatility): An advanced memory forensics framework.
 
+### Phising
+
+ * [ShellPhish](https://github.com/suljot/shellphish): Phishing Tool for Instagram, Facebook, Twitter, Snapchat, Github.
+
+### Social engineering
+* [avatarify](https://github.com/alievk/avatarify): Avatars for Zoom, Skype and other video-conferencing apps.
+
 ## OS distributions / Virtual machines
 
 ### OS distributions
  * [BlackArch Linux](https://blackarch.org/): BlackArch Linux is an Arch Linux-based penetration testing distribution for penetration testers and security researchers.
  * [HoneyDrive](https://sourceforge.net/projects/honeydrive/): HoneyDrive is the premier honeypot Linux distro. It is a virtual appliance (OVA) with Xubuntu Desktop 12.04.4 LTS edition installed. It contains over 10 pre-installed and pre-configured honeypot software packages such as Kippo SSH honeypot, Dionaea and Amun malware honeypots, Honeyd low-interaction honeypot, Glastopf web honeypot and Wordpot, Conpot SCADA/ICS honeypot, Thug and PhoneyC honeyclients and more. Additionally it includes many useful pre-configured scripts and utilities to analyze, visualize and process the data it can capture, such as Kippo-Graph, Honeyd-Viz, DionaeaFR, an ELK stack and much more. Lastly, almost 90 well-known malware analysis, forensics and network monitoring related tools are also present in the distribution.
+ * [HuronOsint](https://github.com/HuronOsint/OsintDistro): Linux Distrubition for Osint (version 1.0). In Huron you will find fundamental tools like Maltego or Recon-NG ready to be used or, at least, after a minimum configuration process, a multitude of links to specialized search engines like Shodan, social networks, language tools, SW for image data processing and extraction (ExifTools), tools for the creation of idea maps, user name checkers, email anonymizers... But also tools that allow you to carry out research tasks safely (tracking blockers, Tor browser...) or assist you in the creation of reports and visualization of multimedia material.
+Translated with www.DeepL.com/Translator (free version)
  * [Kali Linux](https://www.kali.org/): The Most Advanced Penetration Testing Distribution.
  * [Parrot OS](https://www.parrotsec.org/): Is a GNU/Linux distribution based on Debian and designed with Security and Privacy in mind. It includes a full portable laboratory for all kinds of cyber security operations, from pentesting to digital forensics and reverse engineering, but it also includes everything needed to develop your own software or keep your data secure.
  * [Security Onion 2](https://securityonionsolutions.com/software/): Security Onion is a free and open source Linux distribution for threat hunting, enterprise security monitoring, and log management. The easy-to-use Setup wizard allows you to build an army of distributed sensors for your enterprise in minutes! Security Onion includes Elasticsearch, Logstash, Kibana, Suricata, Zeek (formerly known as Bro), Wazuh, Stenographer, TheHive, Cortex, CyberChef, NetworkMiner, and many other security tools.
@@ -384,6 +402,7 @@ theZoo aka Malware DB
 
 #### Articles
  * [Basics of Windows shellcode writing](https://idafchev.github.io/exploit/2017/09/26/writing_windows_shellcode.html).
+ * ['CRYPTERS': PRACTICANDO LA TÉCNICA DSPLIT/AVFUCKER](http://www.securitybydefault.com/2013/09/crypters-practicando-la-tecnica.html) (Spanish)
  * [Todo lo que quisiste saber sobre las DLL y no te atreviste a preguntar](https://geeks.ms/rfog/2009/06/29/todo-lo-que-quisiste-saber-sobre-las-dll-y-no-te-atreviste-a-preguntar-i/) (Spanish)
  * [windows-syscalls](https://github.com/j00ru/windows-syscalls): Windows System Call Tables (NT/2000/XP/2003/Vista/2008/7/2012/8/10).
 
@@ -412,6 +431,9 @@ theZoo aka Malware DB
 #### Articles
  * [Dependency Confusion: How I Hacked Into Apple, Microsoft and Dozens of Other Companies](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610)
  * [What Actually is Threat Hunting?](https://blogs.gartner.com/pete-shoard/whats-threat-hunting/)
+
+#### Cheat sheets
+ * [Google dorks](https://gist.github.com/sundowndev/283efaddbcf896ab405488330d1bbc06)
   
 
 ### Networks
@@ -439,6 +461,10 @@ theZoo aka Malware DB
 
 #### Books
  * [Ingeniería social. El arte del hacking personal](https://amzn.to/3aYSxNp) (Spanish)
+ * [Social Engineering: The Science of Human Hacking](https://amzn.to/2NBFJDX)
+
+#### Conferences
+ * [Ingeniería Social, el verdadero poder seguridad informática phishing ciberseguridad](https://www.youtube.com/watch?v=qyJsBjvw2dc&t=1707s) (Spanish)
 
 
 ### Programming
