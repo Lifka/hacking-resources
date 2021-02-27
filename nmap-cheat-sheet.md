@@ -170,11 +170,6 @@ nmap --badsum [Target IP Address]
 ```
 
 
-## Contributors 
-
-This repository follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
-
-
 ## License
 
 © 2021 [javierizquierdovera.com](https://javierizquierdovera.com)
