@@ -2,12 +2,12 @@
 
 ##### General commands
 
--sn: Disables port scan.
--v: Enables the verbose output (include all hosts and ports in the output).
--sV: Detects service versions.
--A: Enables aggressive scan. The aggressive scan option supports OS detection (-O), version scanning (-sV), script scanning (-sC), and traceroute (--traceroute). You should not use -A against target networks without permission.
--p: Specifies the port to be scanned.
--O: OS detection.
+* -sn: Disables port scan.
+* -v: Enables the verbose output (include all hosts and ports in the output).
+* -sV: Detects service versions.
+* -A: Enables aggressive scan. The aggressive scan option supports OS detection (-O), version scanning (-sV), script scanning (-sC), and traceroute (--traceroute). You should not use -A against target networks without permission.
+* -p: Specifies the port to be scanned.
+* -O: OS detection.
 
 ##### ARP ping scan
 
