@@ -157,7 +157,7 @@ shred ~/.bash_history
 shred ~/.bash_history && cat /dev/null > .bash_history
 ```
 
-#### Leave no trace of MACE attributes when reading or modifying files using Meterpreter
+### Leave no trace of MACE attributes when reading or modifying files using Meterpreter
 
 #### To view the mace attributes of a file (Windows)
 
