@@ -274,17 +274,21 @@ List of hacking utilities. Resources that I consider useful and that I have been
 ### Malwares
  * [4n4lDetector](http://www.enelpc.com/p/4n4ldetector.html): It is a tool for analysis of Windows executable files, in order to quickly identify if this is or is not a malware. Most analyzes are based on the extraction of strings "ANSI" and "UNICODE" in disk, but also works with "Memory Dumps".
  * [Indetectables Toolkit](https://github.com/indetectables-net/toolkit): Fundamental reverse/analysis/cracking toolkit.
- * [macro_pack](https://www.inetsim.org/downloads.html(https://github.com/sevagas/macro_pack): The macro_pack is a tool used to automatize obfuscation and generation of retro formats such as MS Office documents or VBS like format. Now it also handles various shortcuts formats.
+ * [M/Monit](https://mmonit.com/): Can monitor and manage distributed computer systems, conduct automatic maintenance and repair and execute meaningful causal actions in error situations.
  * [obfuscation_detection](https://github.com/mrphrazer/obfuscation_detection): Collection of scripts to pinpoint obfuscated code.
  * [Phantom-Evasion](https://github.com/oddcod3/Phantom-Evasion): Is an antivirus evasion tool written in python (both compatible with python and python3) capable to generate (almost) fully undetectable executable even with the most common x86 msfvenom payload.
  * [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer): Ever wondered which program has a particular file or directory open? Now you can find out. Process Explorer shows you information about which handles and DLLs processes have opened or loaded.
  * [Process Monitor](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon): Is an advanced monitoring tool for Windows that shows real-time file system, Registry and process/thread activity.
  * [Shellter](https://www.shellterproject.com/introducing-shellter/): Is a dynamic shellcode injection tool, and the first truly dynamic PE infector ever created.
+ * [ResourcesExtract](https://www.nirsoft.net/utils/resources_extract.html): Is a small utility that scans dll/ocx/exe files and extract all resources (bitmaps, icons, cursors, AVI movies, HTML files, and more...) stored in them into the folder that you specify.
+You can use ResourcesExtract in user interface mode, or alternatively, you can run ResourcesExtract in command-line mode without displaying any user interface.
+ * [ProcDump](https://docs.microsoft.com/en-us/sysinternals/downloads/procdump): Is a command-line utility whose primary purpose is monitoring an application for CPU spikes and generating crash dumps during a spike that an administrator or developer can use to determine the cause of the spike. ProcDump also includes hung window monitoring (using the same definition of a window hang that Windows and Task Manager use), unhandled exception monitoring and can generate dumps based on the values of system performance counters. It also can serve as a general process dump utility that you can embed in other scripts.droid. TheFatRat Provides An Easy way to create Backdoors and Payload which can bypass most anti-virus.
  * [TheFatRat](https://github.com/Screetsec/TheFatRat): Is an exploiting tool which compiles a malware with famous payload, and then the compiled malware can be executed on Linux , Windows , Mac and Android. TheFatRat Provides An Easy way to create Backdoors and Payload which can bypass most anti-virus.
  * [Windows Sysinternals](https://docs.microsoft.com/en-us/sysinternals/)
 
 #### Android
  * [apkleaks](https://github.com/dwisiswant0/apkleaks): Scanning APK file for URIs, endpoints & secrets.
+ * [dexcalibur](https://github.com/FrenchYeti/dexcalibur): Android reverse engineering tool focused on dynamic instrumentation automation. Powered by Frida. It disassembles dex, analyzes it statically, generates hooks, discovers reflected methods, stores intercepted data and does new things from it. Its aim is to be an all-in-one Android reverse engineering platform.
 
 #### Databases
  * [ANY.RUN](https://app.any.run/submissions): Registration required
@@ -327,7 +331,7 @@ theZoo aka Malware DB
  * [DependencyCheck](https://github.com/jeremylong/DependencyCheck): OWASP dependency-check is a software composition analysis utility that detects publicly disclosed vulnerabilities in application dependencies.
  * [Dependency Walker](https://www.dependencywalker.com/): Is a free utility that scans any 32-bit or 64-bit Windows module (exe, dll, ocx, sys, etc.) and builds a hierarchical tree diagram of all dependent modules. For each module found, it lists all the functions that are exported by that module, and which of those functions are actually being called by other modules. Another view displays the minimum set of required files, along with detailed information about each file including a full path to the file, base address, version numbers, machine type, debug information, and more.
  * [Hakiri](https://hakiri.io/): Monitors Ruby apps for dependency and code security vulnerabilities.
- * [Retire.js](https://retirejs.github.io/retire.js/): There is a plethora of JavaScript libraries for use on the web and in node.js apps out there. This greatly simplifies, but we need to stay update on security fixes. "Using Components with Known Vulnerabilities" is now a part of the OWASP Top 10 and insecure libraries can pose a huge risk for your webapp. The goal of Retire.js is to help you detect use of version with known vulnerabilities.
+ * [RetireJS](https://retirejs.github.io/retire.js/): There is a plethora of JavaScript libraries for use on the web and in node.js apps out there. This greatly simplifies, but we need to stay update on security fixes. "Using Components with Known Vulnerabilities" is now a part of the OWASP Top 10 and insecure libraries can pose a huge risk for your webapp. The goal of Retire.js is to help you detect use of version with known vulnerabilities.
  * [snyk](https://snyk.io/)
 
 #### Device drivers monitoring
@@ -360,11 +364,13 @@ theZoo aka Malware DB
 
 #### Network
  * [Capsa Portable Network Analyzer](https://www.colasoft.com/capsa/): Capsa, a portable network performance analysis and diagnostics tool, provides tremendously powerful and comprehensive packet capture and analysis solution with an easy to use interface allowing both veteran and novice users the ability to protect and monitor networks in a critical business environment. Capsa aids in keeping you assessed of threats that may cause significant business outage.
+ * [CurrPorts](https://www.nirsoft.net/utils/cports.html): Is network monitoring software that displays the list of all currently opened TCP/IP and UDP ports on your local computer. For each port in the list, information about the process that opened the port is also displayed, including the process name, full path of the process, version information of the process (product name, file description, and so on), the time that the process was created, and the user that created it.
  * [FakeNet](https://sourceforge.net/projects/fakenet/): Is Windows network simulation tool designed for malware analysis. It redirects all traffic leaving a machine to the localhost (including hard-coded IP traffic and DNS traffic) and implements several protocols to ensure that malicious code continues to execute and can be observed by an analyst.
  * [GFI LanGuard](https://www.gfihispana.com/products-and-solutions/network-security-solutions/gfi-languard)
  * [INetSim](https://www.inetsim.org/downloads.html): Is a software suite for simulating common internet services in a lab environment, e.g. for analyzing the network behaviour of unknown malware samples.
  * [NetFlow Traffic Analyzer](https://www.solarwinds.com/es/netflow-traffic-analyzer)
  * [Netfort](https://www.netfort.com/)
+ * [Port Monitor](https://port-monitor.com/)
  * [PRTG Network Monitor](https://www.es.paessler.com/prtg)
  * [TCPView](https://docs.microsoft.com/en-us/sysinternals/downloads/tcpview): Is a Windows program that will show you detailed listings of all TCP and UDP endpoints on your system, including the local and remote addresses and state of TCP connections.
  * [Wireshark](https://www.wireshark.org/)
@@ -372,6 +378,7 @@ theZoo aka Malware DB
 #### Packers
  * [ASPack](http://aspack.com/): Is an advanced EXE packer created to compress Win32 executable files and to protect them against non-professional reverse engineering.
  * [PEiD](https://www.softpedia.com/get/Programming/Packers-Crypters-Protectors/PEiD-updated.shtml): Is an intuitive application that relies on its user-friendly interface to detect packers, cryptors and compilers found in PE executable files – its detection rate is higher than that of other similar tools since the app packs more than 600 different signatures in PE files.
+ * [macro_pack](https://www.inetsim.org/downloads.html(https://github.com/sevagas/macro_pack): The macro_pack is a tool used to automatize obfuscation and generation of retro formats such as MS Office documents or VBS like format. Now it also handles various shortcuts formats.
  * [RDG Packer Detector](http://www.rdgsoft.net/): Is a detector for packers, ciphers, compilers, packers, encoders, assemblers, installers.
  * [UPX the Ultimate Packer for eXecutables](https://upx.github.io/): Is a free, portable, extendable, high-performance executable packer for several executable formats.
 
@@ -381,13 +388,18 @@ theZoo aka Malware DB
  * [Portable Executable Scanner (pescan)](https://tzworks.net/prototype_page.php?proto_id=15): Is a command line tool to scan portable executable (PE) files to identify how they were constructed.
  * [Resource Hacker](http://www.angusj.com/resourcehacker/): Is a resource editor for 32bit and 64bit Windows® applications. It's both a resource compiler (for *.rc files), and a decompiler - enabling viewing and editing of resources in executables (*.exe; *.dll; *.scr; etc) and compiled resource libraries (*.res, *.mui). While Resource Hacker™ is primarily a GUI application, it also provides many options for compiling and decompiling resources from the command-line.
 
+#### RATs
+ * [RAT-NjRat-0.7d-modded-source-code](https://github.com/AliBawazeEer/RAT-NjRat-0.7d-modded-source-code)
+
 #### Scanners
+ * [Cuckoo](https://cuckoosandbox.org/): You can throw any suspicious file at it and in a matter of minutes Cuckoo will provide a detailed report outlining the behavior of the file when executed inside a realistic but isolated environment.
  * [Hybrid Analysis](): This tool allows sending a file to different scanners in parallel: VirusTotal, MetaDefender and CrowdStrike Falcon. Send samples.
  * [jotti](https://www.virustotal.com/gui/): Simple online scanner that returns the scan results of a number of antivirus scanners, as well as some basic information about the file. Send samples.
  * [KIMS](https://github.com/xchwarze/KIMS): KIMS was the first local and web multi scan of the world which last version came out on 2006 programed by Thor. In 2009 it began being developed to the new version by DSR!.
  * [Malice.IO](https://github.com/maliceio): VirusTotal Wanna Be - Now with 100% more Hipster.
  * [NoDistribute](https://nodistribute.com/)
  * [thor-av-multiscanner](https://github.com/Lifka/thor-av-multiscanner): Static analysis of malware using Docker. This software allows you to scan a file with different antivirus engines. Also, it allows obtaining information from a file; such as imported libraries, PE, hashes, etc.
+ * [Valkyrie Sandbox](https://valkyrie.comodo.com/): Is a file verdict system. Different from traditional signature based malware detection techniques Valkyrie conducts several analysis using run-time behavior and hundreds of features from a file and based on analysis results can warn users against malware undetected by classic Anti-Virus products.
  * [VirusTotal](https://www.virustotal.com/gui/): Analyze suspicious files and URLs to detect types of malware, automatically share them with the security community. Displays information on static and dynamic analysis. Send samples.
 
 #### Spyware
@@ -397,6 +409,11 @@ theZoo aka Malware DB
  * [Power Spy](https://ematrixsoft.com/power-spy-software.php): Is a computer activity monitoring software that allows you to secretly log all users on a PC while they are unaware. After the software is installed on the PC, you can remotely receive log reports on any device via email or FTP. You can check these reports as soon as you receive them or at any convenient time. You can also directly check logs using the log viewer on the monitored PC.
  * [SoftActivity Monitor](https://www.softactivity.com)
  * [Veriato Cerebral](https://www.veriato.com)
+
+#### String search
+ * [BinText](https://www.aldeid.com/wiki/BinText): A small, very fast and powerful text extractor that will be of particular interest to programmers. It can extract text from any kind of file and includes the ability to find plain ASCII text, Unicode (double byte ANSI) text and Resource strings, providing useful information for each item in the optional "advanced" view mode. Its comprehensive filtering helps prevent unwanted text being listed. The gathered list can be searched and saved to a separate file as either a plain text file or in informative tabular format.
+ * [FireEye Labs Obfuscated String Solver](https://github.com/fireeye/flare-floss): Automatically extract obfuscated strings from malware.
+ * [Strings](https://docs.microsoft.com/en-us/sysinternals/downloads/strings)
 
 #### Virus
  * [DELmE's Batch Virus Maker](https://github.com/hacktoolspack/hack-tools/tree/master/DELmE's%20Batch%20Virus%20Maker%20v%202.0)
@@ -485,6 +502,10 @@ Translated with www.DeepL.com/Translator (free version)
  * [OSBoxes](https://www.osboxes.org/): Offers you ready-to-use Linux/Unix guest operating systems.
  * [Windows XP Lab for VirtualBox (by Lifka)](https://drive.google.com/file/d/18NYLUVYaZ0fuynlzYfl3zjSBXLtQduu1/view?usp=sharing): Contains basic malware analysis tools for static and dynamic analysis (disassemblers, debugging, network analysis, etc.).
 
+
+### Vulnerable machines
+ * [CORS_vulnerable_Lab-Without_Database](https://github.com/incredibleindishell/CORS_vulnerable_Lab-Without_Database)
+
 ## Other links
 
 ### Blogs
@@ -511,6 +532,7 @@ Translated with www.DeepL.com/Translator (free version)
 ### Challenges
  * [Atenea](https://atenea.ccn-cert.cni.es/)
  * [HackTheBox](https://www.hackthebox.eu/)
+ * [Try Hack Me](https://www.tryhackme.com/)
  * [Web Security Academy](https://portswigger.net/web-security)
 
 ### Forums
@@ -543,6 +565,20 @@ Translated with www.DeepL.com/Translator (free version)
 #### Conferences
  * [DEF CON Safe Mode Red Team Village - Jason Haddix - The Bug Hunters Methodology](https://www.youtube.com/watch?v=qPlpN4BVnRY)
  * [Bugbounty en Español, todo lo que debes saber](https://www.youtube.com/watch?v=vLD34cGyHS8) (Spanish)
+
+
+### Certifications
+
+#### CEH (Certified Ethical Hacker)
+ * [CEHV9 - PRACTICE EXAM QUESTIONS WITH ANSWERS](https://yeahhub.com/cehv9-practice-exam-questions/chapter0-assessment.php)
+ * [CEHv10 official course](https://github.com/khanhnnvn/CEHv10)
+ * [Ethical Hacking Labs](https://github.com/Samsar4/Ethical-Hacking-Labs): This is a collection of tutorials and labs made for ethical hacking students, cybersecurity students, network and sys-admins. These tutorials accompany the materials of CEH v10 content.
+ * [Notes for CEH v10 exam (source code)](https://github.com/g0rbe/CEH)
+ * [Exam simulator](https://ceh.cagy.org/)
+
+#### Miscellaneous
+ * [skillset](https://www.skillset.com/): Practice questions for different certifications.
+
 
 ### Forensics
 
@@ -592,9 +628,6 @@ Translated with www.DeepL.com/Translator (free version)
 #### Cheat sheets
  * [Google dorks](https://gist.github.com/sundowndev/283efaddbcf896ab405488330d1bbc06)
 
-#### Courses
- * [CEHv10](https://github.com/khanhnnvn/CEHv10)
-  
 
 ### Networks
 
