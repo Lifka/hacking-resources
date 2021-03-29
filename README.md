@@ -169,7 +169,7 @@ List of hacking utilities. Resources that I consider useful and that I have been
 
 #### ARP
 
-#### ARP Poisoning
+##### ARP Poisoning
  * [Cain](https://github.com/xchwarze/Cain)
  * [Ettercap](https://www.ettercap-project.org/): Is a comprehensive suite for man in the middle attacks. It features sniffing of live connections, content filtering on the fly and many other interesting tricks. It supports active and passive dissection of many protocols and includes many features for network and host analysis.
 
@@ -195,6 +195,18 @@ List of hacking utilities. Resources that I consider useful and that I have been
 #### DNS
 
 ##### DNS Spoofing
+
+#### DoS
+ * [hping3](https://github.com/antirez/hping): hping3 is a network tool able to send custom TCP/IP packets and to display target replies like ping do with ICMP replies. hping3 can handle fragmentation, and almost arbitrary packet size and content, using the command line interface.
+ * [High Orbit Ion Cannon (HOIC)](https://sourceforge.net/projects/highorbitioncannon/)
+ * [Low Orbit Ion Cannon (LOIC)](https://github.com/NewEraCracker/LOIC):  An open source network stress tool, written in C#. Based on Praetox's LOIC project.
+
+##### Protection
+ * [Anti DDoS Software](http://www.anti-ddos.net/): Monitors each incoming and outgoing packet in Real-Time. It displays the local address, remote address, and other information of each network flow. Anti DDoS Guardian limits network flow number, client bandwidth, client concurrent TCP connection number, and TCP connection rate. It also limits the UDP bandwidth, UDP connection rate, and UDP packet rate.
+ * [DDoS-GUARD](https://ddos-guard.net/)
+ * [Cloudflare](https://www.cloudflare.com/)
+ * [DOSarrest’s DDoS protection service](https://www.dosarrest.com/)
+ * [Imperva Incapsula DDoS Protection](https://www.imperva.com/products/ddos-protection-services/)
 
 #### MAC address
 
@@ -478,12 +490,26 @@ You can use ResourcesExtract in user interface mode, or alternatively, you can r
  * [Service+](https://www.activeplus.com/products/serviceplus)
  * [SrvMan](https://sysprogs.com/legacy/tools/srvman/): Windows Service Manager is a small tool that simplifies all common tasks related to Windows services. It can create services (both Win32 and Legacy Driver) without restarting Windows, delete existing services and change service configuration. It has both GUI and Command-line modes. It can also be used to run arbitrary Win32 applications as services (when such service is stopped, main application window is closed automatically).
 
+### Session hijacking
+ * [Burp Suite](https://portswigger.net/burp)
+ * [bettercap](https://github.com/bettercap/bettercap): The Swiss Army knife for 802.11, BLE and Ethernet networks reconnaissance and MITM attacks.
+ * [netool toolki](https://sourceforge.net/projects/netoolsh/): MitM pentesting opensource toolkit.
+ * [OWASP ZAP](https://www.zaproxy.org/): Is an integrated penetration testing tool for finding vulnerabilities in web applications. It offers automated scanners as well as a set of tools that allow you to find security vulnerabilities manually. ZAP allows you to see all the requests you make to a web app and all the responses you receive from it. Among other things, it allows you to see AJAX calls that may not otherwise be outright visible. You can also set breakpoints, which allow you to change the requests and responses in real-time.
+ * [https://github.com/moxie0/sslstrip](https://github.com/moxie0/sslstrip): A tool for exploiting Moxie Marlinspike's SSL "stripping" attack.
+ * [WebSploit Framework](https://sourceforge.net/projects/websploit/)
+
+#### Android
+ * [DroidSheep](https://droidsheep.info/): Is an open-source Android application made by Corsin Camichel that allows you to intercept unprotected web-browser sessions using WiFi.
+ * [DroidSniff](https://github.com/evozi/DroidSniff): Is an Android app for Security analysis in wireless networks and capturing facebook, twitter, linkedin and other accounts.rotected web-browser sessions using WiFi.
+ * [FaceNiff](http://faceniff.ponury.net/): Is an Android app that allows you to sniff and intercept web session profiles over the WiFi that your mobile is connected to. It is possible to hijack sessions only when WiFi is not using EAP, but it should work over any private networks (Open/WEP/WPA-PSK/WPA2-PSK). It's kind of like Firesheep for android. Maybe a bit easier to use (and it works on WPA2!).
+
 ### Protection
  * [awesome-honeypots](https://github.com/paralax/awesome-honeypots): An awesome list of honeypot resources.
  * [atomic-red-team](https://github.com/redcanaryco/atomic-red-team): Small and highly portable detection tests based on MITRE's ATT&CK.
  * [brave](https://brave.com/)
  * [CaseFile](https://www.maltego.com/products/)
  * [CODE42](https://www.code42.com/)
+ * [KFSensor](http://www.keyfocus.net/kfsensor/): Acts as a honeypot, designed to attract and detect hackers and worms by simulating vulnerable system services and trojans.
  * [malwarebytes](https://www.malwarebytes.com/)
  * [Splunk](https://www.splunk.com/)
  * [Tor](https://www.torproject.org/)
