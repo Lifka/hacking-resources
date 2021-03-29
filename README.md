@@ -21,6 +21,7 @@ List of hacking utilities. Resources that I consider useful and that I have been
  * [Network Tools by YouGetSignal.com](https://www.yougetsignal.com/)
  * [NSLOOKUP: look up and find IP addresses in the DNS](http://www.kloth.net/services/nslookup.php/)
  * [OSINT_Collection](https://github.com/Ph055a/OSINT_Collection): Maintained collection of OSINT related resources. (All Free & Actionable).
+ * [ReconSpider](https://github.com/bhavsec/reconspider): Framework for scanning IP Address, Emails, Websites, Organizations and find out information from different sources.
  * [Reverse IP Lookup](https://reverseip.domaintools.com/): Reverse DNS lookup.
  * [Sherlock.py](https://github.com/sherlock-project/sherlock): Search a vast number of social networking sites for a target username.
  * [Shodan](https://www.shodan.io/): Search engine for Internet-connected devices.
@@ -141,27 +142,69 @@ List of hacking utilities. Resources that I consider useful and that I have been
  * [Web Data Extractor](http://www.webextractor.com/): Is a web scraping tool specifically designed for mass-gathering of various data types. It can harvest URLs, phone and fax numbers, email addresses, as well as meta tag information and body text. Special feature of WDE Pro is custom extraction of structured data.
  * [webscarab-ng](https://code.google.com/archive/p/webscarab-ng/): WebScarab-NG is a complete rewrite of the old WebScarab application, with a special focus on making the application more user-friendly.
 
-### Scanning Networks
+### Networks
  * [Angry IP Scanner](https://github.com/angryip/ipscan): Fast and friendly network scanner
+ * [Capsa Portable Network Analyzer](https://www.colasoft.com/capsa/): Monitor, Analyze, Troubleshoot your Wired & Wireless Network.
  * [Colasoft Packet Builder](https://www.colasoft.com/packet_builder/): Colasoft Packet Builder enables creating custom network packets; users can use this tool to check their network protection against attacks and intruders. Colasoft Packet Builder includes a very powerful editing feature. Besides common HEX editing raw data, it features a Decoding Editor allowing users to edit specific protocol field values much easier.
  * [hping](https://github.com/antirez/hping): hping3 is a network tool able to send custom TCP/IP packets and to display target replies like ping do with ICMP replies. hping3 can handle fragmentation, and almost arbitrary packet size and content, using the command line interface.
  * [Megaping](http://www.magnetosoft.com/product/megaping/features): MegaPing is the ultimate must-have toolkit that provides essential utilities for Information System specialists, system administrators, IT solution providers or individuals.
  * [Metasploit Framework](https://github.com/rapid7/metasploit-framework)
  * [Nav](https://github.com/Uninett/nav): Network Administration Visualized.
- * [NetScanTools](https://www.netscantools.com/nstpromain.html): NetScanTools Pro is an integrated collection of internet information gathering and network troubleshooting utilities for Network Professionals. Research IPv4 addresses, IPv6 addresses, hostnames, domain names, email addresses and URLs automatically** or with manual tools. It is designed for the Windows operating system GUI. **Automated tools are started interactively by the user.
+ * [NetScanTools](https://www.netscantools.com/nstpromain.html): NetScanTools Pro is an integrated collection of internet information gathering and network troubleshooting utilities for Network Professionals. Research IPv4 addresses, IPv6 addresses, hostnames, domain names, email addresses and URLs automatically** or with manual tools. It is designed for the Windows operating system GUI. **Automated tools are started interactively by the user. Include a promiscous detection scanner.
  * [NetSurveyor](http://nutsaboutnets.com/archives/netsurveyor-wifi-scanner/): Is an 802.11 (WiFi) network discovery tool that gathers information about nearby wireless access points in real time and displays it in useful ways. Similar in purpose to NetStumbler, it includes many more features. 
  * [Network Topology Mapper](https://www.solarwinds.com/es/network-topology-mapper): Network mapping software designed to automatically map your network.
  * [Nmap](https://github.com/nmap/nmap): Nmap - the Network Mapper. Github mirror of official SVN repository.
+ * [Omnipeek Network Protocol Analyzer](https://www.liveaction.com/products/omnipeek-network-protocol-analyzer/)
  * [Ostinato](https://github.com/pstavirs/ostinato): Packet/Traffic Generator and Analyzer.
  * [sparta](https://github.com/SECFORCE/sparta): Network Infrastructure Penetration Testing Tool: NMap + hydra.
+ * [SteelCentral Packet Analyzer](https://support.riverbed.com/content/support/software/steelcentral-npm/packet-analyzer.html)
  * [Unicornscan](https://github.com/dneufeld/unicornscan)
  * [wireshark](https://github.com/wireshark/wireshark): Wireshark is a network traffic analyzer, or "sniffer", for Linux, macOS, *BSD and other Unix and Unix-like operating systems and for Windows. It uses Qt, a graphical user interface library, and libpcap and npcap as packet capture and filtering libraries.
 
 #### Android
-* [Fing](https://play.google.com/store/apps/details?id=com.overlook.android.fing)
-* [Network IP Scanner](https://play.google.com/store/apps/details?id=com.goodidea.network.ipscanner)
-* [Network Scanner](https://play.google.com/store/apps/details?id=com.easymobile.lan.scanner)
-* [WHO'S ON MY WIFI - NETWORK SCANNER](https://play.google.com/store/apps/details?id=com.magdalm.wifinetworkscanner)
+ * [Fing](https://play.google.com/store/apps/details?id=com.overlook.android.fing)
+ * [Network IP Scanner](https://play.google.com/store/apps/details?id=com.goodidea.network.ipscanner)
+ * [Network Scanner](https://play.google.com/store/apps/details?id=com.easymobile.lan.scanner)
+ * [WHO'S ON MY WIFI - NETWORK SCANNER](https://play.google.com/store/apps/details?id=com.magdalm.wifinetworkscanner)
+
+#### ARP
+
+#### ARP Poisoning
+ * [Cain](https://github.com/xchwarze/Cain)
+ * [Ettercap](https://www.ettercap-project.org/): Is a comprehensive suite for man in the middle attacks. It features sniffing of live connections, content filtering on the fly and many other interesting tricks. It supports active and passive dissection of many protocols and includes many features for network and host analysis.
+
+##### Protection
+ * [ARP AntiSpoofer](https://sourceforge.net/projects/arpantispoofer/): A utility for detecting and resisting BIDIRECTIONAL ARP spoofing. It can anti-spoof for not only the local host, but also other hosts in the same subnet. It is as well a handy helper for gateways which don't work well with ARP.
+ * [ArpON](https://sourceforge.net/projects/arpon/): Is a Host-based solution that make the ARP standardized protocol secure in order to avoid the Man In The Middle (MITM) attack through the ARP spoofing, ARP cache poisoning or ARP poison routing attack.
+ * [arpstraw](https://github.com/he2ss/arpstraw): Arp spoof detection tool.
+ * [shARP](https://github.com/europa502/shARP): An anti-ARP-spoofing application software that use active and passive scanning methods to detect and remove any ARP-spoofer from the network.
+ * [XArp – Advanced ARP Spoofing Detection](http://www.xarp.net/): Is a security application that uses advanced techniques to detect ARP based attacks.
+
+#### DHCP
+
+##### DHCP starvation attack
+ * [DHCPig](https://github.com/kamorin/DHCPig): DHCP exhaustion script written in python using scapy network library.
+ * [dhcpstarv](http://dhcpstarv.sourceforge.net/):  Is tool that implements DHCP starvation attack. It requests DHCP leases on specified interface, save them and renew on regular basis.
+ * [Gobbler](http://gobbler.sourceforge.net/)
+ * [Hyenae](https://sourceforge.net/projects/hyenae/): Is a highly flexible platform independent network packet generator. It allows you to reproduce several MITM, DoS and DDoS attack scenarios, comes with a clusterable remote daemon and an interactive attack assistant.
+ * [yersinia](https://github.com/tomac/yersinia): A framework for layer 2 attacks.
+
+##### Rogue DHCP attack
+ * [Cain](https://github.com/xchwarze/Cain)
+
+#### DNS
+
+##### DNS Spoofing
+
+#### MAC address
+
+##### MAC flood attack
+ * [macof](https://linux.die.net/man/8/macof): Flood a switched LAN with random MAC addresses.
+ * [yersinia](https://github.com/tomac/yersinia): A framework for layer 2 attacks.
+
+##### MAC Spoofing
+ * [SMAC](https://www.klcconsulting.net/smac/): FREE MAC Address Spoofing Tool.
+ * [Technitium MAC Address Changer (TMAC)](https://technitium.com/tmac/): A freeware utility to spoof MAC address instantly.
 
 ### Enumeration
  * [Active Directory Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/adexplorer): Is an advanced Active Directory (AD) viewer and editor. You can use AD Explorer to easily navigate an AD database, define favorite locations, view object properties and attributes without having to open dialog boxes, edit permissions, view an object's schema, and execute sophisticated searches that you can save and re-execute.
@@ -283,6 +326,7 @@ List of hacking utilities. Resources that I consider useful and that I have been
  * [ResourcesExtract](https://www.nirsoft.net/utils/resources_extract.html): Is a small utility that scans dll/ocx/exe files and extract all resources (bitmaps, icons, cursors, AVI movies, HTML files, and more...) stored in them into the folder that you specify.
 You can use ResourcesExtract in user interface mode, or alternatively, you can run ResourcesExtract in command-line mode without displaying any user interface.
  * [ProcDump](https://docs.microsoft.com/en-us/sysinternals/downloads/procdump): Is a command-line utility whose primary purpose is monitoring an application for CPU spikes and generating crash dumps during a spike that an administrator or developer can use to determine the cause of the spike. ProcDump also includes hung window monitoring (using the same definition of a window hang that Windows and Task Manager use), unhandled exception monitoring and can generate dumps based on the values of system performance counters. It also can serve as a general process dump utility that you can embed in other scripts.droid. TheFatRat Provides An Easy way to create Backdoors and Payload which can bypass most anti-virus.
+ * [SysAnalyzer](http://sandsprite.com/iDef/SysAnalyzer/): Is an open source application that was designed to give malcode analysts an automated tool to quickly collect, compare, and report on the actions a binary took while running on the system.
  * [TheFatRat](https://github.com/Screetsec/TheFatRat): Is an exploiting tool which compiles a malware with famous payload, and then the compiled malware can be executed on Linux , Windows , Mac and Android. TheFatRat Provides An Easy way to create Backdoors and Payload which can bypass most anti-virus.
  * [Windows Sysinternals](https://docs.microsoft.com/en-us/sysinternals/)
 
@@ -291,31 +335,29 @@ You can use ResourcesExtract in user interface mode, or alternatively, you can r
  * [dexcalibur](https://github.com/FrenchYeti/dexcalibur): Android reverse engineering tool focused on dynamic instrumentation automation. Powered by Frida. It disassembles dex, analyzes it statically, generates hooks, discovers reflected methods, stores intercepted data and does new things from it. Its aim is to be an all-in-one Android reverse engineering platform.
 
 #### Databases
- * [ANY.RUN](https://app.any.run/submissions): Registration required
- * [Contagio Malware Dump](http://contagiodump.blogspot.com/): Curated, password required
- * [CAPE Sandbox](https://capesandbox.com/): Registration required
+ * [ANY.RUN](https://app.any.run/submissions): Registration required.
+ * [Contagio Malware Dump](http://contagiodump.blogspot.com/): Curated, password required.
+ * [CAPE Sandbox](https://capesandbox.com/): Registration required.
  * [Das Malwerk](http://dasmalwerk.eu/)
- * [Hatching Triage](https://tria.ge/): Registration required
- * [Hybrid Analysis](https://www.hybrid-analysis.com/): Registration required
+ * [Hatching Triage](https://tria.ge/): Registration required.
+ * [Hybrid Analysis](https://www.hybrid-analysis.com/): Registration required.
  * [InQuest Malware Samples](https://github.com/InQuest/malware-samples)
- * [KernelMode.info](http://www.kernelmode.info/forum/viewforum.php?f=16): Registration required
- * [MalShare](http://malshare.com/): Registration required
+ * [KernelMode.info](http://www.kernelmode.info/forum/viewforum.php?f=16): Registration required.
+ * [MalShare](http://malshare.com/): Registration required.
  * [MalwareBazaar](https://bazaar.abuse.ch/): MalwareBazaar is a project from abuse.ch with the goal of sharing malware samples with the infosec community, AV vendors and threat intelligence providers.
- * [MalwareSamples](https://github.com/MalwareSamples/Malware-Feed/) Malware-Feed: Curated
-Malware DB
- * [Objective-See Collection](https://objective-see.com/malware.html): Mac malware
- * [PacketTotal](https://packettotal.com/malware-archive.html): Malware inside downloadable PCAP files
- * [PhishingKitTracker](https://github.com/marcoramilli/PhishingKitTracker): Phishing sites source code
- * [PolySwarm](https://polyswarm.network/): Registration required
- * [SNDBOX](https://app.sndbox.com/): Registration required
- * [SoReL-20M](https://github.com/sophos-ai/SOREL-20M): 10M defanged malware samples (see notes)
-theZoo aka Malware DB
+ * [MalwareSamples](https://github.com/MalwareSamples/Malware-Feed/) Malware-Feed: Curated.
+ * [Objective-See Collection](https://objective-see.com/malware.html): Mac malware.
+ * [PacketTotal](https://packettotal.com/malware-archive.html): Malware inside downloadable PCAP files.
+ * [PhishingKitTracker](https://github.com/marcoramilli/PhishingKitTracker): Phishing sites source code.
+ * [PolySwarm](https://polyswarm.network/): Registration required.
+ * [SNDBOX](https://app.sndbox.com/): Registration required.
+ * [SoReL-20M](https://github.com/sophos-ai/SOREL-20M): 10M defanged malware samples.
  * [theZoo](https://thezoo.morirt.com/): A repository of LIVE malwares for your own joy and pleasure.
- * [URLhaus](https://urlhaus.abuse.ch/browse/): Links to live sites hosting malware
- * [VirusBay](https://beta.virusbay.io/): Registration required
- * [VirusShare](https://virusshare.com/): Registration required
- * [VirusSign](https://www.virussign.com/downloads.html): Registration required
- * [Virus and Malware Samples](https://www.virussamples.com/): Includes APT, registration required
+ * [URLhaus](https://urlhaus.abuse.ch/browse/): Links to live sites hosting malware.
+ * [VirusBay](https://beta.virusbay.io/): Registration required.
+ * [VirusShare](https://virusshare.com/): Registration required.
+ * [VirusSign](https://www.virussign.com/downloads.html): Registration required.
+ * [Virus and Malware Samples](https://www.virussamples.com/): Includes APT, registration required.
  * [vx-underground](https://vx-underground.org/samples.html)
 
 #### Debuggers
@@ -431,8 +473,10 @@ theZoo aka Malware DB
  * [Advanced Windows Service Manager](https://securityxploded.com/winservicemanager.php): Is the specialized software for smarter analysis of Windows Services. It offers many powerful and unique features which sets it apart from built-in Service Management Console as well as other similar softwares.
  * [AnVir Task Manager](https://www.anvir.com/): Control everything running on computer, remove Trojans, speed up computer.
  * [Netwrix Service Monitor](https://www.netwrix.com/windows_services_monitoring_freeware.html): Freeware service monitoring tool that enables you to monitor Windows services on your critical servers.
+ * [PA File Sight](https://www.poweradmin.com/products/file-sight/licensing-and-pricing/)
  * [Process Hacker](https://processhacker.sourceforge.io/)
  * [Service+](https://www.activeplus.com/products/serviceplus)
+ * [SrvMan](https://sysprogs.com/legacy/tools/srvman/): Windows Service Manager is a small tool that simplifies all common tasks related to Windows services. It can create services (both Win32 and Legacy Driver) without restarting Windows, delete existing services and change service configuration. It has both GUI and Command-line modes. It can also be used to run arbitrary Win32 applications as services (when such service is stopped, main application window is closed automatically).
 
 ### Protection
  * [awesome-honeypots](https://github.com/paralax/awesome-honeypots): An awesome list of honeypot resources.
@@ -473,6 +517,17 @@ theZoo aka Malware DB
  * [Social-Engineer Toolkit (SET)](https://github.com/trustedsec/social-engineer-toolkit): Is an open-source penetration testing framework designed for social engineering. SET has a number of custom attack vectors that allow you to make a believable attack quickly.
  * [ShellPhish](https://github.com/suljot/shellphish): Phishing Tool for Instagram, Facebook, Twitter, Snapchat, Github.napchat, Github.
 
+##### Protection
+
+###### Employees education
+ * [Gophish](https://getgophish.com/): Open-Source Phishing Framework.
+ * [king-phisher](https://github.com/rsmusllp/king-phisher): Phishing Campaign Toolkit.
+
+###### Phishing detection
+ * [Netcraft](https://www.netcraft.com/)
+ * [PhishTank](https://www.phishtank.com/): 
+
+
 ### Steganography
 
 #### Image
@@ -485,6 +540,10 @@ theZoo aka Malware DB
 
 #### White Space
  * [snow](http://www.darkside.com.au/snow/): Is used to conceal messages in ASCII text by appending whitespace to the end of lines. Because spaces and tabs are generally not visible in text viewers, the message is effectively hidden from casual observers. And if the built-in encryption is used, the message cannot be read even if it is detected.
+
+
+### Other directories
+ * [Hacking Tools](https://en.kali.tools/all/?category): Tools for penetration testing and security audit.
 
 
 ## OS distributions / Virtual machines
@@ -612,6 +671,7 @@ Translated with www.DeepL.com/Translator (free version)
  * [Intel 80x86 Assembler Code Table](http://www.jegerlehner.ch/intel/IntelCodeTable_es.pdf) (Spanish)
 
 #### Tutorials
+ * [malware_training_vol1](https://github.com/hasherezade/malware_training_vol1): Materials for Windows Malware Analysis training (volume 1)
  * [Reverse Engineering tutorials by Ricardo Narvaja](http://ricardonarvaja.info/) (Spanish)
 
 #### Videotutorials
@@ -623,6 +683,7 @@ Translated with www.DeepL.com/Translator (free version)
 
 #### Articles
  * [Dependency Confusion: How I Hacked Into Apple, Microsoft and Dozens of Other Companies](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610)
+ * [index-of.es](http://index-of.es/)
  * [What Actually is Threat Hunting?](https://blogs.gartner.com/pete-shoard/whats-threat-hunting/)
 
 #### Cheat sheets
@@ -633,6 +694,9 @@ Translated with www.DeepL.com/Translator (free version)
 
 #### Articles
  * [Descubre Hping3 para manipular paquetes TCP/IP y hacer ataques](https://www.redeszone.net/tutoriales/seguridad/hping3-manipular-paquetes-tcp-ip-ataques/) (Spanish) 
+
+#### Cheat sheets
+ * [Wireshark cheat sheet](https://cdn.comparitech.com/wp-content/uploads/2019/06/Wireshark-Cheat-Sheet.pdf)
 
 
 ### System hacking
