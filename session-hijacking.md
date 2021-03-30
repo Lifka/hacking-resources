@@ -1,5 +1,4 @@
-
-## Session hijacking
+## Session hijacking cheat sheet
 
 
 ### Bettercap

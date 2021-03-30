@@ -1,4 +1,4 @@
-## Steganography
+## Steganography cheat sheet
 
 ### NTFS Streams
 

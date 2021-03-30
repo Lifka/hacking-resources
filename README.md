@@ -101,9 +101,11 @@ List of hacking utilities. Resources that I consider useful and that I have been
  * [IP Location Finder](https://www.iplocation.net/)
 
 #### Mirroring entire website
+ * [Cyotek](https://www.cyotek.com/cyotek-webcopy): Copy websites locally for offline browsing
  * [HTTrack WebSite Copier](https://github.com/xroche/httrack): Copy websites to your computer.
  * [NCollector Studio](http://www.calluna-software.com/)
- * [Cyotek](https://www.cyotek.com/cyotek-webcopy): Copy websites locally for offline browsing
+ * [Social-Engineer Toolkit (SET)](https://github.com/trustedsec/social-engineer-toolkit): Is an open-source penetration testing framework designed for social engineering. SET has a number of custom attack vectors that allow you to make a believable attack quickly.
+ * [ShellPhish](https://github.com/suljot/shellphish): Phishing Tool for Instagram, Facebook, Twitter, Snapchat, Github.napchat, Github.
 
 #### Monitoring webpages for updates and changes
  * [visualping](https://visualping.io/): Monitor website changes… so you don't have to!
@@ -191,10 +193,6 @@ List of hacking utilities. Resources that I consider useful and that I have been
 
 ##### Rogue DHCP attack
  * [Cain](https://github.com/xchwarze/Cain)
-
-#### DNS
-
-##### DNS Spoofing
 
 #### DoS
  * [hping3](https://github.com/antirez/hping): hping3 is a network tool able to send custom TCP/IP packets and to display target replies like ping do with ICMP replies. hping3 can handle fragmentation, and almost arbitrary packet size and content, using the command line interface.
@@ -358,6 +356,8 @@ You can use ResourcesExtract in user interface mode, or alternatively, you can r
  * [MalShare](http://malshare.com/): Registration required.
  * [MalwareBazaar](https://bazaar.abuse.ch/): MalwareBazaar is a project from abuse.ch with the goal of sharing malware samples with the infosec community, AV vendors and threat intelligence providers.
  * [MalwareSamples](https://github.com/MalwareSamples/Malware-Feed/) Malware-Feed: Curated.
+ * [MalwareSourceCode](https://github.com/vxunderground/MalwareSourceCode): About
+Collection of malware source code for a variety of platforms in an array of different programming languages.
  * [Objective-See Collection](https://objective-see.com/malware.html): Mac malware.
  * [PacketTotal](https://packettotal.com/malware-archive.html): Malware inside downloadable PCAP files.
  * [PhishingKitTracker](https://github.com/marcoramilli/PhishingKitTracker): Phishing sites source code.
@@ -504,15 +504,21 @@ You can use ResourcesExtract in user interface mode, or alternatively, you can r
  * [FaceNiff](http://faceniff.ponury.net/): Is an Android app that allows you to sniff and intercept web session profiles over the WiFi that your mobile is connected to. It is possible to hijack sessions only when WiFi is not using EAP, but it should work over any private networks (Open/WEP/WPA-PSK/WPA2-PSK). It's kind of like Firesheep for android. Maybe a bit easier to use (and it works on WPA2!).
 
 ### Protection
- * [awesome-honeypots](https://github.com/paralax/awesome-honeypots): An awesome list of honeypot resources.
  * [atomic-red-team](https://github.com/redcanaryco/atomic-red-team): Small and highly portable detection tests based on MITRE's ATT&CK.
  * [brave](https://brave.com/)
  * [CaseFile](https://www.maltego.com/products/)
  * [CODE42](https://www.code42.com/)
- * [KFSensor](http://www.keyfocus.net/kfsensor/): Acts as a honeypot, designed to attract and detect hackers and worms by simulating vulnerable system services and trojans.
  * [malwarebytes](https://www.malwarebytes.com/)
  * [Splunk](https://www.splunk.com/)
  * [Tor](https://www.torproject.org/)
+
+#### Honeypots
+ * [awesome-honeypots](https://github.com/paralax/awesome-honeypots): An awesome list of honeypot resources.
+ * [Honeyd Virtual Honeypot](http://www.honeyd.org/):  Is a small daemon that creates virtual hosts on a network. The hosts can be configured to run arbitrary services, and their personality can be adapted so that they appear to be running certain operating systems. Honeyd enables a single host to claim multiple addresses - I have tested up to 65536 - on a LAN for network simulation. Honeyd improves cyber security by providing mechanisms for threat detection and assessment. It also deters adversaries by hiding real systems in the middle of virtual systems.
+ * [KFSensor](http://www.keyfocus.net/kfsensor/): Acts as a honeypot, designed to attract and detect hackers and worms by simulating vulnerable system services and trojans.
+
+#### IDS / IPS
+ * [Snort](https://www.snort.org/): Open Source Intrusion Prevention System (IPS) in the world. Snort IPS uses a series of rules that help define malicious network activity and uses those rules to find packets that match against them and generates alerts for users.
  * [wazuh](https://github.com/wazuh): Open source security platform based on OSSEC.
 
 #### Inventory management
@@ -587,6 +593,9 @@ Translated with www.DeepL.com/Translator (free version)
  * [OSBoxes](https://www.osboxes.org/): Offers you ready-to-use Linux/Unix guest operating systems.
  * [Windows XP Lab for VirtualBox (by Lifka)](https://drive.google.com/file/d/18NYLUVYaZ0fuynlzYfl3zjSBXLtQduu1/view?usp=sharing): Contains basic malware analysis tools for static and dynamic analysis (disassemblers, debugging, network analysis, etc.).
 
+#### Setup scripts
+ * [DissectingMalwa.re Lab VMs Setup](https://github.com/f0wl/MalwareLab_VM-Setup): Setup scripts for my Malware Analysis VMs.
+
 
 ### Vulnerable machines
  * [CORS_vulnerable_Lab-Without_Database](https://github.com/incredibleindishell/CORS_vulnerable_Lab-Without_Database)
@@ -594,14 +603,20 @@ Translated with www.DeepL.com/Translator (free version)
 ## Other links
 
 ### Blogs
+ * [Amossys  - Security Blog](https://blog.amossys.fr/) (French)
+ * [Back Engineering](https://back.engineering/)
+ * [Dissecting Malware](https://dissectingmalwa.re/)
  * [Ero Carrera's blog](http://blog.dkbza.org/) - Discontinued
+ * [Ferib's Blog](https://ferib.dev/portfolio.php?t=Blog+post)
  * [Flu Project](https://www.flu-project.com/) (Spanish)
  * [HackTricks](https://book.hacktricks.xyz/)
+ * [InQuest Blog](https://inquest.net/blog)
  * [lucasg](https://lucasg.github.io/)
  * [McAfee blogs](https://www.mcafee.com/blogs/)
  * [Security By Default](http://www.securitybydefault.com/) (Spanish) - Discontinued
  * [Security Garage](https://security-garage.com/) (Spanish)
  * [Underc0de](https://blog.underc0de.org/) (Spanish)
+ * [Unit42](https://unit42.paloaltonetworks.com/)
  * [UN INFORMÁTICO EN EL LADO DEL MAL](https://www.elladodelmal.com/) (Spanish)
  * [UN TAL 4N0NYM0US EN EL PC](http://www.enelpc.com/) (Spanish) - Discontinued
 
@@ -614,11 +629,16 @@ Translated with www.DeepL.com/Translator (free version)
  * [Yogosha](https://yogosha.com/)
  * [Zerocopter](https://www.zerocopter.com/)
 
+
 ### Challenges
  * [Atenea](https://atenea.ccn-cert.cni.es/)
  * [HackTheBox](https://www.hackthebox.eu/)
  * [Try Hack Me](https://www.tryhackme.com/)
  * [Web Security Academy](https://portswigger.net/web-security)
+
+### Communities
+ * [Axial](https://ax1al.com/): Is a community of like minded nerds who focus on reverse engineering, malware analysis and general nerdery regarding to malware, at axial we also focus on various web attack vectors and techniques to leverage our OSINT skills which is accomplished by release of various blogs which range from extremely beginner to an intermediate level which also makes sure to demonstrate the techniques in a broader range, Axial also focuses on various open source based projects dedicated towards the afore mentioned domain, definitely aligning with the offensive, and defensive side of the information security domain.
+
 
 ### Forums
 
@@ -679,9 +699,12 @@ Translated with www.DeepL.com/Translator (free version)
 
 #### Articles
  * [An Introduction to Fuzzing: Using fuzzers (SPIKE) to find vulnerabilities](https://resources.infosecinstitute.com/topic/intro-to-fuzzing/)
+ * [Antivirus-Artifacts](https://github.com/D3VI5H4/Antivirus-Artifacts): Anti-virus artifacts. Listing APIs hooked by: Avira, BitDefender, F-Secure, MalwareBytes, Norton, TrendMicro, and WebRoot.
+ * [Axial - Community Papers](https://ax1al.com/community_papers.html): Papers about malwares and reverse engineering.
  * [Basics of Windows shellcode writing](https://idafchev.github.io/exploit/2017/09/26/writing_windows_shellcode.html)
  * ['CRYPTERS': PRACTICANDO LA TÉCNICA DSPLIT/AVFUCKER](http://www.securitybydefault.com/2013/09/crypters-practicando-la-tecnica.html) (Spanish)
  * [Todo lo que quisiste saber sobre las DLL y no te atreviste a preguntar](https://geeks.ms/rfog/2009/06/29/todo-lo-que-quisiste-saber-sobre-las-dll-y-no-te-atreviste-a-preguntar-i/) (Spanish)
+ * [vx-underground papers](https://vx-underground.org/papers.html)
  * [windows-syscalls](https://github.com/j00ru/windows-syscalls): Windows System Call Tables (NT/2000/XP/2003/Vista/2008/7/2012/8/10).
 
 #### Books
