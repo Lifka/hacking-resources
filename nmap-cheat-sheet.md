@@ -90,17 +90,27 @@ Uses UDP protocol instead of the TCP. There is no three-way handshake for the UD
 nmap -sU -v [Target IP Address/Range of IP addresses]
 ```
 
-##### IDLE/IPID Header Scan
+##### IDLE/IPID Header Scan / Zombie Scan
 A TCP port scan method that can be used to send a spoofed source address to a computer to discover what services are available.
 ```sh
 nmap -sI -v [Target IP Address/Range of IP addresses]
 ```
+
+Reference: https://nmap.org/book/idlescan.html
 
 ##### SCTP COOKIE ECHO Scan
 A COOKIE ECHO chunk is sent to the target host; no response implies that the port is open and ABORT Chunk response means that the port is closed.
 ```sh
 nmap -sZ -v [Target IP Address/Range of IP addresses]
 ```
+
+##### Ping Sweep Scan
+Discover the available hosts and their IP and MAC addresses, but no information about the ports.
+
+```sh
+nmap -sP [Target IP Address/Range of IP addresses]
+```
+
 
 ##### smb-os-discovery.nse: attempts to determine the OS, computer name, domain, workgroup, and current time over the SMB protocol
 ```sh
