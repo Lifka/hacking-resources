@@ -149,6 +149,7 @@ List of hacking utilities. Resources that I consider useful and that I have been
  * [Capsa Portable Network Analyzer](https://www.colasoft.com/capsa/): Monitor, Analyze, Troubleshoot your Wired & Wireless Network.
  * [Colasoft Packet Builder](https://www.colasoft.com/packet_builder/): Colasoft Packet Builder enables creating custom network packets; users can use this tool to check their network protection against attacks and intruders. Colasoft Packet Builder includes a very powerful editing feature. Besides common HEX editing raw data, it features a Decoding Editor allowing users to edit specific protocol field values much easier.
  * [hping](https://github.com/antirez/hping): hping3 is a network tool able to send custom TCP/IP packets and to display target replies like ping do with ICMP replies. hping3 can handle fragmentation, and almost arbitrary packet size and content, using the command line interface.
+ * [HTTPort 3.SNFM](https://www.targeted.org/htthost/): HTTPort allows you to bypass your HTTP proxy, which is blocking you from the Internet. With HTTPort you may use various Internet software from behind the proxy, ex. e-mail, instant messengers, P2P file sharing, ICQ, News, FTP, IRC, etc.
  * [Megaping](http://www.magnetosoft.com/product/megaping/features): MegaPing is the ultimate must-have toolkit that provides essential utilities for Information System specialists, system administrators, IT solution providers or individuals.
  * [Metasploit Framework](https://github.com/rapid7/metasploit-framework)
  * [Nav](https://github.com/Uninett/nav): Network Administration Visualized.
@@ -432,7 +433,7 @@ Collection of malware source code for a variety of platforms in an array of diff
 #### Packers
  * [ASPack](http://aspack.com/): Is an advanced EXE packer created to compress Win32 executable files and to protect them against non-professional reverse engineering.
  * [PEiD](https://www.softpedia.com/get/Programming/Packers-Crypters-Protectors/PEiD-updated.shtml): Is an intuitive application that relies on its user-friendly interface to detect packers, cryptors and compilers found in PE executable files – its detection rate is higher than that of other similar tools since the app packs more than 600 different signatures in PE files.
- * [macro_pack](https://www.inetsim.org/downloads.html(https://github.com/sevagas/macro_pack): The macro_pack is a tool used to automatize obfuscation and generation of retro formats such as MS Office documents or VBS like format. Now it also handles various shortcuts formats.
+ * [macro_pack](https://github.com/sevagas/macro_pack): The macro_pack is a tool used to automatize obfuscation and generation of retro formats such as MS Office documents or VBS like format. Now it also handles various shortcuts formats.
  * [RDG Packer Detector](http://www.rdgsoft.net/): Is a detector for packers, ciphers, compilers, packers, encoders, assemblers, installers.
  * [UPX the Ultimate Packer for eXecutables](https://upx.github.io/): Is a free, portable, extendable, high-performance executable packer for several executable formats.
 
@@ -512,6 +513,13 @@ Collection of malware source code for a variety of platforms in an array of diff
  * [Splunk](https://www.splunk.com/)
  * [Tor](https://www.torproject.org/)
 
+#### Firewalls
+ * [Comodo Firewall](https://personalfirewall.comodo.com/)
+ * [ManageEngine Firewall Analyzer](https://www.manageengine.com/products/firewall/)
+ * [pfSense](https://www.pfsense.org/)
+ * [Sophos XG Firewall](https://www.sophos.com/en-us/products/next-gen-firewall.aspx)
+ * [ZoneAlarm Free Firewall](https://www.zonealarm.com/software/free-firewall)
+
 #### Honeypots
  * [awesome-honeypots](https://github.com/paralax/awesome-honeypots): An awesome list of honeypot resources.
  * [Honeyd Virtual Honeypot](http://www.honeyd.org/):  Is a small daemon that creates virtual hosts on a network. The hosts can be configured to run arbitrary services, and their personality can be adapted so that they appear to be running certain operating systems. Honeyd enables a single host to claim multiple addresses - I have tested up to 65536 - on a LAN for network simulation. Honeyd improves cyber security by providing mechanisms for threat detection and assessment. It also deters adversaries by hiding real systems in the middle of virtual systems.
@@ -584,7 +592,6 @@ Collection of malware source code for a variety of platforms in an array of diff
  * [BlackArch Linux](https://blackarch.org/): BlackArch Linux is an Arch Linux-based penetration testing distribution for penetration testers and security researchers.
  * [HoneyDrive](https://sourceforge.net/projects/honeydrive/): HoneyDrive is the premier honeypot Linux distro. It is a virtual appliance (OVA) with Xubuntu Desktop 12.04.4 LTS edition installed. It contains over 10 pre-installed and pre-configured honeypot software packages such as Kippo SSH honeypot, Dionaea and Amun malware honeypots, Honeyd low-interaction honeypot, Glastopf web honeypot and Wordpot, Conpot SCADA/ICS honeypot, Thug and PhoneyC honeyclients and more. Additionally it includes many useful pre-configured scripts and utilities to analyze, visualize and process the data it can capture, such as Kippo-Graph, Honeyd-Viz, DionaeaFR, an ELK stack and much more. Lastly, almost 90 well-known malware analysis, forensics and network monitoring related tools are also present in the distribution.
  * [HuronOsint](https://github.com/HuronOsint/OsintDistro): Linux Distrubition for Osint (version 1.0). In Huron you will find fundamental tools like Maltego or Recon-NG ready to be used or, at least, after a minimum configuration process, a multitude of links to specialized search engines like Shodan, social networks, language tools, SW for image data processing and extraction (ExifTools), tools for the creation of idea maps, user name checkers, email anonymizers... But also tools that allow you to carry out research tasks safely (tracking blockers, Tor browser...) or assist you in the creation of reports and visualization of multimedia material.
-Translated with www.DeepL.com/Translator (free version)
  * [Kali Linux](https://www.kali.org/): The Most Advanced Penetration Testing Distribution.
  * [Parrot OS](https://www.parrotsec.org/): Is a GNU/Linux distribution based on Debian and designed with Security and Privacy in mind. It includes a full portable laboratory for all kinds of cyber security operations, from pentesting to digital forensics and reverse engineering, but it also includes everything needed to develop your own software or keep your data secure.
  * [Security Onion 2](https://securityonionsolutions.com/software/): Security Onion is a free and open source Linux distribution for threat hunting, enterprise security monitoring, and log management. The easy-to-use Setup wizard allows you to build an army of distributed sensors for your enterprise in minutes! Security Onion includes Elasticsearch, Logstash, Kibana, Suricata, Zeek (formerly known as Bro), Wazuh, Stenographer, TheHive, Cortex, CyberChef, NetworkMiner, and many other security tools.
