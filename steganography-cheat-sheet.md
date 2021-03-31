@@ -26,6 +26,9 @@ snow -C -m "Secret message" -p "magic" readme.txt readme2.txt
 snow -C -p "magic" readme2.txt
 ```
 
+[<- Back to index](README.md)
+
+---
 ## License
 
 © 2021 [javierizquierdovera.com](https://javierizquierdovera.com)
