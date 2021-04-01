@@ -13,6 +13,7 @@
  * [Bugbounty en Español, todo lo que debes saber](https://www.youtube.com/watch?v=vLD34cGyHS8) (Spanish)
 
 
+
 ### Certifications
 
 #### CEH (Certified Ethical Hacker)
@@ -26,6 +27,7 @@
  * [skillset](https://www.skillset.com/): Practice questions for different certifications.
 
 
+
 ### Forensics
 
 #### Books
@@ -36,6 +38,8 @@
 #### Books
  * [The Web Application Hacker′s Handbook: Finding and Exploiting](https://amzn.to/3sB2ExI)
   
+
+
 ### Malwares / Reverse Engineering
 
 #### Articles
@@ -69,6 +73,7 @@
  * [Reverse Engineering desde 0](https://www.youtube.com/watch?v=-9xChS3ZgvU&list=PL6RJR1V-uAbzSW9EF_5AMmt_0P7vhGa3N) (Spanish)
 
 
+
 ### Miscellaneous
 
 #### Articles
@@ -80,6 +85,7 @@
  * [Google dorks](https://gist.github.com/sundowndev/283efaddbcf896ab405488330d1bbc06)
 
 
+
 ### Networks
 
 #### Articles
@@ -87,6 +93,26 @@
 
 #### Cheat sheets
  * [Wireshark cheat sheet](https://cdn.comparitech.com/wp-content/uploads/2019/06/Wireshark-Cheat-Sheet.pdf)
+  
+
+
+### Programming
+
+#### Books
+ * [Clean Code](https://amzn.to/3ktAVMI)
+ * [Design Patterns: Elements of Reusable Object-Oriented Software](https://amzn.to/2O4TLOj)
+ * [Head First Design Patterns (A Brain Friendly Guide)](https://amzn.to/3uGdgNE)
+ * [Introduction to Algorithms](https://amzn.to/2ZU8myH)
+ * [JavaScript - The Definitive Guide: Master the World's Most-Used](https://amzn.to/3sC2dn9)
+ * [Mythical Man-Month, The: Essays on Software Engineering](https://amzn.to/3aYrRfG)
+ * [Patterns of Enterprise Application Architecture](https://amzn.to/3pU69Oc)
+ * [Pragmatic Programmer, The: From Journeyman to Master](https://amzn.to/3q2jfsC)
+ * [Refactoring: Improving the Design of Existing Code](https://amzn.to/3sC2I0v)
+ * [Refactoring JavaScript: Turning Bad Code Into Good Code](https://amzn.to/3pWdMnb)
+ * [The Linux Programming Interface: A Linux and UNIX System](https://amzn.to/3krYZjb)
+ * [Threat Modeling: Designing for Security](https://amzn.to/2ZZpnr4)
+ * [Violent Python: A Cookbook for Hackers, Forensic Analysts, Penetration Testers and Security Engineers](https://amzn.to/3r0GV24)
+
 
 
 ### System hacking
@@ -108,6 +134,8 @@
 #### Books
  * [Rtfm: Red Team Field Manua](https://amzn.to/3pW8et7)
 
+
+
 ### Social engineering
 
 #### Books
@@ -117,23 +145,26 @@
 #### Conferences
  * [Ingeniería Social, el verdadero poder seguridad informática phishing ciberseguridad](https://www.youtube.com/watch?v=qyJsBjvw2dc&t=1707s) (Spanish)
 
+  
+### Salesforce
 
-### Programming
+#### Articles
+ * [10 Tips to Passing Security Review from Trailhead](https://partners.salesforce.com/partnerNews?id=a033A00000FtLm6QAF)
 
-#### Books
- * [Clean Code](https://amzn.to/3ktAVMI)
- * [Design Patterns: Elements of Reusable Object-Oriented Software](https://amzn.to/2O4TLOj)
- * [Head First Design Patterns (A Brain Friendly Guide)](https://amzn.to/3uGdgNE)
- * [Introduction to Algorithms](https://amzn.to/2ZU8myH)
- * [JavaScript - The Definitive Guide: Master the World's Most-Used](https://amzn.to/3sC2dn9)
- * [Mythical Man-Month, The: Essays on Software Engineering](https://amzn.to/3aYrRfG)
- * [Patterns of Enterprise Application Architecture](https://amzn.to/3pU69Oc)
- * [Pragmatic Programmer, The: From Journeyman to Master](https://amzn.to/3q2jfsC)
- * [Refactoring: Improving the Design of Existing Code](https://amzn.to/3sC2I0v)
- * [Refactoring JavaScript: Turning Bad Code Into Good Code](https://amzn.to/3pWdMnb)
- * [The Linux Programming Interface: A Linux and UNIX System](https://amzn.to/3krYZjb)
- * [Threat Modeling: Designing for Security](https://amzn.to/2ZZpnr4)
- * [Violent Python: A Cookbook for Hackers, Forensic Analysts, Penetration Testers and Security Engineers](https://amzn.to/3r0GV24)
+#### Conferences
+ * [Become a Salesforce security Superman! with Alba Azcona Rivas](https://www.youtube.com/watch?v=MSAurvPVPeA)
+ * [Lightning Web Components - Episode 4 : Security and Testing](https://www.youtube.com/watch?v=R7j8dDzsPho)
+
+#### Documentation
+ * [AppExchange Security Review](https://developer.salesforce.com/docs/atlas.en-us.packagingGuide.meta/packagingGuide/security_review_overview.htm)
+ * [Salesforce Security Basics](https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/overview_security.htm)
+ * [Salesforce Security Guide](https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/salesforce_security_guide.htm)
+
+#### Trailheads
+ * [AppExchange Security Review](https://trailhead.salesforce.com/content/learn/modules/isv_security_review)
+ * [Protect Your Salesforce Data](https://trailhead.salesforce.com/content/learn/trails/security)
+
+
 
 
 [<- Back to index](README.md)
