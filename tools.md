@@ -531,7 +531,7 @@ Collection of malware source code for a variety of platforms in an array of diff
 
 ##### Web spidering
  * [OWASP Zed Attack Proxy (ZAP)](https://owasp.org/www-project-zap/): Integrated penetration testing tool for finding vulnerabilities in web applications. It offers automated scanners as well as a set of tools that allow you to find security vulnerabilities manually.
- * 
+
 ##### Detect load balancer
  * [dig](https://github.com/polarityio/dig): Network admin tool for querying DNS servers.
  * [halberd](https://github.com/jmbr/halberd): discovers HTTP load balancers. It is useful for web application security auditing and for load balancer configuration testing.
@@ -547,20 +547,27 @@ Collection of malware source code for a variety of platforms in an array of diff
  * [appspider](https://www.rapid7.com/products/appspider/): Web application security testing to close the gaps in your apps.
  * [arachni](https://github.com/Arachni/arachni): Web Application Security Scanner Framework.
  * [nikto](https://github.com/sullo/nikto): Nikto web server scanner.
+ * [OWASP Zed Attack Proxy (ZAP)](https://owasp.org/www-project-zap/): Integrated penetration testing tool for finding vulnerabilities in web applications. It offers automated scanners as well as a set of tools that allow you to find security vulnerabilities manually.
  * [uniscan](https://github.com/poerschke/Uniscan): Uniscan web vulnerability scanner.
  * [vega](https://subgraph.com/vega/): It is a free and open source web security scanner and web security testing platform to test the security of web applications. Vega can help you find and validate SQL Injection, Cross-Site Scripting (XSS), inadvertently disclosed sensitive information, and other vulnerabilities. It is written in Java, GUI based, and runs on Linux, OS X, and Windows.
  * [Vulnerability Scanning Tools by OWASP](https://owasp.org/www-community/Vulnerability_Scanning_Tools)
  * [WPScan](https://github.com/wpscanteam/wpscan): WordPress security scanner. Written for security professionals and blog maintainers to test the security of their WordPress websites.
 
-###### SQL Injection
-* [Havij](https://web.archive.org/web/20150228203859/http://itsecteam.com/products/havij-advanced-sql-injection/): It is an automated SQL Injection tool that helps penetration testers to find and exploit SQL Injection vulnerabilities on a web page. It can take advantage of a vulnerable web application. By using this software, user can perform back-end database fingerprinting, retrieve DBMS login names and password hashes, dump tables and columns, fetch data from the database, execute SQL statements against the server, and even access the underlying file system and execute operating system shell commands.
-
 #### Attack
  * [Burp Suite](https://portswigger.net/burp): Integrated platform for performing security testing of web applications. It has various tools that work together to support the entire testing process from the initial mapping and analysis of an application’s attack surface to finding and exploiting security vulnerabilities. Contains key components such as an intercepting proxy, application-aware spider, advanced web application scanner, intruder tool, repeater tool, and sequencer tool.
- * [Havij](https://web.archive.org/web/20150228203859/http://itsecteam.com/products/havij-advanced-sql-injection/)
  * [Metasploit Framework](https://github.com/rapid7/metasploit-framework)
  * [php-webshells](https://github.com/JohnTroony/php-webshells): Common PHP webshells you might need for your Penetration Testing assignments or CTF challenges. Do not host the file(s) on your server!
  * [Weevely](https://github.com/epinna/weevely3): Used to develop a backdoor shell and upload it to a target server in order to gain remote shell access. This tool also helps in performing administrative tasks, maintaining persistence, and spreading backdoors across the target network.
+
+##### SQL Injection
+* [bbqsql](https://github.com/CiscoCXSecurity/bbqsql): SQL Injection Exploitation Tool.
+* [blind-sql-bitshifting](https://github.com/awnumar/blind-sql-bitshifting): A blind SQL injection module that uses bitshfting to calculate characters.
+* [Blisqy](https://github.com/JohnTroony/Blisqy): Exploit Time-based blind-SQL injection in HTTP-Headers (MySQL/MariaDB).
+* [DSSS - Damn Small SQLi Scanner](https://github.com/stamparm/DSSS): It is a fully functional SQL injection vulnerability scanner (supporting GET and POST parameters) written in under 100 lines of code.
+* [Havij](https://web.archive.org/web/20150228203859/http://itsecteam.com/products/havij-advanced-sql-injection/): It is an automated SQL Injection tool that helps penetration testers to find and exploit SQL Injection vulnerabilities on a web page. It can take advantage of a vulnerable web application. By using this software, user can perform back-end database fingerprinting, retrieve DBMS login names and password hashes, dump tables and columns, fetch data from the database, execute SQL statements against the server, and even access the underlying file system and execute operating system shell commands.
+* [Mole](https://sourceforge.net/projects/themole/): It is an automatic SQL Injection exploitation tool. Only by providing a vulnerable URL and a valid string on the site it can detect the injection and exploit it, either by using the union technique or a boolean query based technique. The Mole uses a command based interface, allowing the user to indicate the action he wants to perform easily. The CLI also provides auto-completion on both commands and command arguments, making the user type as less as possible.
+* [NoSQLMap](https://github.com/codingo/NoSQLMap): Automated NoSQL database enumeration and web application exploitation tool.
+* [sqlmap](http://sqlmap.org/): Is is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers. It comes with a powerful detection engine, many niche features for the ultimate penetration tester and a broad range of switches lasting from database fingerprinting, over data fetching from the database, to accessing the underlying file system and executing commands on the operating system via out-of-band connections.
 
 #### Vulnerable web applications
  * [Damn Vulnerable Web App (DVWA)](https://github.com/digininja/DVWA): It is a PHP/MySQL web application that is damn vulnerable. Its main goal is to be an aid for security professionals to test their skills and tools in a legal environment, help web developers better understand the processes of securing web applications and to aid both students & teachers to learn about web application security in a controlled class room environment.
@@ -643,6 +650,17 @@ Collection of malware source code for a variety of platforms in an array of diff
 
 #### White Space
  * [snow](http://www.darkside.com.au/snow/): It is used to conceal messages in ASCII text by appending whitespace to the end of lines. Because spaces and tabs are generally not visible in text viewers, the message is effectively hidden from casual observers. And if the built-in encryption is used, the message cannot be read even if it is detected.
+
+
+
+### Salesforce
+
+#### Scanners
+ * [CxVSCode](https://marketplace.visualstudio.com/items?itemName=checkmarx.cxvscode): It is an IDE extension that brings the Checkmarx AppSec unique capabilities closer to the developer.
+
+#### Javascript
+ * [RetireJS](https://retirejs.github.io/retire.js/): There is a plethora of JavaScript libraries for use on the web and in node.js apps out there. This greatly simplifies, but we need to stay update on security fixes. "Using Components with Known Vulnerabilities" is now a part of the OWASP Top 10 and insecure libraries can pose a huge risk for your webapp. The goal of Retire.js is to help you detect use of version with known vulnerabilities.
+
 
 
 

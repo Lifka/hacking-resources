@@ -114,6 +114,38 @@
  * [Violent Python: A Cookbook for Hackers, Forensic Analysts, Penetration Testers and Security Engineers](https://amzn.to/3r0GV24)
 
 
+  
+### Salesforce
+
+#### Articles
+ * [10 Tips to Passing Security Review from Trailhead](https://partners.salesforce.com/partnerNews?id=a033A00000FtLm6QAF)
+
+#### Conferences
+ * [Become a Salesforce security Superman! with Alba Azcona Rivas](https://www.youtube.com/watch?v=MSAurvPVPeA)
+ * [Lightning Web Components - Episode 4 : Security and Testing](https://www.youtube.com/watch?v=R7j8dDzsPho)
+
+#### Documentation
+ * [AppExchange Security Review](https://developer.salesforce.com/docs/atlas.en-us.packagingGuide.meta/packagingGuide/security_review_overview.htm)
+ * [Checkmarx: Setting Up the Visual Studio Code Extension Plugin](https://checkmarx.atlassian.net/wiki/spaces/SD/pages/1759216424/Setting+Up+the+Visual+Studio+Code+Extension+Plugin)
+ * [Salesforce Security Basics](https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/overview_security.htm)
+ * [Salesforce Security Guide](https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/salesforce_security_guide.htm)
+
+#### Trailheads
+ * [AppExchange Security Review](https://trailhead.salesforce.com/content/learn/modules/isv_security_review)
+ * [Protect Your Salesforce Data](https://trailhead.salesforce.com/content/learn/trails/security)
+
+
+
+### Social engineering
+
+#### Books
+ * [Ingeniería social. El arte del hacking personal](https://amzn.to/3aYSxNp) (Spanish)
+ * [Social Engineering: The Science of Human Hacking](https://amzn.to/2NBFJDX)
+
+#### Conferences
+ * [Ingeniería Social, el verdadero poder seguridad informática phishing ciberseguridad](https://www.youtube.com/watch?v=qyJsBjvw2dc&t=1707s) (Spanish)
+
+
 
 ### System hacking
 
@@ -133,37 +165,6 @@
 
 #### Books
  * [Rtfm: Red Team Field Manua](https://amzn.to/3pW8et7)
-
-
-
-### Social engineering
-
-#### Books
- * [Ingeniería social. El arte del hacking personal](https://amzn.to/3aYSxNp) (Spanish)
- * [Social Engineering: The Science of Human Hacking](https://amzn.to/2NBFJDX)
-
-#### Conferences
- * [Ingeniería Social, el verdadero poder seguridad informática phishing ciberseguridad](https://www.youtube.com/watch?v=qyJsBjvw2dc&t=1707s) (Spanish)
-
-  
-### Salesforce
-
-#### Articles
- * [10 Tips to Passing Security Review from Trailhead](https://partners.salesforce.com/partnerNews?id=a033A00000FtLm6QAF)
-
-#### Conferences
- * [Become a Salesforce security Superman! with Alba Azcona Rivas](https://www.youtube.com/watch?v=MSAurvPVPeA)
- * [Lightning Web Components - Episode 4 : Security and Testing](https://www.youtube.com/watch?v=R7j8dDzsPho)
-
-#### Documentation
- * [AppExchange Security Review](https://developer.salesforce.com/docs/atlas.en-us.packagingGuide.meta/packagingGuide/security_review_overview.htm)
- * [Salesforce Security Basics](https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/overview_security.htm)
- * [Salesforce Security Guide](https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/salesforce_security_guide.htm)
-
-#### Trailheads
- * [AppExchange Security Review](https://trailhead.salesforce.com/content/learn/modules/isv_security_review)
- * [Protect Your Salesforce Data](https://trailhead.salesforce.com/content/learn/trails/security)
-
 
 
 
