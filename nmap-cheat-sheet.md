@@ -111,6 +111,13 @@ Discover the available hosts and their IP and MAC addresses, but no information 
 nmap -sP [Target IP Address/Range of IP addresses]
 ```
 
+### Display the open ports and services running 
+
+```sh
+nmap -T4 -A -v [Target IP Address/Range of IP addresses]
+```
+-T4: Specifies setting time template (0-5).
+-A: Specifies setting ACK flag.
 
 ### smb-os-discovery
 Attempts to determine the OS, computer name, domain, workgroup, and current time over the SMB protocol
@@ -123,7 +130,7 @@ nmap --script smb-os-discovery.nse [Target IP Address/Range of IP addresses]
 nmap -sV -v --script nbstat.nse [Target IP Address/Range of IP addresses]
 ```
 
-### Http enum
+### Http enum - enumerate the applications, directories, and files in a web server
 ```sh
 nmap -sV --script http-enum [Target IP Address/Range of IP addresses]
 ```

