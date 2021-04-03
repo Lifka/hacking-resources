@@ -11,9 +11,11 @@ List of hacking utilities. Resources that I consider useful and that I have been
  * [Bibliography / Tutorials / Conferences](bibliography-tutorials-conferences.md)
  * [Other links](other-links.md)
  * Cheat sheets
+   * [Cloud hacking cheat sheet](cloud-hacking-cheat-sheets.md)
    * [DoS cheat sheet](dos-cheat-sheet.md)
    * [Hacking web cheat sheet](hacking-web-cheat-sheet.md)
    * [Hacking wireless cheat sheet](hacking-wireless-cheat-sheet.md)
+   * [Internet of Things (IoT) hacking cheat sheet](iot-hacking-cheat-sheets.md)
    * [NMap command cheat sheet](nmap-cheat-sheet.md)
    * [Session hijacking cheat sheet](session-hijacking-cheat-sheet.md)
    * [Spoofing networks cheat sheet](spoofing-network-cheat-sheet.md)
