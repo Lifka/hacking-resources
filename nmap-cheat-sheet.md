@@ -223,6 +223,76 @@ nmap --badsum [Target IP Address/Range of IP addresses]
 nmap --badsum [Target IP Address/Range of IP addresses]
 ```
 
+### Scanning for vulneabilities
+
+#### Identify the IPv6 capabilities of a device
+```sh
+nmap -6 -n -Pn -sSU -pT:0-65535,U:0-65535 -v -A -oX [NAME] [Target IP Address/Range of IP addresses]
+```
+
+#### Check for open TCP and UDP services and ports
+```sh
+nmap -n -Pn -sSU -pT:0-65535,U:0-65535 -v -A -oX [NAME] [Target IP Address/Range of IP addresses]
+```
+
+#### Scan for a specific IP address
+```sh
+nmap -n -Pn -sS -pT:0-65535 -v -A -oX [Target IP Address/Range of IP addresses]
+```
+
+
+### Scanning ICS/SCADA systems
+
+#### Identifying HMI systems
+```sh
+nmap -Pn -sT -p 46824 [Target IP address/Range of IP addresses]
+```  
+
+#### Identifyng open ports and services
+```sh
+nmap -Pn -sT --scan-delay 1d --mac-parallelism 1 -p [port list] [Target IP address/Range of IP addresses]
+```
+
+#### Scanning siemens SIMATIC S7 PLCs
+```sh
+nmap -Pn -sT -p 102 --script s7-info [Target IP address/Range of IP addresses]
+```
+
+#### Scanning ethernet/IP devices
+```sh
+nmap -Pn -sU -p 44818 --script enip-info [Target IP address/Range of IP addresses]
+```
+
+#### Scanning modbus devices
+```sh
+nmap -Pn -sT -p 502 --script modbus-discover [Target IP address/Range of IP addresses]
+```
+
+#### Scanning BACnet devices
+```sh
+nmap -Pn -sU -p 47808 --script bacnet-info [Target IP address/Range of IP addresses]
+```
+
+#### Scanning Niagara Fox devices
+```sh
+nmap -Pn -sT -p 1911,4911 --script fox-info [Target IP address/Range of IP addresses]
+```
+
+#### Scanning Omron PLC devices
+```sh
+nmap -Pn -sT -p 9600 --script omron-info [Target IP address/Range of IP addresses]
+```
+
+#### Scanning PCWorx devices
+```sh
+nmap -Pn -sT -p 1962 --script pcworx-info [Target IP address/Range of IP addresses]
+```
+
+#### Scanning ProConOS devices
+```sh
+nmap -Pn -sT -p 20547 --script proconos-info [Target IP address/Range of IP addresses]
+```
+
 
 
 ### Protection
