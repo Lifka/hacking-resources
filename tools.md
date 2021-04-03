@@ -147,6 +147,7 @@
  * [Megaping](http://www.magnetosoft.com/product/megaping/features): MegaPing is the ultimate must-have toolkit that provides essential utilities for Information System specialists, system administrators, IT solution providers or individuals.
  * [Metasploit Framework](https://github.com/rapid7/metasploit-framework)
  * [Nav](https://github.com/Uninett/nav): Network Administration Visualized.
+ * [netCut](https://www.arcai.com/netCut/s/): With netCut, you can know who has is or has been on your WIFI, his name, device brand, what time in, what time out.
  * [NetScanTools](https://www.netscantools.com/nstpromain.html): NetScanTools Pro is an integrated collection of internet information gathering and network troubleshooting utilities for Network Professionals. Research IPv4 addresses, IPv6 addresses, hostnames, domain names, email addresses and URLs automatically** or with manual tools. It is designed for the Windows operating system GUI. **Automated tools are started interactively by the user. Include a promiscous detection scanner.
  * [NetSurveyor](http://nutsaboutnets.com/archives/netsurveyor-wifi-scanner/): It is an 802.11 (WiFi) network discovery tool that gathers information about nearby wireless access points in real time and displays it in useful ways. Similar in purpose to NetStumbler, it includes many more features. 
  * [Network Topology Mapper](https://www.solarwinds.com/es/network-topology-mapper): Network mapping software designed to automatically map your network.
@@ -160,8 +161,10 @@
 
 #### Android
  * [Fing](https://play.google.com/store/apps/details?id=com.overlook.android.fing)
+ * [netCut](https://arcai.com/netcut-for-android/): With netCut, you can know who has is or has been on your WIFI, his name, device brand, what time in, what time out.
  * [Network IP Scanner](https://play.google.com/store/apps/details?id=com.goodidea.network.ipscanner)
  * [Network Scanner](https://play.google.com/store/apps/details?id=com.easymobile.lan.scanner)
+ * [Network Spoofer](https://sourceforge.net/projects/netspoof/): Lets you change websites on other people’s computers from an Android phone. After downloading simply log onto a Wifi network, choose a spoof to use and press start.
  * [WHO'S ON MY WIFI - NETWORK SCANNER](https://play.google.com/store/apps/details?id=com.magdalm.wifinetworkscanner)
 
 #### ARP
@@ -285,6 +288,18 @@
  * [wevtutil](https://docs.microsoft.com/es-es/windows-server/administration/windows-commands/wevtutil): Enables you to retrieve information about event logs and publishers. You can also use this command to install and uninstall event manifests, to run queries, and to export, archive, and clear logs.
  * [WhiteWinterWolf's PHP web shell](https://github.com/WhiteWinterWolf/wwwolf-php-webshell)
 
+#### Android
+ * [PhoneSploit](https://github.com/aerosol-can/PhoneSploit): A tool for remote ADB exploitation in Python3 for all Machines.
+ * [Quick Android Review Kit (QARK)](https://github.com/linkedin/qark): Tool to look for several security related Android application vulnerabilities.
+ * [Quixxi Vulnerability Scanner](https://vulnerabilitytest.quixxi.com/#/)
+ * [Shellshock Vulnerability Scan](https://play.google.com/store/apps/details?id=in.indiandragon.shellshock.shellshockvulnerabilityscan&hl=es&gl=US): Free, fastest & open Source app to scan for Shellshock vulnerability in Android.
+ * [Vulners Scanner](https://play.google.com/store/apps/details?id=com.vulners&hl=en_US&gl=US): It implements technology of passive vulnerability scanning based on software version fingerprint.
+ * [Yaazhini](https://www.vegabird.com/yaazhini/): Free Android APK & API Vulnerability Scanner.
+ * [zANTI](https://www.zimperium.com/zanti-mobile-penetration-testing): It is a mobile penetration testing toolkit that lets security managers assess the risk level of a network with the push of a button. This easy to use mobile toolkit enables IT Security Administrators to simulate an advanced attacker to identify the malicious techniques they use in the wild to compromise the corporate network.
+
+#### iOS
+ * [Trident](https://github.com/benjamin-42/Trident): This exploits the following two CVEs: CVE-2016-4655, allow an attacker to obtain sensitive information from kernel memory via a crafted app; and CVE-2016-4656, allow an attacker to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted app.
+
 #### Privilege Escalation / Post exploitation
  * [BeRoot](https://github.com/AlessandroZ/BeRoot): It is a post exploitation tool to check common misconfigurations to find a way to escalate our privilege.
  * [linpostexp](https://github.com/reider-roque/linpostexp): ux post exploitation enumeration and exploit checking tools.
@@ -338,8 +353,28 @@ You can use ResourcesExtract in user interface mode, or alternatively, you can r
  * [Windows Sysinternals](https://docs.microsoft.com/en-us/sysinternals/)
 
 #### Android
+ * [APK Decompilers Online](https://www.apkdecompilers.com/)
  * [apkleaks](https://github.com/dwisiswant0/apkleaks): Scanning APK file for URIs, endpoints & secrets.
+ * [apkstudio](https://github.com/vaibhavpandeyvpz/apkstudio): Open-source, cross platform Qt based IDE for reverse-engineering Android application packages.
+ * [Apktool](https://github.com/iBotPeaches/Apktool): A tool for reverse engineering 3rd party, closed, binary Android apps. It can decode resources to nearly original form and rebuild them after making some modifications. It also makes working with an app easier because of the project like file structure and automation of some repetitive tasks like building apk, etc.
+ * [appium](https://github.com/appium/appium): It  is an open source test automation framework for use with native, hybrid and mobile web apps.
+ * [Argus-SAF](https://github.com/arguslab/Argus-SAF): Argus static analysis framework
+ * [BitBar](https://bitbar.com/): Testing Intelligence for DevOps.
+ * [Bytecode Viewer](https://github.com/Konloch/bytecode-viewer): A Java 8+ Jar & Android APK Reverse Engineering Suite (Decompiler, Editor, Debugger & More).
  * [dexcalibur](https://github.com/FrenchYeti/dexcalibur): Android reverse engineering tool focused on dynamic instrumentation automation. Powered by Frida. It disassembles dex, analyzes it statically, generates hooks, discovers reflected methods, stores intercepted data and does new things from it. Its aim is to be an all-in-one Android reverse engineering platform.
+ * [drozer](https://github.com/FSecureLABS/drozer): The Leading Security Assessment Framework for Android.
+ * [fbinfer](https://github.com/facebook/infer): A tool to detect bugs in Java and C/C++/Objective-C code before it ships.
+ * [frida.re](https://frida.re/docs/android/): Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers.
+ * [Inspeckage](https://github.com/ac-pm/Inspeckage): About
+Android Package Inspector - dynamic analysis with api hooks, start unexported activities and more. 
+ * [JEB Decompiler](https://www.pnfsoftware.com/): Decompile and debug binary code. Break down and analyze document files.
+Android Dalvik, Intel x86, ARM, MIPS, Java, WebAssembly & Ethereum Decompilers.
+ * [Mobile Security Framework (MobSF)](https://github.com/MobSF/Mobile-Security-Framework-MobSF): It is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis.
+ * [objection](https://github.com/sensepost/objection): Runtime mobile exploration.
+ * [Quixxi Vulnerability Scanner](https://vulnerabilitytest.quixxi.com/#/)
+ * [SandDroid](http://sanddroid.xjtu.edu.cn/#upload): An automatic Android application analysis system.
+ * [selendroid](http://selendroid.io/): Test automation for native or hybrid Android apps and the mobile web with Selendroid.
+ * [Sixo Online APK Analyzer](https://www.sisik.eu/apk-tool): This tool allows you to analyze various details about Android APK files. It can decompile binary xml files and resources.
 
 #### Databases
  * [ANY.RUN](https://app.any.run/submissions): Registration required.
@@ -349,6 +384,7 @@ You can use ResourcesExtract in user interface mode, or alternatively, you can r
  * [Hatching Triage](https://tria.ge/): Registration required.
  * [Hybrid Analysis](https://www.hybrid-analysis.com/): Registration required.
  * [InQuest Malware Samples](https://github.com/InQuest/malware-samples)
+ * [ios-malware](https://github.com/ashishb/ios-malware): KeyRaider, OneClick, and XcodeGhost.
  * [KernelMode.info](http://www.kernelmode.info/forum/viewforum.php?f=16): Registration required.
  * [MalShare](http://malshare.com/): Registration required.
  * [MalwareBazaar](https://bazaar.abuse.ch/): MalwareBazaar is a project from abuse.ch with the goal of sharing malware samples with the infosec community, AV vendors and threat intelligence providers.
@@ -603,6 +639,9 @@ Collection of malware source code for a variety of platforms in an array of diff
  * [GLPI Project](https://glpi-project.org/)
  * [OCS Inventory](https://ocsinventory-ng.org/?lang=en): Open computers and software inventory is an assets management solution.
  * [spiceworks](https://www.spiceworks.com/)
+
+#### Passwords
+ * [1password](https://1password.com/): Password manager.
 
 #### Patch
  * [Patch My PC](https://patchmypc.com/home-updater): Simplify third-party patching on your PC.

