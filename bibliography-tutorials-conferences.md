@@ -40,6 +40,20 @@
   
 
 
+### Hacking wireless
+
+#### Papers
+ * [Analysing WPA3's Dragonfly Handshake](https://wpa3.mathyvanhoef.com/)
+
+  
+
+### Internet of Things (IoT)
+
+#### Articles
+ * [Internet of Things (IoT) Top 10](https://wiki.owasp.org/index.php/OWASP_Internet_of_Things_Project#tab=IoT_Top_10)
+
+
+
 ### Malwares / Reverse Engineering
 
 #### Articles
@@ -165,14 +179,6 @@
 
 #### Books
  * [Rtfm: Red Team Field Manua](https://amzn.to/3pW8et7)
-
-
-
-### Hacking wireless
-
-#### Papers
- * [Analysing WPA3's Dragonfly Handshake](https://wpa3.mathyvanhoef.com/)
-
 
 
 [<- Back to index](README.md)

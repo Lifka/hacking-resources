@@ -63,6 +63,7 @@
 * [Infoga](https://github.com/m4ll0k/Infoga): Infoga is a tool gathering email accounts informations (ip,hostname,country,...) from different public source (search engines, pgp key servers and shodan) and check if emails was leaked using haveibeenpwned.com API. Is a really simple tool, but very effective for the early stages of a penetration test or just to know the visibility of your company in the Internet.
 * [Mailtrack](https://mailtrack.io/es/): Know when your emails are opened.
 * [PoliteMail](https://politemail.com/)
+* [RMail E-Security](https://rmail.com/)
 
 #### Extracting Metadata of Public Documents
  * [Exiftool](https://github.com/exiftool/exiftool): ExifTool meta information reader/writer.
@@ -144,6 +145,7 @@
  * [Colasoft Packet Builder](https://www.colasoft.com/packet_builder/): Colasoft Packet Builder enables creating custom network packets; users can use this tool to check their network protection against attacks and intruders. Colasoft Packet Builder includes a very powerful editing feature. Besides common HEX editing raw data, it features a Decoding Editor allowing users to edit specific protocol field values much easier.
  * [hping](https://github.com/antirez/hping): hping3 is a network tool able to send custom TCP/IP packets and to display target replies like ping do with ICMP replies. hping3 can handle fragmentation, and almost arbitrary packet size and content, using the command line interface.
  * [HTTPort 3.SNFM](https://www.targeted.org/htthost/): HTTPort allows you to bypass your HTTP proxy, which is blocking you from the Internet. With HTTPort you may use various Internet software from behind the proxy, ex. e-mail, instant messengers, P2P file sharing, ICQ, News, FTP, IRC, etc.
+ * [Jaqen](https://github.com/LinkedInAttic/jaqen): Simple DNS rebinding.
  * [Megaping](http://www.magnetosoft.com/product/megaping/features): MegaPing is the ultimate must-have toolkit that provides essential utilities for Information System specialists, system administrators, IT solution providers or individuals.
  * [Metasploit Framework](https://github.com/rapid7/metasploit-framework)
  * [Nav](https://github.com/Uninett/nav): Network Administration Visualized.
@@ -619,6 +621,19 @@ Collection of malware source code for a variety of platforms in an array of diff
  * [Splunk](https://www.splunk.com/)
  * [Tor](https://www.torproject.org/)
 
+#### Disk encryption
+ * [FinalCrypt](https://www.finalcrypt.org/)
+ * [Rohos Disk Encryption](https://www.rohos.com/products/rohos-disk-encryption/): It is program creates hidden and protected partitions on a computer, USB flash drive or cloud storage. It protects/locks access to encrypted partitions with a hardware key replacing your password.
+ * [VeraCrypt](https://sourceforge.net/projects/veracrypt/)
+
+#### E-mail
+ * [Egress Secure Email and File Transfer](https://www.egress.com/email-security/encryption): Secure email encryption software that delivers the highest level of security.
+ * [Gilisoft Full Disk Encryption](http://www.gilisoft.com/product-full-disk-encryption.htm)
+ * [Proofpoint Email Protection](https://www.proofpoint.com/us/products/email-security-and-protection)
+ * [RMail E-Security](https://rmail.com/)
+ * [Virtru](https://www.virtru.com/): End to End Encryption for Email and Files.
+ * [ZixMail](https://www.getzixmail.com/products/zixmail): It is the desktop email encryption solution that provides individuals with a high level of security in their email communications. It’s an easy-to-use service that lets users encrypt and decrypt emails and attachments with a single click.
+
 #### Firewalls
  * [Comodo Firewall](https://personalfirewall.comodo.com/)
  * [ManageEngine Firewall Analyzer](https://www.manageengine.com/products/firewall/)
@@ -720,12 +735,47 @@ Collection of malware source code for a variety of platforms in an array of diff
 
 
 
-### Salesforce
+### Internet of Things (IoT)
 
-#### Scanners
+#### Information gathering
+ * [Shodan](https://www.shodan.io/): Search engine for Internet-connected devices.
+
+#### Maintain access
+ * [Firmware Modification Kit](https://github.com/rampageX/firmware-mod-kit): This kit is a collection of scripts and utilities to extract and rebuild linux based firmware images.
+
+
+
+### Cloud
+
+#### Containers
+
+##### Amazon S3
+
+###### Enumeration
+ * [Bucket Finder](https://digi.ninja/projects/bucket_finder.php): This is a fairly simple tool to run, all it requires is a wordlist and it will go off and check each word to see if that bucket name exists in the Amazon's S3 system. Any that it finds it will check to see if the bucket is public, private or a redirect.
+ * [lazys3](https://github.com/nahamsec/lazys3): A Ruby script to bruteforce for AWS s3 buckets using different permutations.
+ * [s3-buckets-finder](https://github.com/gwen001/s3-buckets-finder): Find aws s3 buckets and extract datas.
+ * [s3-inspector](https://github.com/clario-tech/s3-inspector): Tool to check AWS S3 bucket permissions.
+ * [s3recon](https://github.com/clarketm/s3recon): Amazon S3 bucket finder and crawler.
+ * [S3Scanner](https://github.com/sa7mon/S3Scanner): Scan for open AWS S3 buckets and dump the contents.
+
+###### Exploit
+ * [aws_pwn](https://github.com/dagrz/aws_pwn): A collection of AWS penetration testing junk.
+
+##### Google Storage Buckets
+ * [GCPBucketBrute](https://github.com/RhinoSecurityLabs/GCPBucketBrute): A script to enumerate Google Storage buckets, determine what access you have to them, and determine if they can be privilege escalated.
+
+##### Scanners
+ * [clair](https://github.com/quay/clair): Vulnerability Static Analysis for Containers.
+ * [dagda](https://github.com/eliasgranderubio/dagda): A tool to perform static analysis of known vulnerabilities, trojans, viruses, malware & other malicious threats in docker images/containers and to monitor the docker daemon and running docker containers for detecting anomalous activities.
+ * [trivy](https://github.com/aquasecurity/trivy): A Simple and Comprehensive Vulnerability Scanner for Container Images, Git Repositories and Filesystems. Suitable for CI.
+
+#### Salesforce
+
+##### Scanners
  * [CxVSCode](https://marketplace.visualstudio.com/items?itemName=checkmarx.cxvscode): It is an IDE extension that brings the Checkmarx AppSec unique capabilities closer to the developer.
 
-#### Javascript
+##### Javascript
  * [RetireJS](https://retirejs.github.io/retire.js/): There is a plethora of JavaScript libraries for use on the web and in node.js apps out there. This greatly simplifies, but we need to stay update on security fixes. "Using Components with Known Vulnerabilities" is now a part of the OWASP Top 10 and insecure libraries can pose a huge risk for your webapp. The goal of Retire.js is to help you detect use of version with known vulnerabilities.
 
 
