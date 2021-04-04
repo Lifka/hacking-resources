@@ -274,6 +274,7 @@
  * [CWE mitre](https://cwe.mitre.org/): It is a community-developed list of software and hardware weakness types. It serves as a common language, a measuring stick for security tools, and as a baseline for weakness identification, mitigation, and prevention efforts.
  * [National Vulnerability Database](https://nvd.nist.gov/): The NVD is the U.S. government repository of standards based vulnerability management data represented using the Security Content Automation Protocol (SCAP). This data enables automation of vulnerability management, security measurement, and compliance. The NVD includes databases of security checklist references, security-related software flaws, misconfigurations, product names, and impact metrics.
  * [SecurityFocus](https://www.securityfocus.com/)
+ * [Talos - Vulnerability Information](https://talosintelligence.com/vulnerability_info): Talos investigates software and operating system vulnerabilities in order to discover them before malicious threat actors do. We provide this information to vendors so that they can create patches and protect their customers as soon as possible.
 
 ### System hacking
  * [DSInternals](https://github.com/MichaelGrafnetter/DSInternals): The DSInternals project consists of these two parts: 1 - The DSInternals Framework exposes several internal features of Active Directory and can be used from any .NET application. The codebase has already been integrated into several 3rd party commercial products that use it in scenarios like Active Directory disaster recovery, identity management, cross-forest migrations and password strength auditing. 2 - The DSInternals PowerShell Module provides easy-to-use cmdlets that are built on top of the Framework.
@@ -340,6 +341,7 @@
 
 ### Malwares
  * [4n4lDetector](http://www.enelpc.com/p/4n4ldetector.html): It is a tool for analysis of Windows executable files, in order to quickly identify if this is or is not a malware. Most analyzes are based on the extraction of strings "ANSI" and "UNICODE" in disk, but also works with "Memory Dumps".
+ * [Ghidra-Scripts](https://github.com/AGDCservices/Ghidra-Scripts): Malware analysis scripts for Ghidra.
  * [Indetectables Toolkit](https://github.com/indetectables-net/toolkit): Fundamental reverse/analysis/cracking toolkit.
  * [M/Monit](https://mmonit.com/): Can monitor and manage distributed computer systems, conduct automatic maintenance and repair and execute meaningful causal actions in error situations.
  * [obfuscation_detection](https://github.com/mrphrazer/obfuscation_detection): Collection of scripts to pinpoint obfuscated code.
