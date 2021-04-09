@@ -23,6 +23,10 @@
  * [Notes for CEH v10 exam (source code)](https://github.com/g0rbe/CEH)
  * [Exam simulator](https://ceh.cagy.org/)
 
+##### Books
+ * [CEH Certified Ethical Hacker All-in-One Exam Guide](https://amzn.to/3cVbSAb)
+ * [CEH v10 Certified Ethical Hacker Study Guide](https://amzn.to/39PD8xT)
+
 #### Miscellaneous
  * [skillset](https://www.skillset.com/): Practice questions for different certifications.
 
@@ -75,6 +79,7 @@
  * [The Art of Memory Forensics: Detecting Malware and Threats in Windows, Linux, and Mac Memory (Wile05)](https://amzn.to/3q76D3O)
  * [The IDA Pro Book: The Unofficial Guide to the World's Most Popular](https://amzn.to/3uAg0MB)
 
+
 #### Cheat sheets
  * [Intel 80x86 Assembler Code Table](http://www.jegerlehner.ch/intel/IntelCodeTable_es.pdf) (Spanish)
 
@@ -95,37 +100,11 @@
  * [index-of.es](http://index-of.es/)
  * [What Actually is Threat Hunting?](https://blogs.gartner.com/pete-shoard/whats-threat-hunting/)
 
-#### Blogs
- * [Google Project Zero](https://googleprojectzero.blogspot.com/)
- * [Google Security Blog](https://security.googleblog.com/)
- * [Microsoft Security Response Center blog](https://msrc-blog.microsoft.com/)
-
 #### Cheat sheets
  * [Google dorks](https://gist.github.com/sundowndev/283efaddbcf896ab405488330d1bbc06)
 
 #### Conferences
  * [Cybersecurity Conferences](https://infosec-conferences.com/): Listing All Virtual Cybersecurity Conferences And Virtual Hacking Events (Worldwide).
-
-#### News
- * [All Infosec News](https://allinfosecnews.com/)
- * [BleepingComputer](https://www.bleepingcomputer.com/news/security/)
- * [Dark Reading](https://www.darkreading.com/)
- * [Krebs on Security](https://krebsonsecurity.com/)
- * [National Cyber Awareness System - Bulletins](https://us-cert.cisa.gov/ncas/bulletins)
- * [Schneier on Security](https://www.schneier.com/)
- * [Security Affairs](https://securityaffairs.co/wordpress/)
- * [The Hacker News](https://thehackernews.com/)
- * [Threat post](https://threatpost.com/)
-
-##### Telegram channels
- * [Cyber Security News](https://t.me/Cyber_Security_Channel)
- * [Derecho en la red](https://t.me/derechodelared) (Spanish)
- * [Information Security](https://t.me/information_security_channel)
-
-#### Podcasts
- * [Cyberwire daily podcast](https://thecyberwire.com/podcasts/daily-podcast)
- * [Daily Information Security Podcast ("StormCast")](https://isc.sans.edu/podcast.html): Stormcasts are daily 5-10 minute information security threat updates. The podcast is produced each work day, and typically released late in the day to be ready for your morning commute.
- * [Risky Business](https://risky.biz/)
 
 
 ### Networks

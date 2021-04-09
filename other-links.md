@@ -4,13 +4,20 @@
  * [Amossys  - Security Blog](https://blog.amossys.fr/) (French)
  * [Back Engineering](https://back.engineering/)
  * [Dissecting Malware](https://dissectingmalwa.re/)
+ * [El Soctano](https://soctano.blogspot.com/) (Spanish) - Discontinued
  * [Ero Carrera's blog](http://blog.dkbza.org/) - Discontinued
  * [Ferib's Blog](https://ferib.dev/portfolio.php?t=Blog+post)
  * [Flu Project](https://www.flu-project.com/) (Spanish)
+ * [Follow The White Rabbit](https://fwhibbit.es/en/)
+ * [Follow The White Rabbit – Blog de Seguridad Informática](https://fwhibbit.es/) (Spanish)
+ * [Google Project Zero](https://googleprojectzero.blogspot.com/)
+ * [Google Security Blog](https://security.googleblog.com/)
+ * [Hack Puntes](https://hackpuntes.com/) (Spanish)
  * [HackTricks](https://book.hacktricks.xyz/)
  * [InQuest Blog](https://inquest.net/blog)
  * [lucasg](https://lucasg.github.io/)
  * [McAfee blogs](https://www.mcafee.com/blogs/)
+ * [Microsoft Security Response Center blog](https://msrc-blog.microsoft.com/)
  * [Security By Default](http://www.securitybydefault.com/) (Spanish) - Discontinued
  * [Security Garage](https://security-garage.com/) (Spanish)
  * [Underc0de](https://blog.underc0de.org/) (Spanish)
@@ -45,16 +52,35 @@
 * [reddit: Hacking_Tutorials](https://www.reddit.com/r/Hacking_Tutorials/): A forum for the security professionals and white hat hackers.
 * [reddit: OSCP](https://www.reddit.com/r/oscp/): Resource for people preparing for Offensive Security Certified Professional Certification.
 
+### News
+ * [All Infosec News](https://allinfosecnews.com/)
+ * [BleepingComputer](https://www.bleepingcomputer.com/news/security/)
+ * [Dark Reading](https://www.darkreading.com/)
+ * [Krebs on Security](https://krebsonsecurity.com/)
+ * [National Cyber Awareness System - Bulletins](https://us-cert.cisa.gov/ncas/bulletins)
+ * [Schneier on Security](https://www.schneier.com/)
+ * [Security Affairs](https://securityaffairs.co/wordpress/)
+ * [The Hacker News](https://thehackernews.com/)
+ * [Threat post](https://threatpost.com/)
+  
 ### Other directories
  * [Hacking Tools](https://en.kali.tools/all/?category): Tools for penetration testing and security audit.
  * [simplycyber.io - Free cyber resources](https://www.simplycyber.io/free-cyber-resources): An awesome list of resources for training, conferences, speaking, labs, reading, etc that are **free** all the time that cybersecurity professionals with downtime can take advantage of to improve their skills and marketability to come out on the other side ready to rock.
 
+### Podcasts
+ * [Cyberwire daily podcast](https://thecyberwire.com/podcasts/daily-podcast)
+ * [Daily Information Security Podcast ("StormCast")](https://isc.sans.edu/podcast.html): Stormcasts are daily 5-10 minute information security threat updates. The podcast is produced each work day, and typically released late in the day to be ready for your morning commute.
+ * [Risky Business](https://risky.biz/)
+  
 ### Services
 * [Cock.li](https://cock.li/): Anonymous email.
 * [ProntonMail](https://protonmail.com/): Secure email.
 
 ### Telegram channels
  * [crackslatinos](https://t.me/crackslatinos) (Spanish): Telegram channel about reverse engineering, created by Ricardo Narvaja.
+ * [Cyber Security News](https://t.me/Cyber_Security_Channel)
+ * [Derecho en la red](https://t.me/derechodelared) (Spanish)
+ * [Information Security](https://t.me/information_security_channel)
  * [Bug Bounty ES](https://t.me/joinchat/C7UlGUXIDvoES-LMwX1Psw) (Spanish): Telegram channel about bug bounty, created by DragonJar.
 
 

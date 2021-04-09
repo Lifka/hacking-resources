@@ -80,6 +80,9 @@
  * [Search Web by Domain](https://searchdns.netcraft.com/)
  * [Sublist3r](https://github.com/aboul3la/Sublist3r): Fast subdomains enumeration tool for penetration testers.
 
+#### Instagram
+ * [Osintgram](https://github.com/Datalux/Osintgram): It is a OSINT tool on Instagram. It offers an interactive shell to perform analysis on Instagram account of any users by its nickname.
+
 #### Footprinting
  * [Bill Cipher](https://github.com/GitHackTools/BillCipher): Information Gathering tool for a Website or IP address
  * [FOCA](https://www.elevenpaths.com/es/innovacion-laboratorio/herramientas/foca)
