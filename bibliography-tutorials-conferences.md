@@ -66,6 +66,7 @@
  * [Axial - Community Papers](https://ax1al.com/community_papers.html): Papers about malwares and reverse engineering.
  * [Basics of Windows shellcode writing](https://idafchev.github.io/exploit/2017/09/26/writing_windows_shellcode.html)
  * ['CRYPTERS': PRACTICANDO LA TÉCNICA DSPLIT/AVFUCKER](http://www.securitybydefault.com/2013/09/crypters-practicando-la-tecnica.html) (Spanish)
+ * [Malware-analysis-and-Reverse-engineering](https://github.com/Dump-GUY/Malware-analysis-and-Reverse-engineering): Some of my publicly available Malware analysis and Reverse engineering.
  * [Todo lo que quisiste saber sobre las DLL y no te atreviste a preguntar](https://geeks.ms/rfog/2009/06/29/todo-lo-que-quisiste-saber-sobre-las-dll-y-no-te-atreviste-a-preguntar-i/) (Spanish)
  * [vx-underground papers](https://vx-underground.org/papers.html)
  * [windows-syscalls](https://github.com/j00ru/windows-syscalls): Windows System Call Tables (NT/2000/XP/2003/Vista/2008/7/2012/8/10).
@@ -89,6 +90,7 @@
 
 #### Videotutorials
  * [CursoReversing](https://www.youtube.com/channel/UCPNPSP20z4FGfgMJ71VOJjw/playlists) (Spanish): YouTube channel about reverse engineering.
+ * [Process Injection](https://www.youtube.com/playlist?list=PLXm1FM6zsxpBt7vZiS9Q4-4nvybd9il3t) (Spanish)
  * [Reverse Engineering desde 0](https://www.youtube.com/watch?v=-9xChS3ZgvU&list=PL6RJR1V-uAbzSW9EF_5AMmt_0P7vhGa3N) (Spanish)
 
 
@@ -171,6 +173,7 @@
 ### System hacking
 
 #### Articles
+ * [CTFs. Otra perspectiva del hacking.](https://derechodelared.com/ctfs-hacking/) (Spanish)
  * [Identifying Named Pipe Impersonation and Other Malicious Privilege Escalation Techniques](https://securityintelligence.com/identifying-named-pipe-impersonation-and-other-malicious-privilege-escalation-techniques/)
 
 #### Cheat sheet

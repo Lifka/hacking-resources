@@ -84,6 +84,26 @@
  * [Bug Bounty ES](https://t.me/joinchat/C7UlGUXIDvoES-LMwX1Psw) (Spanish): Telegram channel about bug bounty, created by DragonJar.
 
 
+### YouTube Channels
+ * [securitycreators.video](https://securitycreators.video/)
+ * [13Cubed](https://www.youtube.com/channel/UCy8ntxFEudOCRZYT1f7ya9Q/videos)
+ * [247CTF](https://www.youtube.com/channel/UCtGLeKomT06x3xZ2SZp2l9Q/featured)
+ * [Calle Svensson](https://www.youtube.com/channel/UC0WMQTG_-WIWm8eacM8D8QQ/videos)
+ * [codingo](https://www.youtube.com/channel/UCUfO02gdMDXgOJWdv_jiLMg/videos)
+ * [Farah Hawa](https://www.youtube.com/channel/UCq9IyPMXiwD8yBFHkxmN8zg)
+ * [Hacksplained](https://www.youtube.com/channel/UCyv6ItVqQPnlFFi2zLxlzXA/videos)
+ * [InsiderPhD](https://www.youtube.com/channel/UCPiN9NPjIer8Do9gUFxKv7A/videos)
+ * [John Hammond](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw/videos)
+ * [MalwareAnalysisForHedgehogs](https://www.youtube.com/channel/UCVFXrUwuWxNlm6UNZtBLJ-A/videos)
+ * [Murmus CTF](https://www.youtube.com/channel/UCUB9vOGEUpw7IKJRoR4PK-A/videos)
+ * [NetworkChuck](https://www.youtube.com/watch?v=6CnDdXVTxhU)
+ * [PinkDraconian](https://www.youtube.com/channel/UCmXwpkCXmIKjoRLMsq9I3RA/videos)
+ * [PwnFunction](https://www.youtube.com/channel/UCW6MNdOsqv2E9AjQkv9we7A)
+ * [Rana Khalil](https://www.youtube.com/channel/UCKaK-XPQAbznwIISC46b1oA/videos)
+ * [Reconless](https://www.youtube.com/channel/UCCp25j1Zh9vc_WFm-nB9fhQ/videos)
+ * [superhero1](https://www.youtube.com/channel/UCm2SwKmx3Ya1HG5RmHR7SCA)
+
+
 [<- Back to index](README.md)
 
 ---

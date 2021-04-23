@@ -15,6 +15,7 @@
  * [Network Tools by YouGetSignal.com](https://www.yougetsignal.com/)
  * [NSLOOKUP: look up and find IP addresses in the DNS](http://www.kloth.net/services/nslookup.php/)
  * [OSINT_Collection](https://github.com/Ph055a/OSINT_Collection): Maintained collection of OSINT related resources. (All Free & Actionable).
+ * [osint-suite-tools](https://github.com/Quantika14/osint-suite-tools): Repository of the toolkit for making OSINT and SOCMINT with Dante's Gates Minimal Version.
  * [ReconSpider](https://github.com/bhavsec/reconspider): Framework for scanning IP Address, Emails, Websites, Organizations and find out information from different sources.
  * [Reverse IP Lookup](https://reverseip.domaintools.com/): Reverse DNS lookup.
  * [Sherlock.py](https://github.com/sherlock-project/sherlock): Search a vast number of social networking sites for a target username.
@@ -80,9 +81,6 @@
  * [Search Web by Domain](https://searchdns.netcraft.com/)
  * [Sublist3r](https://github.com/aboul3la/Sublist3r): Fast subdomains enumeration tool for penetration testers.
 
-#### Instagram
- * [Osintgram](https://github.com/Datalux/Osintgram): It is a OSINT tool on Instagram. It offers an interactive shell to perform analysis on Instagram account of any users by its nickname.
-
 #### Footprinting
  * [Bill Cipher](https://github.com/GitHackTools/BillCipher): Information Gathering tool for a Website or IP address
  * [FOCA](https://www.elevenpaths.com/es/innovacion-laboratorio/herramientas/foca)
@@ -94,6 +92,9 @@
  * [Recon-ng](https://github.com/lanmaster53/recon-ng): Open Source Intelligence gathering tool aimed at reducing the time spent harvesting information from open sources.
  * [Th3Inspector](https://github.com/Moham3dRiahi/Th3inspector)
 
+#### Instagram
+ * [Osintgram](https://github.com/Datalux/Osintgram): It is a OSINT tool on Instagram. It offers an interactive shell to perform analysis on Instagram account of any users by its nickname.
+  
 #### IP geolocation lookup
  * [IP2Location](https://www.ip2location.com/)
  * [IP Location Finder](https://www.iplocation.net/)
@@ -113,6 +114,9 @@
  * [Alexa](https://www.alexa.com/): Find, Reach, and Convert Your Audience.
  * [TeamViewer Web Monitoring](https://www.teamviewer.com/es/remote-management/monitorizacion-de-web/): Monitor the web experience (old Monitis).
  * [Web-Stat](https://www.web-stat.com/)
+
+#### Phone number
+ * [phoneinfoga](https://github.com/sundowndev/PhoneInfoga): Advanced information gathering & OSINT framework for phone numbers.
 
 #### Traceroute
  * [IT Management Software & Remote Monitoring Tools | SolarWinds](https://www.solarwinds.com/)
@@ -337,6 +341,7 @@
  * [John the Ripper jumbo](https://github.com/openwall/john): Advanced offline password cracker, which supports hundreds of hash and cipher types, and runs on many operating systems, CPUs, GPUs, and even some FPGAs.
  * [L0phtCrack Password Auditor](https://www.l0phtcrack.com/): Enforce strong passwords across your enterprise.
  * [medusa](https://github.com/jmk-foofus/medusa): Medusa is a speedy, parallel, and modular, login brute-forcer.
+ * [penglab](https://github.com/mxrch/penglab): Abuse of Google Colab for cracking hashes.
  * [RainbowCrack](https://project-rainbowcrack.com/): It is a general propose implementation of Philippe Oechslin's faster time-memory trade-off technique. It crack hashes with rainbow tables.
  * [Responder](https://github.com/lgandx/Responder): Responder is a LLMNR, NBT-NS and MDNS poisoner, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2, Extended Security NTLMSSP and Basic HTTP authentication.
  * [thc-hydra](https://github.com/vanhauser-thc/thc-hydra): Number one of the biggest security holes are passwords, as every password security study shows. This tool is a proof of concept code, to give researchers and security consultants the possibility to show how easy it would be to gain unauthorized access from remote to a system.
@@ -344,6 +349,7 @@
 
 ### Malwares
  * [4n4lDetector](http://www.enelpc.com/p/4n4ldetector.html): It is a tool for analysis of Windows executable files, in order to quickly identify if this is or is not a malware. Most analyzes are based on the extraction of strings "ANSI" and "UNICODE" in disk, but also works with "Memory Dumps".
+ * [Advanced AV Evasion Tool For Red Team Ops](https://github.com/1y0n/AV_Evasion_Tool)
  * [Ghidra-Scripts](https://github.com/AGDCservices/Ghidra-Scripts): Malware analysis scripts for Ghidra.
  * [Indetectables Toolkit](https://github.com/indetectables-net/toolkit): Fundamental reverse/analysis/cracking toolkit.
  * [M/Monit](https://mmonit.com/): Can monitor and manage distributed computer systems, conduct automatic maintenance and repair and execute meaningful causal actions in error situations.
@@ -437,6 +443,7 @@ Collection of malware source code for a variety of platforms in an array of diff
  * [IDA Pro](https://www.hex-rays.com/products/ida/)
  * [Online Disassembler](https://onlinedisassembler.com/odaweb/)
  * [radare2](https://github.com/radareorg/radare2): UNIX-like reverse engineering framework and command-line toolset.
+ * [Tenet - A Trace Explorer for Reverse Engineers](https://github.com/gaasedelen/tenet): Tenet is an IDA Pro plugin for exploring execution traces. The goal of this plugin is to provide more natural, human controls for navigating execution traces against a given binary. The basis of this work stems from the desire to research new or innovative methods to examine and distill complex execution patterns in software.
 
 #### DNS monitoring
  * [DNSQuerySniffer](https://www.nirsoft.net/utils/dns_query_sniffer.html): It is a network sniffer utility that shows the DNS queries sent on your system. For every DNS query, the following information is displayed: Host Name, Port Number, Query ID, Request Type (A, AAAA, NS, MX, and so on), Request Time, Response Time, Duration, Response Code, Number of records, and the content of the returned DNS records.
@@ -625,6 +632,7 @@ Collection of malware source code for a variety of platforms in an array of diff
  * [malwarebytes](https://www.malwarebytes.com/)
  * [Splunk](https://www.splunk.com/)
  * [Tor](https://www.torproject.org/)
+ * [whoogle-search](https://github.com/benbusby/whoogle-search): A self-hosted, ad-free, privacy-respecting metasearch engine.
 
 #### Disk encryption
  * [FinalCrypt](https://www.finalcrypt.org/)
