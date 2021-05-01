@@ -350,6 +350,8 @@
 ### Malwares
  * [4n4lDetector](http://www.enelpc.com/p/4n4ldetector.html): It is a tool for analysis of Windows executable files, in order to quickly identify if this is or is not a malware. Most analyzes are based on the extraction of strings "ANSI" and "UNICODE" in disk, but also works with "Memory Dumps".
  * [Advanced AV Evasion Tool For Red Team Ops](https://github.com/1y0n/AV_Evasion_Tool)
+ * [Cerbero Suite](https://cerbero.io/)
+ * [Disk pulse](https://www.diskpulse.com/): It is a real-time disk change monitoring solution allowing one to monitor one or more disks or directories, save reports and disk change monitoring statistics, export detected changes to a centralized SQL database, execute custom commands and send E-Mail notifications when unauthorized changes are detected in critical system files.
  * [Ghidra-Scripts](https://github.com/AGDCservices/Ghidra-Scripts): Malware analysis scripts for Ghidra.
  * [Indetectables Toolkit](https://github.com/indetectables-net/toolkit): Fundamental reverse/analysis/cracking toolkit.
  * [M/Monit](https://mmonit.com/): Can monitor and manage distributed computer systems, conduct automatic maintenance and repair and execute meaningful causal actions in error situations.
@@ -421,11 +423,16 @@ Collection of malware source code for a variety of platforms in an array of diff
 #### Debuggers
  * [Immunity Debugger](https://www.immunityinc.com/products/debugger/): It is a powerful new way to write exploits, analyze malware, and reverse engineer binary files. It builds on a solid user interface with function graphing, the industry's first heap analysis tool built specifically for heap creation, and a large and well supported Python API for easy extensibility.
  * [OllyDbg](http://www.ollydbg.de/): OllyDbg is a 32-bit assembler level analysing debugger for Microsoft® Windows®. Emphasis on binary code analysis makes it particularly useful in cases where source is unavailable.
- * [WinDbg](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugger-download-tools): Cn be used to debug kernel-mode and user-mode code, analyze crash dumps, and examine the CPU registers while the code executes.
+ * [WinDbg](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugger-download-tools): Can be used to debug kernel-mode and user-mode code, analyze crash dumps, and examine the CPU registers while the code executes.
+ * [x64dbg](https://github.com/x64dbg/x64dbg): An open-source x64/x32 debugger for windows.
 
 #### Decompilers
+ * [binary.ninja](https://binary.ninja/): Online decompiler.
  * [Decompiler](https://www.decompiler.com/): Online decompiler.
+ * [dotPeek](https://www.jetbrains.com/es-es/decompiler/): It is a .NET decompiler from JetBrains, the makers of a wide array of developer productivity tools: ReSharper, dotTrace, and dotCover for .NET developers.
+ * [ILSpy](https://github.com/icsharpcode/ILSpy): ILSpy is the open-source .NET assembly browser and decompiler.
  * [Snowman](https://derevenets.com/): Snowman is a native code to C/C++ decompiler.
+ * [UtinyRipper](https://github.com/mafaca/UtinyRipper): It is a tool for extracting assets from serialized files (CAB-*, *.assets, *.sharedAssets, etc.) and assets bundles (*.unity3d, *.assetbundle, etc.) and conveting them into native Engine format.
 
 #### Dependencies
  * [DependencyCheck](https://github.com/jeremylong/DependencyCheck): OWASP dependency-check is a software composition analysis utility that detects publicly disclosed vulnerabilities in application dependencies.

@@ -67,6 +67,9 @@
  * [Basics of Windows shellcode writing](https://idafchev.github.io/exploit/2017/09/26/writing_windows_shellcode.html)
  * ['CRYPTERS': PRACTICANDO LA TÉCNICA DSPLIT/AVFUCKER](http://www.securitybydefault.com/2013/09/crypters-practicando-la-tecnica.html) (Spanish)
  * [Malware-analysis-and-Reverse-engineering](https://github.com/Dump-GUY/Malware-analysis-and-Reverse-engineering): Some of my publicly available Malware analysis and Reverse engineering.
+ * [Macro Malware Again](https://www.cyberfox.blog/macro-malware-again/)
+ * [Reverse Engineering Malicious Macros for Fun & Profit](https://jhalon.github.io/re-malicious-macros/)
+ * [Shikata Ga Nai Encoder Still Going Strong](https://www.fireeye.com/blog/threat-research/2019/10/shikata-ga-nai-encoder-still-going-strong.html)
  * [Todo lo que quisiste saber sobre las DLL y no te atreviste a preguntar](https://geeks.ms/rfog/2009/06/29/todo-lo-que-quisiste-saber-sobre-las-dll-y-no-te-atreviste-a-preguntar-i/) (Spanish)
  * [vx-underground papers](https://vx-underground.org/papers.html)
  * [windows-syscalls](https://github.com/j00ru/windows-syscalls): Windows System Call Tables (NT/2000/XP/2003/Vista/2008/7/2012/8/10).
@@ -85,11 +88,13 @@
  * [Intel 80x86 Assembler Code Table](http://www.jegerlehner.ch/intel/IntelCodeTable_es.pdf) (Spanish)
 
 #### Tutorials
+ * [Assembly Programming Tutorial](https://www.tutorialspoint.com/assembly_programming/index.htm)
  * [malware_training_vol1](https://github.com/hasherezade/malware_training_vol1): Materials for Windows Malware Analysis training (volume 1)
  * [Reverse Engineering tutorials by Ricardo Narvaja](http://ricardonarvaja.info/) (Spanish)
 
 #### Videotutorials
  * [CursoReversing](https://www.youtube.com/channel/UCPNPSP20z4FGfgMJ71VOJjw/playlists) (Spanish): YouTube channel about reverse engineering.
+ * [CursoReversing desde cero (Ricardo Narvaja 2020)](https://www.youtube.com/watch?v=Af5pvCl0CBE) (Spanish)
  * [Process Injection](https://www.youtube.com/playlist?list=PLXm1FM6zsxpBt7vZiS9Q4-4nvybd9il3t) (Spanish)
  * [Reverse Engineering desde 0](https://www.youtube.com/watch?v=-9xChS3ZgvU&list=PL6RJR1V-uAbzSW9EF_5AMmt_0P7vhGa3N) (Spanish)
 
