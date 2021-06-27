@@ -1,6 +1,8 @@
 ## Other links
+ * [es1lib](https://es1lib.org/): Part of the Z-Library project. The world's largest e-book library.
 
 ### Blogs
+ * [0x00-0x00](https://0x00-0x00.github.io/)
  * [Amossys  - Security Blog](https://blog.amossys.fr/) (French)
  * [Back Engineering](https://back.engineering/)
  * [Dissecting Malware](https://dissectingmalwa.re/)

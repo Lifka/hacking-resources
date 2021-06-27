@@ -37,6 +37,8 @@
 #### Books
  * [Digital Forensics Workbook: Hands-on Activities in Digital Forensics](https://amzn.to/3r1PNo6)
 
+
+
 ### Hacking web
 
 #### Books
@@ -61,6 +63,7 @@
 ### Malwares / Reverse Engineering
 
 #### Articles
+ * [An In-Depth Look into the Win32 Portable Executable File Format](https://docs.microsoft.com/en-us/archive/msdn-magazine/2002/february/inside-windows-win32-portable-executable-file-format-in-detail)
  * [An Introduction to Fuzzing: Using fuzzers (SPIKE) to find vulnerabilities](https://resources.infosecinstitute.com/topic/intro-to-fuzzing/)
  * [Antivirus-Artifacts](https://github.com/D3VI5H4/Antivirus-Artifacts): Anti-virus artifacts. Listing APIs hooked by: Avira, BitDefender, F-Secure, MalwareBytes, Norton, TrendMicro, and WebRoot.
  * [Axial - Community Papers](https://ax1al.com/community_papers.html): Papers about malwares and reverse engineering.
@@ -68,7 +71,11 @@
  * ['CRYPTERS': PRACTICANDO LA TÉCNICA DSPLIT/AVFUCKER](http://www.securitybydefault.com/2013/09/crypters-practicando-la-tecnica.html) (Spanish)
  * [Malware-analysis-and-Reverse-engineering](https://github.com/Dump-GUY/Malware-analysis-and-Reverse-engineering): Some of my publicly available Malware analysis and Reverse engineering.
  * [Macro Malware Again](https://www.cyberfox.blog/macro-malware-again/)
+ * [Malware researcher’s handbook (demystifying PE file)](https://resources.infosecinstitute.com/topic/2-malware-researchers-handbook-demystifying-pe-file/)
+ * [PeStudio Standard](https://medium.com/@aubsec/pestudio-standard-f2ada4e8564)
  * [Reverse Engineering Malicious Macros for Fun & Profit](https://jhalon.github.io/re-malicious-macros/)
+ * [Reverse engineering tools for .NET applications](https://pelock.medium.com/reverse-engineering-tools-for-net-applications-a28275f185b4)
+ * [richprint](https://github.com/dishather/richprint#readme): Print compiler information stored in Rich Header of PE executables.
  * [Shikata Ga Nai Encoder Still Going Strong](https://www.fireeye.com/blog/threat-research/2019/10/shikata-ga-nai-encoder-still-going-strong.html)
  * [Todo lo que quisiste saber sobre las DLL y no te atreviste a preguntar](https://geeks.ms/rfog/2009/06/29/todo-lo-que-quisiste-saber-sobre-las-dll-y-no-te-atreviste-a-preguntar-i/) (Spanish)
  * [vx-underground papers](https://vx-underground.org/papers.html)
@@ -80,21 +87,36 @@
  * [Mastering Malware Analysis: The complete malware analyst's guide to combating malicious software, APT, cybercrime, and IoT attacks](https://amzn.to/3pZJ5O9)
  * [Practical Binary Analysis: Build Your Own Linux Tools for Binary Instrumentation, Analysis, and Disassembly](https://amzn.to/3ssN3jK)
  * [Practical Malware Analysis. The Hands-On Guide to Dissecting](https://amzn.to/2NNHCgC)
+ * [Practical Threat Intelligence and Data-Driven Threat Hunting: A hands-on guide to threat hunting with the ATT&CK™ Framework and open source tools](https://amzn.to/3hqnzzZ)
  * [The Art of Memory Forensics: Detecting Malware and Threats in Windows, Linux, and Mac Memory (Wile05)](https://amzn.to/3q76D3O)
  * [The IDA Pro Book: The Unofficial Guide to the World's Most Popular](https://amzn.to/3uAg0MB)
-
+ * [Win64/Expiro: virus multiplataforma altamente versátil e infeccioso](https://www.welivesecurity.com/la-es/2013/08/08/win64expiro-virus-multiplataforma-versatil-infeccioso/) (Spanish)
 
 #### Cheat sheets
  * [Intel 80x86 Assembler Code Table](http://www.jegerlehner.ch/intel/IntelCodeTable_es.pdf) (Spanish)
 
+#### Documentation
+ * [PE Format](https://docs.microsoft.com/en-us/windows/win32/debug/pe-format)
+
+#### Papers
+ * [Leveraging the PE Rich Header for Static Malware Detection and Linking](https://www.sans.org/reading-room/whitepapers/reverseengineeringmalware/paper/39045)
+
 #### Tutorials
  * [Assembly Programming Tutorial](https://www.tutorialspoint.com/assembly_programming/index.htm)
+ * [Debugging TLS Callbacks](https://resources.infosecinstitute.com/topic/debugging-tls-callbacks/)
+ * [Code Survival: Debug a Compiled DLL](https://rift.stacktitan.com/debug-survival-the-compiled-dll/)
  * [malware_training_vol1](https://github.com/hasherezade/malware_training_vol1): Materials for Windows Malware Analysis training (volume 1)
+ * [Malware Analysis - Wannacry](https://www.purpl3f0xsecur1ty.tech/2021/02/17/wannacry.html)
+ * [pestudio references](https://www.winitor.com/references/)
  * [Reverse Engineering tutorials by Ricardo Narvaja](http://ricardonarvaja.info/) (Spanish)
+ * [The malware analyst’s guide to aPLib decompression](https://0xc0decafe.com/malware-analysts-guide-to-aplib-decompression/)
 
 #### Videotutorials
+ * [Analyzing Ransomware - Beginner Static Analysis](https://www.youtube.com/watch?v=9nuo-AGg4p4)
+ * [Building a Malware Lab - Software, Hardware, Tools and Tips for Effective Malware Analysis](https://www.youtube.com/watch?v=bBvOiADXjEQ)
  * [CursoReversing](https://www.youtube.com/channel/UCPNPSP20z4FGfgMJ71VOJjw/playlists) (Spanish): YouTube channel about reverse engineering.
  * [CursoReversing desde cero (Ricardo Narvaja 2020)](https://www.youtube.com/watch?v=Af5pvCl0CBE) (Spanish)
+ * [Malware Analysis Bootcamp - Analyzing The PE Header](https://www.youtube.com/watch?v=z0e306Jod5A)
  * [Process Injection](https://www.youtube.com/playlist?list=PLXm1FM6zsxpBt7vZiS9Q4-4nvybd9il3t) (Spanish)
  * [Reverse Engineering desde 0](https://www.youtube.com/watch?v=-9xChS3ZgvU&list=PL6RJR1V-uAbzSW9EF_5AMmt_0P7vhGa3N) (Spanish)
 
@@ -142,6 +164,12 @@
  * [Violent Python: A Cookbook for Hackers, Forensic Analysts, Penetration Testers and Security Engineers](https://amzn.to/3r0GV24)
 
 
+### Protection
+
+#### Articles
+ * [Awesome-CobaltStrike-Defence](https://github.com/MichaelKoczwara/Awesome-CobaltStrike-Defence): Defences against Cobalt Strike.
+
+
   
 ### Salesforce
 
@@ -172,7 +200,6 @@
 
 #### Conferences
  * [Ingeniería Social, el verdadero poder seguridad informática phishing ciberseguridad](https://www.youtube.com/watch?v=qyJsBjvw2dc&t=1707s) (Spanish)
-
 
 
 ### System hacking

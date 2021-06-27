@@ -352,6 +352,7 @@
  * [Advanced AV Evasion Tool For Red Team Ops](https://github.com/1y0n/AV_Evasion_Tool)
  * [Cerbero Suite](https://cerbero.io/)
  * [Disk pulse](https://www.diskpulse.com/): It is a real-time disk change monitoring solution allowing one to monitor one or more disks or directories, save reports and disk change monitoring statistics, export detected changes to a centralized SQL database, execute custom commands and send E-Mail notifications when unauthorized changes are detected in critical system files.
+ * [EvilClippy](https://github.com/outflanknl/EvilClippy): A cross-platform assistant for creating malicious MS Office documents. Can hide VBA macros, stomp VBA code (via P-Code) and confuse macro analysis tools. Runs on Linux, OSX and Windows.
  * [Ghidra-Scripts](https://github.com/AGDCservices/Ghidra-Scripts): Malware analysis scripts for Ghidra.
  * [Indetectables Toolkit](https://github.com/indetectables-net/toolkit): Fundamental reverse/analysis/cracking toolkit.
  * [M/Monit](https://mmonit.com/): Can monitor and manage distributed computer systems, conduct automatic maintenance and repair and execute meaningful causal actions in error situations.
@@ -362,6 +363,7 @@
  * [Shellter](https://www.shellterproject.com/introducing-shellter/): It is a dynamic shellcode injection tool, and the first truly dynamic PE infector ever created.
  * [ResourcesExtract](https://www.nirsoft.net/utils/resources_extract.html): It is a small utility that scans dll/ocx/exe files and extract all resources (bitmaps, icons, cursors, AVI movies, HTML files, and more...) stored in them into the folder that you specify.
 You can use ResourcesExtract in user interface mode, or alternatively, you can run ResourcesExtract in command-line mode without displaying any user interface.
+ * [PELock Software Protection & Software License Key System](https://github.com/PELock/PELock-Software-Protection-and-Licensing-SDK)
  * [ProcDump](https://docs.microsoft.com/en-us/sysinternals/downloads/procdump): It is a command-line utility whose primary purpose is monitoring an application for CPU spikes and generating crash dumps during a spike that an administrator or developer can use to determine the cause of the spike. ProcDump also includes hung window monitoring (using the same definition of a window hang that Windows and Task Manager use), unhandled exception monitoring and can generate dumps based on the values of system performance counters. It also can serve as a general process dump utility that you can embed in other scripts.droid. TheFatRat Provides An Easy way to create Backdoors and Payload which can bypass most anti-virus.
  * [SysAnalyzer](http://sandsprite.com/iDef/SysAnalyzer/): It is an open source application that was designed to give malcode analysts an automated tool to quickly collect, compare, and report on the actions a binary took while running on the system.
  * [TheFatRat](https://github.com/Screetsec/TheFatRat): It is an exploiting tool which compiles a malware with famous payload, and then the compiled malware can be executed on Linux , Windows , Mac and Android. TheFatRat Provides An Easy way to create Backdoors and Payload which can bypass most anti-virus.
@@ -420,7 +422,7 @@ Collection of malware source code for a variety of platforms in an array of diff
  * [Virus and Malware Samples](https://www.virussamples.com/): Includes APT, registration required.
  * [vx-underground](https://vx-underground.org/samples.html)
 
-#### Debuggers
+#### Debuggers / Disassemblers
  * [Immunity Debugger](https://www.immunityinc.com/products/debugger/): It is a powerful new way to write exploits, analyze malware, and reverse engineer binary files. It builds on a solid user interface with function graphing, the industry's first heap analysis tool built specifically for heap creation, and a large and well supported Python API for easy extensibility.
  * [OllyDbg](http://www.ollydbg.de/): OllyDbg is a 32-bit assembler level analysing debugger for Microsoft® Windows®. Emphasis on binary code analysis makes it particularly useful in cases where source is unavailable.
  * [WinDbg](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugger-download-tools): Can be used to debug kernel-mode and user-mode code, analyze crash dumps, and examine the CPU registers while the code executes.
@@ -428,11 +430,24 @@ Collection of malware source code for a variety of platforms in an array of diff
 
 #### Decompilers
  * [binary.ninja](https://binary.ninja/): Online decompiler.
+ * [cutter](https://github.com/rizinorg/cutter): Free and Open Source Reverse Engineering Platform powered by rizin.
  * [Decompiler](https://www.decompiler.com/): Online decompiler.
+ * [Dotnet IL Editor (dile)](https://sourceforge.net/projects/dile/): Dotnet IL Editor (DILE) allows disassembling and debugging .NET 1.0/1.1/2.0/3.0/3.5/4.0 applications without source code or .pdb files. It can debug even itself or the assemblies of the .NET Framework on IL level.
  * [dotPeek](https://www.jetbrains.com/es-es/decompiler/): It is a .NET decompiler from JetBrains, the makers of a wide array of developer productivity tools: ReSharper, dotTrace, and dotCover for .NET developers.
+ * [Ghidra Software Reverse Engineering Framework](https://github.com/NationalSecurityAgency/ghidra): This framework includes a suite of full-featured, high-end software analysis tools that enable users to analyze compiled code on a variety of platforms including Windows, macOS, and Linux. Capabilities include disassembly, assembly, decompilation, graphing, and scripting, along with hundreds of other features. Ghidra supports a wide variety of processor instruction sets and executable formats and can be run in both user-interactive and automated modes. Users may also develop their own Ghidra plug-in components and/or scripts using Java or Python.
+ * [IDA Pro](https://www.hex-rays.com/products/ida/)
  * [ILSpy](https://github.com/icsharpcode/ILSpy): ILSpy is the open-source .NET assembly browser and decompiler.
+ * [Online Disassembler](https://onlinedisassembler.com/odaweb/)
+ * [radare2](https://github.com/radareorg/radare2): UNIX-like reverse engineering framework and command-line toolset.
+ * [ScyllaHide](https://github.com/x64dbg/ScyllaHide): ScyllaHide is an advanced open-source x64/x86 user mode Anti-Anti-Debug library. It hooks various functions to hide debugging. This tool is intended to stay in user mode (ring 3). 
  * [Snowman](https://derevenets.com/): Snowman is a native code to C/C++ decompiler.
+ * [Tenet - A Trace Explorer for Reverse Engineers](https://github.com/gaasedelen/tenet): Tenet is an IDA Pro plugin for exploring execution traces. The goal of this plugin is to provide more natural, human controls for navigating execution traces against a given binary. The basis of this work stems from the desire to research new or innovative methods to examine and distill complex execution patterns in software.
  * [UtinyRipper](https://github.com/mafaca/UtinyRipper): It is a tool for extracting assets from serialized files (CAB-*, *.assets, *.sharedAssets, etc.) and assets bundles (*.unity3d, *.assetbundle, etc.) and conveting them into native Engine format.
+ * [xAnalyzer](https://github.com/ThunderCls/xAnalyzer): xAnalyzer is a plugin for the x86/x64 x64dbg debugger by @mrexodia. This plugin is based on APIInfo Plugin by @mrfearless, although some improvements and additions have been made. xAnalyzer is capable of doing various types of analysis over the static code of the debugged application to give more extra information to the user. This plugin is going to make an extensive API functions call detections to add functions definitions, arguments and data types as well as any other complementary information, something close at what you get with OllyDbg analysis engine, in order to make it even more comprehensible to the user just before starting the debuggin task.
+
+#### Deobfuscator
+ * [de4dot](https://github.com/de4dot/de4dot): .NET deobfuscator and unpacker.
+ * [XLMMacroDeobfuscator](https://github.com/DissectMalware/XLMMacroDeobfuscator): Extract and Deobfuscate XLM macros (a.k.a Excel 4.0 Macros).
 
 #### Dependencies
  * [DependencyCheck](https://github.com/jeremylong/DependencyCheck): OWASP dependency-check is a software composition analysis utility that detects publicly disclosed vulnerabilities in application dependencies.
@@ -444,13 +459,6 @@ Collection of malware source code for a variety of platforms in an array of diff
 #### Device drivers monitoring
  * [DriverView](https://www.nirsoft.net/utils/driverview.html)
 
-#### Disassemblers
- * [cutter](https://github.com/rizinorg/cutter): Free and Open Source Reverse Engineering Platform powered by rizin.
- * [Ghidra Software Reverse Engineering Framework](https://github.com/NationalSecurityAgency/ghidra): This framework includes a suite of full-featured, high-end software analysis tools that enable users to analyze compiled code on a variety of platforms including Windows, macOS, and Linux. Capabilities include disassembly, assembly, decompilation, graphing, and scripting, along with hundreds of other features. Ghidra supports a wide variety of processor instruction sets and executable formats and can be run in both user-interactive and automated modes. Users may also develop their own Ghidra plug-in components and/or scripts using Java or Python.
- * [IDA Pro](https://www.hex-rays.com/products/ida/)
- * [Online Disassembler](https://onlinedisassembler.com/odaweb/)
- * [radare2](https://github.com/radareorg/radare2): UNIX-like reverse engineering framework and command-line toolset.
- * [Tenet - A Trace Explorer for Reverse Engineers](https://github.com/gaasedelen/tenet): Tenet is an IDA Pro plugin for exploring execution traces. The goal of this plugin is to provide more natural, human controls for navigating execution traces against a given binary. The basis of this work stems from the desire to research new or innovative methods to examine and distill complex execution patterns in software.
 
 #### DNS monitoring
  * [DNSQuerySniffer](https://www.nirsoft.net/utils/dns_query_sniffer.html): It is a network sniffer utility that shows the DNS queries sent on your system. For every DNS query, the following information is displayed: Host Name, Port Number, Query ID, Request Type (A, AAAA, NS, MX, and so on), Request Time, Response Time, Duration, Response Code, Number of records, and the content of the returned DNS records.
@@ -485,13 +493,20 @@ Collection of malware source code for a variety of platforms in an array of diff
 
 #### Packers
  * [ASPack](http://aspack.com/): It is an advanced EXE packer created to compress Win32 executable files and to protect them against non-professional reverse engineering.
+ * [https://github.com/horsicq/Detect-It-Easy](https://github.com/horsicq/Detect-It-Easy): Program for determining types of files for Windows, Linux and MacOS.
  * [PEiD](https://www.softpedia.com/get/Programming/Packers-Crypters-Protectors/PEiD-updated.shtml): It is an intuitive application that relies on its user-friendly interface to detect packers, cryptors and compilers found in PE executable files – its detection rate is higher than that of other similar tools since the app packs more than 600 different signatures in PE files.
  * [macro_pack](https://github.com/sevagas/macro_pack): The macro_pack is a tool used to automatize obfuscation and generation of retro formats such as MS Office documents or VBS like format. Now it also handles various shortcuts formats.
  * [RDG Packer Detector](http://www.rdgsoft.net/): It is a detector for packers, ciphers, compilers, packers, encoders, assemblers, installers.
  * [UPX the Ultimate Packer for eXecutables](https://upx.github.io/): It is a free, portable, extendable, high-performance executable packer for several executable formats.
 
 #### Portable Executable (PE) information
+ * [Exeinfo PE](http://www.exeinfo.xn.pl/)
+ * [Lord PE](https://www.aldeid.com/wiki/LordPE): LordPE is a tool for system programmers/reverse engineers which is able to edit/view many parts of PE (Portable Executable) files, dump them from memory, optimize them, validate, analyze, edit, etc.
  * [PE Explorer](http://www.heaventools.com/overview.htm): Lets you open, view and edit a variety of different 32-bit Windows executable file types (also called PE files) ranging from the common, such as EXE, DLL and ActiveX Controls, to the less familiar types, such as SCR (Screensavers), CPL (Control Panel Applets), SYS, MSSTYLES, BPL, DPL and more (including executable files that run on MS Windows Mobile platform).
+ * [PE-bear](https://github.com/hasherezade/pe-bear-releases): PE-bear is a freeware reversing tool for PE files. Its objective is to deliver fast and flexible “first view” for malware analysts, stable and capable to handle malformed PE files.
+ * [pefile](https://github.com/erocarrera/pefile): It is a Python module to read and work with PE (Portable Executable) files.
+ * [PeNet](https://github.com/secana/PeNet): It is a parser for Windows Portable Executable headers. It completely written in C# and does not rely on any native Windows APIs. Furthermore it supports the creation of Import Hashes (ImpHash), which is a feature often used in malware analysis. You can extract Certificate Revocation List, compute different hash sums and other useful stuff for working with PE files.
+ * [pestudio](https://www.winitor.com/features): The goal of pestudio is to spot artifacts of executable files in order to ease and accelerate Malware Initial Assessment. The tool is used by Computer Emergency Response (CERT) teams, Security Operations Centers (SOC) and Labs worldwide.
  * [PeView](http://wjradburn.com/software/): Provides a quick and easy way to view the structure and content of 32-bit Portable Executable (PE) and Component Object File Format (COFF) files. This PE/COFF file viewer displays header, section, directory, import table, export table, and resource information within EXE, DLL, OBJ, LIB, DBG, and other file types.
  * [Portable Executable Scanner (pescan)](https://tzworks.net/prototype_page.php?proto_id=15): It is a command line tool to scan portable executable (PE) files to identify how they were constructed.
  * [Resource Hacker](http://www.angusj.com/resourcehacker/): It is a resource editor for 32bit and 64bit Windows® applications. It's both a resource compiler (for *.rc files), and a decompiler - enabling viewing and editing of resources in executables (*.exe; *.dll; *.scr; etc) and compiled resource libraries (*.res, *.mui). While Resource Hacker™ is primarily a GUI application, it also provides many options for compiling and decompiling resources from the command-line.
@@ -499,13 +514,14 @@ Collection of malware source code for a variety of platforms in an array of diff
 #### RATs
  * [RAT-NjRat-0.7d-modded-source-code](https://github.com/AliBawazeEer/RAT-NjRat-0.7d-modded-source-code)
 
-#### Scanners
+#### Scanners / Sandbox
  * [Cuckoo](https://cuckoosandbox.org/): You can throw any suspicious file at it and in a matter of minutes Cuckoo will provide a detailed report outlining the behavior of the file when executed inside a realistic but isolated environment.
  * [Hybrid Analysis](): This tool allows sending a file to different scanners in parallel: VirusTotal, MetaDefender and CrowdStrike Falcon. Send samples.
  * [jotti](https://www.virustotal.com/gui/): Simple online scanner that returns the scan results of a number of antivirus scanners, as well as some basic information about the file. Send samples.
  * [KIMS](https://github.com/xchwarze/KIMS): KIMS was the first local and web multi scan of the world which last version came out on 2006 programed by Thor. In 2009 it began being developed to the new version by DSR!.
  * [Malice.IO](https://github.com/maliceio): VirusTotal Wanna Be - Now with 100% more Hipster.
  * [NoDistribute](https://nodistribute.com/)
+ * [Noriben](https://github.com/Rurik/Noriben): Portable, Simple, Malware Analysis Sandbox.
  * [thor-av-multiscanner](https://github.com/Lifka/thor-av-multiscanner): Static analysis of malware using Docker. This software allows you to scan a file with different antivirus engines. Also, it allows obtaining information from a file; such as imported libraries, PE, hashes, etc.
  * [Valkyrie Sandbox](https://valkyrie.comodo.com/): It is a file verdict system. Different from traditional signature based malware detection techniques Valkyrie conducts several analysis using run-time behavior and hundreds of features from a file and based on analysis results can warn users against malware undetected by classic Anti-Virus products.
  * [VirusTotal](https://www.virustotal.com/gui/): Analyze suspicious files and URLs to detect types of malware, automatically share them with the security community. Displays information on static and dynamic analysis. Send samples.
@@ -543,6 +559,7 @@ Collection of malware source code for a variety of platforms in an array of diff
  * [Process Hacker](https://processhacker.sourceforge.io/)
  * [Service+](https://www.activeplus.com/products/serviceplus)
  * [SrvMan](https://sysprogs.com/legacy/tools/srvman/): Windows Service Manager is a small tool that simplifies all common tasks related to Windows services. It can create services (both Win32 and Legacy Driver) without restarting Windows, delete existing services and change service configuration. It has both GUI and Command-line modes. It can also be used to run arbitrary Win32 applications as services (when such service is stopped, main application window is closed automatically).
+
 
 ### Session hijacking
  * [Burp Suite](https://portswigger.net/burp)
