@@ -2,6 +2,7 @@
 
 ### Footprinting and reconnaissance
  * [ARIN whois database search](https://account.arin.net/public): Locate the network range.
+ * [awesome-osint](https://github.com/jivoi/awesome-osint): A curated list of amazingly awesome OSINT.
  * [BuzzSumo](https://buzzsumo.com/): Find the most shared content for a topic, author, or a domain.
  * [Censys](https://censys.io/): Full view of every server and device exposed.
  * [CeWL](https://github.com/digininja/CeWL): Gathering Wordlist from the Target Website.
@@ -96,6 +97,7 @@
  * [Osintgram](https://github.com/Datalux/Osintgram): It is a OSINT tool on Instagram. It offers an interactive shell to perform analysis on Instagram account of any users by its nickname.
   
 #### IP geolocation lookup
+ * [GeoIP API](https://api.ip.sb/geoip)
  * [IP2Location](https://www.ip2location.com/)
  * [IP Location Finder](https://www.iplocation.net/)
 
@@ -209,8 +211,9 @@
 ##### Protection
  * [Anti DDoS Software](http://www.anti-ddos.net/): Monitors each incoming and outgoing packet in Real-Time. It displays the local address, remote address, and other information of each network flow. Anti DDoS Guardian limits network flow number, client bandwidth, client concurrent TCP connection number, and TCP connection rate. It also limits the UDP bandwidth, UDP connection rate, and UDP packet rate.
  * [DDoS-GUARD](https://ddos-guard.net/)
- * [Cloudflare](https://www.cloudflare.com/)
  * [DOSarrest’s DDoS protection service](https://www.dosarrest.com/)
+ * [Cloudflare](https://www.cloudflare.com/)
+ * [ID Ransomware](https://id-ransomware.malwarehunterteam.com/): Upload a ransom note and/or sample encrypted file to identify the ransomware that has encrypted your data.
  * [Imperva Incapsula DDoS Protection](https://www.imperva.com/products/ddos-protection-services/)
 
 #### MAC address
@@ -222,6 +225,12 @@
 ##### MAC Spoofing
  * [SMAC](https://www.klcconsulting.net/smac/): FREE MAC Address Spoofing Tool.
  * [Technitium MAC Address Changer (TMAC)](https://technitium.com/tmac/): A freeware utility to spoof MAC address instantly.
+
+
+
+---
+
+
 
 ### Enumeration
  * [Active Directory Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/adexplorer): It is an advanced Active Directory (AD) viewer and editor. You can use AD Explorer to easily navigate an AD database, define favorite locations, view object properties and attributes without having to open dialog boxes, edit permissions, view an object's schema, and execute sophisticated searches that you can save and re-execute.
@@ -266,6 +275,12 @@
  * [waybackurls](https://github.com/tomnomnom/waybackurls): Fetch all the URLs that the Wayback Machine knows about for a domain.
  * [wfuzz](https://github.com/xmendez/wfuzz): Web application fuzzer.
 
+
+
+---
+
+
+
 ### Vulnerability Analysis
 
 #### Vulnerability Scanning
@@ -280,11 +295,20 @@
  * [CVE mitre](https://cve.mitre.org/): The mission of the CVE® Program is to identify, define, and catalog publicly disclosed cybersecurity vulnerabilities.
  * [CWE mitre](https://cwe.mitre.org/): It is a community-developed list of software and hardware weakness types. It serves as a common language, a measuring stick for security tools, and as a baseline for weakness identification, mitigation, and prevention efforts.
  * [National Vulnerability Database](https://nvd.nist.gov/): The NVD is the U.S. government repository of standards based vulnerability management data represented using the Security Content Automation Protocol (SCAP). This data enables automation of vulnerability management, security measurement, and compliance. The NVD includes databases of security checklist references, security-related software flaws, misconfigurations, product names, and impact metrics.
+ * [Objective-See](https://objective-see.com/malware.html)
  * [SecurityFocus](https://www.securityfocus.com/)
  * [Talos - Vulnerability Information](https://talosintelligence.com/vulnerability_info): Talos investigates software and operating system vulnerabilities in order to discover them before malicious threat actors do. We provide this information to vendors so that they can create patches and protect their customers as soon as possible.
 
+
+
+---
+
+
+
 ### System hacking
+ * [https://github.com/9emin1/charlotte](https://github.com/9emin1/charlotte): c++ fully undetected shellcode launcher ;).
  * [DSInternals](https://github.com/MichaelGrafnetter/DSInternals): The DSInternals project consists of these two parts: 1 - The DSInternals Framework exposes several internal features of Active Directory and can be used from any .NET application. The codebase has already been integrated into several 3rd party commercial products that use it in scenarios like Active Directory disaster recovery, identity management, cross-forest migrations and password strength auditing. 2 - The DSInternals PowerShell Module provides easy-to-use cmdlets that are built on top of the Framework.
+ * [EagleShell](https://github.com/TRSTN4/EagleShell): EagleShell is a high-quality tool that aims to improve your pentest.
  * [Metasploit Framework](https://github.com/rapid7/metasploit-framework)
  * [mimikatz](https://github.com/gentilkiwi/mimikatz): A little tool to play with Windows security.
  * [MSFvenom Payload Creator (MSFPC)](https://github.com/g0tmi1k/msfpc): A quick way to generate various "basic" Meterpreter payloads via msfvenom (part of the Metasploit framework).
@@ -347,27 +371,41 @@
  * [thc-hydra](https://github.com/vanhauser-thc/thc-hydra): Number one of the biggest security holes are passwords, as every password security study shows. This tool is a proof of concept code, to give researchers and security consultants the possibility to show how easy it would be to gain unauthorized access from remote to a system.
 
 
+
+---
+
+
+
 ### Malwares
  * [4n4lDetector](http://www.enelpc.com/p/4n4ldetector.html): It is a tool for analysis of Windows executable files, in order to quickly identify if this is or is not a malware. Most analyzes are based on the extraction of strings "ANSI" and "UNICODE" in disk, but also works with "Memory Dumps".
  * [Advanced AV Evasion Tool For Red Team Ops](https://github.com/1y0n/AV_Evasion_Tool)
+ * [awesome-malware-analysis](https://github.com/rshipp/awesome-malware-analysis): A curated list of awesome malware analysis tools and resources.
+ * [awesome-yara](https://github.com/InQuest/awesome-yara): A curated list of awesome YARA rules, tools, and people.
+ * [Bytehist](https://cert.at/en/downloads/software/software-bytehist): A tool for generating byte-usage-histograms for all types of files with a special focus on binary executables in PE-format (Windows).
  * [Cerbero Suite](https://cerbero.io/)
  * [Disk pulse](https://www.diskpulse.com/): It is a real-time disk change monitoring solution allowing one to monitor one or more disks or directories, save reports and disk change monitoring statistics, export detected changes to a centralized SQL database, execute custom commands and send E-Mail notifications when unauthorized changes are detected in critical system files.
  * [EvilClippy](https://github.com/outflanknl/EvilClippy): A cross-platform assistant for creating malicious MS Office documents. Can hide VBA macros, stomp VBA code (via P-Code) and confuse macro analysis tools. Runs on Linux, OSX and Windows.
  * [Ghidra-Scripts](https://github.com/AGDCservices/Ghidra-Scripts): Malware analysis scripts for Ghidra.
+ * [Malicious PDF Generator](https://github.com/jonaslejon/malicious-pdf): Generate a bunch of malicious pdf files with phone-home functionality. Can be used with Burp Collaborator.
+ * [MalwareAnalysis.co](https://malwareanalysis.co/): Collection of malware tool and resources: [Windows](https://malwareanalysis.co/resources/tools/windows/), [macOS](https://malwareanalysis.co/resources/tools/macos/), [Linux](https://malwareanalysis.co/resources/tools/linux/), [https://malwareanalysis.co/resources/tools/android/](Android).
+ * [hijackthis](https://github.com/dragokas/hijackthis/): A free utility that finds malware, adware and other security threats.
  * [Indetectables Toolkit](https://github.com/indetectables-net/toolkit): Fundamental reverse/analysis/cracking toolkit.
  * [M/Monit](https://mmonit.com/): Can monitor and manage distributed computer systems, conduct automatic maintenance and repair and execute meaningful causal actions in error situations.
  * [obfuscation_detection](https://github.com/mrphrazer/obfuscation_detection): Collection of scripts to pinpoint obfuscated code.
+ * [PELock Software Protection & Software License Key System](https://github.com/PELock/PELock-Software-Protection-and-Licensing-SDK)
  * [Phantom-Evasion](https://github.com/oddcod3/Phantom-Evasion): It is an antivirus evasion tool written in python (both compatible with python and python3) capable to generate (almost) fully undetectable executable even with the most common x86 msfvenom payload.
  * [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer): Ever wondered which program has a particular file or directory open? Now you can find out. Process Explorer shows you information about which handles and DLLs processes have opened or loaded.
  * [Process Monitor](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon): It is an advanced monitoring tool for Windows that shows real-time file system, Registry and process/thread activity.
- * [Shellter](https://www.shellterproject.com/introducing-shellter/): It is a dynamic shellcode injection tool, and the first truly dynamic PE infector ever created.
- * [ResourcesExtract](https://www.nirsoft.net/utils/resources_extract.html): It is a small utility that scans dll/ocx/exe files and extract all resources (bitmaps, icons, cursors, AVI movies, HTML files, and more...) stored in them into the folder that you specify.
-You can use ResourcesExtract in user interface mode, or alternatively, you can run ResourcesExtract in command-line mode without displaying any user interface.
- * [PELock Software Protection & Software License Key System](https://github.com/PELock/PELock-Software-Protection-and-Licensing-SDK)
+ * [ProcDOT](https://www.procdot.com/): There are plenty of tools for behavioral malware analysis. The defacto standard ones, though, are Sysinternals’s Process Monitor (also known as Procmon) and PCAP generating network sniffers like Windump, Tcpdump, Wireshark, and the like. These “two” tools cover almost everything a malware analyst might be interested in when doing behavioral malware analysis.
  * [ProcDump](https://docs.microsoft.com/en-us/sysinternals/downloads/procdump): It is a command-line utility whose primary purpose is monitoring an application for CPU spikes and generating crash dumps during a spike that an administrator or developer can use to determine the cause of the spike. ProcDump also includes hung window monitoring (using the same definition of a window hang that Windows and Task Manager use), unhandled exception monitoring and can generate dumps based on the values of system performance counters. It also can serve as a general process dump utility that you can embed in other scripts.droid. TheFatRat Provides An Easy way to create Backdoors and Payload which can bypass most anti-virus.
+ * [Reflexil](http://reflexil.net/): The .NET Assembly Editor.
+ * [ResourcesExtract](https://www.nirsoft.net/utils/resources_extract.html): It is a small utility that scans dll/ocx/exe files and extract all resources (bitmaps, icons, cursors, AVI movies, HTML files, and more...) stored in them into the folder that you specify. You can use ResourcesExtract in user interface mode, or alternatively, in command-line mode without displaying any user interface.
+ * [SharpDllLoader](https://github.com/hexfati/SharpDllLoader): A simple C# executable that invokes an arbitrary method of an arbitrary C# DLL.
+ * [Shellter](https://www.shellterproject.com/introducing-shellter/): It is a dynamic shellcode injection tool, and the first truly dynamic PE infector ever created.
  * [SysAnalyzer](http://sandsprite.com/iDef/SysAnalyzer/): It is an open source application that was designed to give malcode analysts an automated tool to quickly collect, compare, and report on the actions a binary took while running on the system.
  * [TheFatRat](https://github.com/Screetsec/TheFatRat): It is an exploiting tool which compiles a malware with famous payload, and then the compiled malware can be executed on Linux , Windows , Mac and Android. TheFatRat Provides An Easy way to create Backdoors and Payload which can bypass most anti-virus.
  * [Windows Sysinternals](https://docs.microsoft.com/en-us/sysinternals/)
+ * [YARA](https://virustotal.github.io/yara/): YARA is a tool aimed at (but not limited to) helping malware researchers to identify and classify malware samples.
 
 #### Android
  * [APK Decompilers Online](https://www.apkdecompilers.com/)
@@ -423,6 +461,7 @@ Collection of malware source code for a variety of platforms in an array of diff
  * [vx-underground](https://vx-underground.org/samples.html)
 
 #### Debuggers / Disassemblers
+ * [Fiddler](https://www.telerik.com/fiddler)
  * [Immunity Debugger](https://www.immunityinc.com/products/debugger/): It is a powerful new way to write exploits, analyze malware, and reverse engineer binary files. It builds on a solid user interface with function graphing, the industry's first heap analysis tool built specifically for heap creation, and a large and well supported Python API for easy extensibility.
  * [OllyDbg](http://www.ollydbg.de/): OllyDbg is a 32-bit assembler level analysing debugger for Microsoft® Windows®. Emphasis on binary code analysis makes it particularly useful in cases where source is unavailable.
  * [WinDbg](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugger-download-tools): Can be used to debug kernel-mode and user-mode code, analyze crash dumps, and examine the CPU registers while the code executes.
@@ -432,6 +471,7 @@ Collection of malware source code for a variety of platforms in an array of diff
  * [binary.ninja](https://binary.ninja/): Online decompiler.
  * [cutter](https://github.com/rizinorg/cutter): Free and Open Source Reverse Engineering Platform powered by rizin.
  * [Decompiler](https://www.decompiler.com/): Online decompiler.
+ * [dnSpy](https://github.com/dnSpy/dnSpy): .NET debugger and assembly editor.
  * [Dotnet IL Editor (dile)](https://sourceforge.net/projects/dile/): Dotnet IL Editor (DILE) allows disassembling and debugging .NET 1.0/1.1/2.0/3.0/3.5/4.0 applications without source code or .pdb files. It can debug even itself or the assemblies of the .NET Framework on IL level.
  * [dotPeek](https://www.jetbrains.com/es-es/decompiler/): It is a .NET decompiler from JetBrains, the makers of a wide array of developer productivity tools: ReSharper, dotTrace, and dotCover for .NET developers.
  * [Ghidra Software Reverse Engineering Framework](https://github.com/NationalSecurityAgency/ghidra): This framework includes a suite of full-featured, high-end software analysis tools that enable users to analyze compiled code on a variety of platforms including Windows, macOS, and Linux. Capabilities include disassembly, assembly, decompilation, graphing, and scripting, along with hundreds of other features. Ghidra supports a wide variety of processor instruction sets and executable formats and can be run in both user-interactive and automated modes. Users may also develop their own Ghidra plug-in components and/or scripts using Java or Python.
@@ -441,6 +481,7 @@ Collection of malware source code for a variety of platforms in an array of diff
  * [radare2](https://github.com/radareorg/radare2): UNIX-like reverse engineering framework and command-line toolset.
  * [ScyllaHide](https://github.com/x64dbg/ScyllaHide): ScyllaHide is an advanced open-source x64/x86 user mode Anti-Anti-Debug library. It hooks various functions to hide debugging. This tool is intended to stay in user mode (ring 3). 
  * [Snowman](https://derevenets.com/): Snowman is a native code to C/C++ decompiler.
+ * [Telerik JustDecompile](https://www.telerik.com/products/decompiler.aspx): Open Source Decompilation Engine.
  * [Tenet - A Trace Explorer for Reverse Engineers](https://github.com/gaasedelen/tenet): Tenet is an IDA Pro plugin for exploring execution traces. The goal of this plugin is to provide more natural, human controls for navigating execution traces against a given binary. The basis of this work stems from the desire to research new or innovative methods to examine and distill complex execution patterns in software.
  * [UtinyRipper](https://github.com/mafaca/UtinyRipper): It is a tool for extracting assets from serialized files (CAB-*, *.assets, *.sharedAssets, etc.) and assets bundles (*.unity3d, *.assetbundle, etc.) and conveting them into native Engine format.
  * [xAnalyzer](https://github.com/ThunderCls/xAnalyzer): xAnalyzer is a plugin for the x86/x64 x64dbg debugger by @mrexodia. This plugin is based on APIInfo Plugin by @mrfearless, although some improvements and additions have been made. xAnalyzer is capable of doing various types of analysis over the static code of the debugged application to give more extra information to the user. This plugin is going to make an extensive API functions call detections to add functions definitions, arguments and data types as well as any other complementary information, something close at what you get with OllyDbg analysis engine, in order to make it even more comprehensible to the user just before starting the debuggin task.
@@ -492,6 +533,7 @@ Collection of malware source code for a variety of platforms in an array of diff
  * [Wireshark](https://www.wireshark.org/)
 
 #### Packers
+ * [.NET Generic Unpacker](https://ntcore.com/?page_id=353): This is a program to dump .NET packed applications. Of course no serious .NET protection relies on packing. In fact, this software shows how easily you can unpack a protected assemly. This .NET Generic Unpacker was written in a couple of hours and despite of the fact that it’s very simple, it might turn useful having it: otherwise you have to unpack manually, which is quite easy as well.
  * [ASPack](http://aspack.com/): It is an advanced EXE packer created to compress Win32 executable files and to protect them against non-professional reverse engineering.
  * [https://github.com/horsicq/Detect-It-Easy](https://github.com/horsicq/Detect-It-Easy): Program for determining types of files for Windows, Linux and MacOS.
  * [PEiD](https://www.softpedia.com/get/Programming/Packers-Crypters-Protectors/PEiD-updated.shtml): It is an intuitive application that relies on its user-friendly interface to detect packers, cryptors and compilers found in PE executable files – its detection rate is higher than that of other similar tools since the app packs more than 600 different signatures in PE files.
@@ -499,16 +541,22 @@ Collection of malware source code for a variety of platforms in an array of diff
  * [RDG Packer Detector](http://www.rdgsoft.net/): It is a detector for packers, ciphers, compilers, packers, encoders, assemblers, installers.
  * [UPX the Ultimate Packer for eXecutables](https://upx.github.io/): It is a free, portable, extendable, high-performance executable packer for several executable formats.
 
-#### Portable Executable (PE) information
- * [Exeinfo PE](http://www.exeinfo.xn.pl/)
+#### Portable Executable (PE) explorer
+ * [CFF Explorer](https://ntcore.com/?page_id=388): CFF Explorer was designed to make PE editing as easy as possible, but without losing sight on the portable executable’s internal structure. 
+ * [Detect It Easy (DiE)](https://horsicq.github.io/): Determining types of files.
+ * [Exeinfo PE](http://exeinfo.atwebpages.com/)
  * [Lord PE](https://www.aldeid.com/wiki/LordPE): LordPE is a tool for system programmers/reverse engineers which is able to edit/view many parts of PE (Portable Executable) files, dump them from memory, optimize them, validate, analyze, edit, etc.
  * [PE Explorer](http://www.heaventools.com/overview.htm): Lets you open, view and edit a variety of different 32-bit Windows executable file types (also called PE files) ranging from the common, such as EXE, DLL and ActiveX Controls, to the less familiar types, such as SCR (Screensavers), CPL (Control Panel Applets), SYS, MSSTYLES, BPL, DPL and more (including executable files that run on MS Windows Mobile platform).
  * [PE-bear](https://github.com/hasherezade/pe-bear-releases): PE-bear is a freeware reversing tool for PE files. Its objective is to deliver fast and flexible “first view” for malware analysts, stable and capable to handle malformed PE files.
  * [pefile](https://github.com/erocarrera/pefile): It is a Python module to read and work with PE (Portable Executable) files.
+ * [PEframe](https://github.com/guelfoweb/peframe): It is a open source tool to perform static analysis on Portable Executable malware and malicious MS Office documents.
  * [PeNet](https://github.com/secana/PeNet): It is a parser for Windows Portable Executable headers. It completely written in C# and does not rely on any native Windows APIs. Furthermore it supports the creation of Import Hashes (ImpHash), which is a feature often used in malware analysis. You can extract Certificate Revocation List, compute different hash sums and other useful stuff for working with PE files.
+ * [PeNet Web](https://penet.azureedge.net/): PeNet Web is an online Portable Executable viewer. It displays fields and additional information from uploaded PE files. The project is based on the PeNet library.
  * [pestudio](https://www.winitor.com/features): The goal of pestudio is to spot artifacts of executable files in order to ease and accelerate Malware Initial Assessment. The tool is used by Computer Emergency Response (CERT) teams, Security Operations Centers (SOC) and Labs worldwide.
  * [PeView](http://wjradburn.com/software/): Provides a quick and easy way to view the structure and content of 32-bit Portable Executable (PE) and Component Object File Format (COFF) files. This PE/COFF file viewer displays header, section, directory, import table, export table, and resource information within EXE, DLL, OBJ, LIB, DBG, and other file types.
+ * [PortEx](https://github.com/katjahahn/PortEx): Java library to analyse Portable Executable files with a special focus on malware analysis and PE malformation robustness.
  * [Portable Executable Scanner (pescan)](https://tzworks.net/prototype_page.php?proto_id=15): It is a command line tool to scan portable executable (PE) files to identify how they were constructed.
+ * [PPEE (puppy)](https://www.mzrst.com/): It is a Professional PE file Explorer for reversers, malware researchers and those who want to statically inspect PE files in more details.
  * [Resource Hacker](http://www.angusj.com/resourcehacker/): It is a resource editor for 32bit and 64bit Windows® applications. It's both a resource compiler (for *.rc files), and a decompiler - enabling viewing and editing of resources in executables (*.exe; *.dll; *.scr; etc) and compiled resource libraries (*.res, *.mui). While Resource Hacker™ is primarily a GUI application, it also provides many options for compiling and decompiling resources from the command-line.
 
 #### RATs
@@ -520,6 +568,7 @@ Collection of malware source code for a variety of platforms in an array of diff
  * [jotti](https://www.virustotal.com/gui/): Simple online scanner that returns the scan results of a number of antivirus scanners, as well as some basic information about the file. Send samples.
  * [KIMS](https://github.com/xchwarze/KIMS): KIMS was the first local and web multi scan of the world which last version came out on 2006 programed by Thor. In 2009 it began being developed to the new version by DSR!.
  * [Malice.IO](https://github.com/maliceio): VirusTotal Wanna Be - Now with 100% more Hipster.
+ * [MalwareAnalysis.co](https://malwareanalysis.co/sandboxes/)
  * [NoDistribute](https://nodistribute.com/)
  * [Noriben](https://github.com/Rurik/Noriben): Portable, Simple, Malware Analysis Sandbox.
  * [thor-av-multiscanner](https://github.com/Lifka/thor-av-multiscanner): Static analysis of malware using Docker. This software allows you to scan a file with different antivirus engines. Also, it allows obtaining information from a file; such as imported libraries, PE, hashes, etc.
@@ -573,6 +622,12 @@ Collection of malware source code for a variety of platforms in an array of diff
  * [DroidSheep](https://droidsheep.info/): It is an open-source Android application made by Corsin Camichel that allows you to intercept unprotected web-browser sessions using WiFi.
  * [DroidSniff](https://github.com/evozi/DroidSniff): It is an Android app for Security analysis in wireless networks and capturing facebook, twitter, linkedin and other accounts.rotected web-browser sessions using WiFi.
  * [FaceNiff](http://faceniff.ponury.net/): It is an Android app that allows you to sniff and intercept web session profiles over the WiFi that your mobile is connected to. It is possible to hijack sessions only when WiFi is not using EAP, but it should work over any private networks (Open/WEP/WPA-PSK/WPA2-PSK). It's kind of like Firesheep for android. Maybe a bit easier to use (and it works on WPA2!).
+
+
+
+---
+
+
 
 ### Hacking web
  * [DirBuster](https://sourceforge.net/projects/dirbuster/): It is a multi threaded java application designed to brute force directories and files names on web/application servers.
@@ -630,6 +685,7 @@ Collection of malware source code for a variety of platforms in an array of diff
 
 #### Attack
  * [Burp Suite](https://portswigger.net/burp): Integrated platform for performing security testing of web applications. It has various tools that work together to support the entire testing process from the initial mapping and analysis of an application’s attack surface to finding and exploiting security vulnerabilities. Contains key components such as an intercepting proxy, application-aware spider, advanced web application scanner, intruder tool, repeater tool, and sequencer tool.
+ * [HopLa Burp Suite Extender plugin](https://github.com/synacktiv/HopLa): Adds autocompletion support and useful payloads in Burp Suite.
  * [Metasploit Framework](https://github.com/rapid7/metasploit-framework)
  * [php-webshells](https://github.com/JohnTroony/php-webshells): Common PHP webshells you might need for your Penetration Testing assignments or CTF challenges. Do not host the file(s) on your server!
  * [Weevely](https://github.com/epinna/weevely3): Used to develop a backdoor shell and upload it to a target server in order to gain remote shell access. This tool also helps in performing administrative tasks, maintaining persistence, and spreading backdoors across the target network.
@@ -646,6 +702,11 @@ Collection of malware source code for a variety of platforms in an array of diff
 
 #### Vulnerable web applications
  * [Damn Vulnerable Web App (DVWA)](https://github.com/digininja/DVWA): It is a PHP/MySQL web application that is damn vulnerable. Its main goal is to be an aid for security professionals to test their skills and tools in a legal environment, help web developers better understand the processes of securing web applications and to aid both students & teachers to learn about web application security in a controlled class room environment.
+
+
+
+---
+
 
 
 ### Protection
@@ -705,9 +766,21 @@ Collection of malware source code for a variety of platforms in an array of diff
  * [Privacy Badger](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp): Automatically learns to block invisible trackers.
  * [Ugly Email](https://chrome.google.com/webstore/detail/ugly-email/ldgiafaliifpknmgofiifianlnbgflgj): It is an open-source Gmail extension for identifying and blocking email trackers.
 
+
+
+---
+
+
+
 ### Forensics
  * [Autopsy](https://www.autopsy.com/): Autopsy® is the premier end-to-end open source digital forensics platform. Built by Basis Technology with the core features you expect in commercial forensic tools, Autopsy is a fast, thorough, and efficient hard drive investigation solution that evolves with your needs.
  * [Volatility](https://github.com/volatilityfoundation/volatility): An advanced memory forensics framework.
+
+
+
+---
+
+
 
 ### Social engineering
 * [avatarify](https://github.com/alievk/avatarify): Avatars for Zoom, Skype and other video-conferencing apps.
@@ -728,6 +801,11 @@ Collection of malware source code for a variety of platforms in an array of diff
 ###### Phishing detection
  * [Netcraft](https://www.netcraft.com/)
  * [PhishTank](https://www.phishtank.com/)
+
+
+
+---
+
 
 
 ### Hacking wireless
@@ -757,6 +835,11 @@ Collection of malware source code for a variety of platforms in an array of diff
  * [dragonslayer](https://github.com/vanhoefm/dragonslayer): This is an experimental tool to test WPA3's SAE and EAP-pwd implementations for vulnerabilities. We also strongly recommend to perform code inspections to assure all vulnerabilities have been properly addressed.
 
 
+
+---
+
+
+
 ### Steganography
 
 #### Image
@@ -772,6 +855,10 @@ Collection of malware source code for a variety of platforms in an array of diff
 
 
 
+---
+
+
+
 ### Internet of Things (IoT)
 
 #### Information gathering
@@ -779,6 +866,10 @@ Collection of malware source code for a variety of platforms in an array of diff
 
 #### Maintain access
  * [Firmware Modification Kit](https://github.com/rampageX/firmware-mod-kit): This kit is a collection of scripts and utilities to extract and rebuild linux based firmware images.
+
+
+
+---
 
 
 

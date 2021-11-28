@@ -10,12 +10,23 @@
  * [REMnux: A Linux Toolkit for Malware Analysis](https://remnux.org/): It is a Linux toolkit for reverse-engineering and analyzing malicious software. REMnux provides a curated collection of free tools created by the community. Analysts can use it to investigate malware without having to find, install, and configure the tools.
  * [Security Onion 2](https://securityonionsolutions.com/software/): Security Onion is a free and open source Linux distribution for threat hunting, enterprise security monitoring, and log management. The easy-to-use Setup wizard allows you to build an army of distributed sensors for your enterprise in minutes! Security Onion includes Elasticsearch, Logstash, Kibana, Suricata, Zeek (formerly known as Bro), Wazuh, Stenographer, TheHive, Cortex, CyberChef, NetworkMiner, and many other security tools.
 
+
+
+---
+
+
+
 ### Virtual machines
  * [OSBoxes](https://www.osboxes.org/): Offers you ready-to-use Linux/Unix guest operating systems.
  * [Windows XP Lab for VirtualBox (by Lifka)](https://drive.google.com/file/d/18NYLUVYaZ0fuynlzYfl3zjSBXLtQduu1/view?usp=sharing): Contains basic malware analysis tools for static and dynamic analysis (disassemblers, debugging, network analysis, etc.).
 
 #### Setup scripts
  * [DissectingMalwa.re Lab VMs Setup](https://github.com/f0wl/MalwareLab_VM-Setup): Setup scripts for my Malware Analysis VMs.
+
+
+
+---
+
 
 
 ### Vulnerable machines

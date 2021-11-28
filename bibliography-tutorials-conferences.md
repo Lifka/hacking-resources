@@ -14,6 +14,10 @@
 
 
 
+---
+
+
+
 ### Certifications
 
 #### CEH (Certified Ethical Hacker)
@@ -32,6 +36,10 @@
 
 
 
+---
+
+
+
 ### Forensics
 
 #### Books
@@ -39,11 +47,19 @@
 
 
 
+---
+
+
+
 ### Hacking web
 
 #### Books
  * [The Web Application Hacker′s Handbook: Finding and Exploiting](https://amzn.to/3sB2ExI)
-  
+
+
+
+---
+
 
 
 ### Hacking wireless
@@ -51,7 +67,11 @@
 #### Papers
  * [Analysing WPA3's Dragonfly Handshake](https://wpa3.mathyvanhoef.com/)
 
-  
+
+
+---
+
+
 
 ### Internet of Things (IoT)
 
@@ -60,15 +80,26 @@
 
 
 
+---
+
+
+
 ### Malwares / Reverse Engineering
 
 #### Articles
+ * [Anatomy of a .NET Assembly – PE Headers](https://www.red-gate.com/simple-talk/blogs/anatomy-of-a-net-assembly-pe-headers/)
  * [An In-Depth Look into the Win32 Portable Executable File Format](https://docs.microsoft.com/en-us/archive/msdn-magazine/2002/february/inside-windows-win32-portable-executable-file-format-in-detail)
+ * [An In-Depth Look into the Win32 Portable Executable File Format - Part 1](https://www.delphibasics.info/home/delphibasicsarticles/anin-depthlookintothewin32portableexecutablefileformat-part1)
  * [An Introduction to Fuzzing: Using fuzzers (SPIKE) to find vulnerabilities](https://resources.infosecinstitute.com/topic/intro-to-fuzzing/)
  * [Antivirus-Artifacts](https://github.com/D3VI5H4/Antivirus-Artifacts): Anti-virus artifacts. Listing APIs hooked by: Avira, BitDefender, F-Secure, MalwareBytes, Norton, TrendMicro, and WebRoot.
+ * [APTnotes](https://github.com/kbandla/APTnotes): Various public documents, whitepapers and articles about APT campaigns.
  * [Axial - Community Papers](https://ax1al.com/community_papers.html): Papers about malwares and reverse engineering.
  * [Basics of Windows shellcode writing](https://idafchev.github.io/exploit/2017/09/26/writing_windows_shellcode.html)
  * ['CRYPTERS': PRACTICANDO LA TÉCNICA DSPLIT/AVFUCKER](http://www.securitybydefault.com/2013/09/crypters-practicando-la-tecnica.html) (Spanish)
+ * [corkami: Abusing File Formats, CharSets, Initial registers values under Windows, Initial registers values under Windows,...](https://github.com/corkami/docs)
+ * [Introducing the TypeRefHash (TRH) (.NET)](https://www.gdatasoftware.com/blog/2020/06/36164-introducing-the-typerefhash-trh)
+ * [Machine Learning for Malware Detection by Kaspersky](https://media.kaspersky.com/en/enterprise-security/Kaspersky-Lab-Whitepaper-Machine-Learning.pdf)
+ * [MalwareAnalysis.co Publications](https://malwareanalysis.co/publications/)
  * [Malware-analysis-and-Reverse-engineering](https://github.com/Dump-GUY/Malware-analysis-and-Reverse-engineering): Some of my publicly available Malware analysis and Reverse engineering.
  * [Macro Malware Again](https://www.cyberfox.blog/macro-malware-again/)
  * [Malware researcher’s handbook (demystifying PE file)](https://resources.infosecinstitute.com/topic/2-malware-researchers-handbook-demystifying-pe-file/)
@@ -77,29 +108,41 @@
  * [Reverse engineering tools for .NET applications](https://pelock.medium.com/reverse-engineering-tools-for-net-applications-a28275f185b4)
  * [richprint](https://github.com/dishather/richprint#readme): Print compiler information stored in Rich Header of PE executables.
  * [Shikata Ga Nai Encoder Still Going Strong](https://www.fireeye.com/blog/threat-research/2019/10/shikata-ga-nai-encoder-still-going-strong.html)
+ * [The .NET File Format](https://www.codeproject.com/Articles/12585/The-NET-File-Format)
  * [Todo lo que quisiste saber sobre las DLL y no te atreviste a preguntar](https://geeks.ms/rfog/2009/06/29/todo-lo-que-quisiste-saber-sobre-las-dll-y-no-te-atreviste-a-preguntar-i/) (Spanish)
  * [vx-underground papers](https://vx-underground.org/papers.html)
+ * [Win64/Expiro: virus multiplataforma altamente versátil e infeccioso](https://www.welivesecurity.com/la-es/2013/08/08/win64expiro-virus-multiplataforma-versatil-infeccioso/) (Spanish)
  * [windows-syscalls](https://github.com/j00ru/windows-syscalls): Windows System Call Tables (NT/2000/XP/2003/Vista/2008/7/2012/8/10).
 
 #### Books
+ * [Expert .NET 2.0 IL Assembler](https://www.amazon.es/gp/product/1590596463?psc=1)
  * [Learning Malware Analysis: Explore the concepts, tools, and techniques to analyze and investigate Windows malware](https://amzn.to/3pYSwxj)
+ * [MalwareAnalysis.co Books](https://malwareanalysis.co/resources/books/)
  * [Malware Data Science: Attack, Detection, and Attribution](https://amzn.to/3aXLNzd)
  * [Mastering Malware Analysis: The complete malware analyst's guide to combating malicious software, APT, cybercrime, and IoT attacks](https://amzn.to/3pZJ5O9)
  * [Practical Binary Analysis: Build Your Own Linux Tools for Binary Instrumentation, Analysis, and Disassembly](https://amzn.to/3ssN3jK)
  * [Practical Malware Analysis. The Hands-On Guide to Dissecting](https://amzn.to/2NNHCgC)
  * [Practical Threat Intelligence and Data-Driven Threat Hunting: A hands-on guide to threat hunting with the ATT&CK™ Framework and open source tools](https://amzn.to/3hqnzzZ)
+ * [The Art Of Mac Malware](https://taomm.org/): Books about macOS malware, written by patrick wardle.
  * [The Art of Memory Forensics: Detecting Malware and Threats in Windows, Linux, and Mac Memory (Wile05)](https://amzn.to/3q76D3O)
  * [The IDA Pro Book: The Unofficial Guide to the World's Most Popular](https://amzn.to/3uAg0MB)
- * [Win64/Expiro: virus multiplataforma altamente versátil e infeccioso](https://www.welivesecurity.com/la-es/2013/08/08/win64expiro-virus-multiplataforma-versatil-infeccioso/) (Spanish)
 
-#### Cheat sheets
+#### Cheat sheets and posters
+ * [MalwareAnalysis.co Cheat Sheets](https://malwareanalysis.co/cheat-sheets/)
+ * [PE Format Poster](http://www.openrce.org/reference_library/files/reference/PE%20Format.pdf)
+ * [PE Format Poster](https://github.com/corkami/pics/blob/master/binary/pe101/pe101.pdf)
  * [Intel 80x86 Assembler Code Table](http://www.jegerlehner.ch/intel/IntelCodeTable_es.pdf) (Spanish)
 
 #### Documentation
  * [PE Format](https://docs.microsoft.com/en-us/windows/win32/debug/pe-format)
+ * [Windows Vista Kernel Structures](https://www.nirsoft.net/kernel_struct/vista/index.html)
+
+#### Magazines
+ * [CodeBreakers Magazine](http://index-of.es/Windows/pe/CBM_1_2_2006_Goppit_PE_Format_Reverse_Engineer_View.pdf)
 
 #### Papers
  * [Leveraging the PE Rich Header for Static Malware Detection and Linking](https://www.sans.org/reading-room/whitepapers/reverseengineeringmalware/paper/39045)
+ * [PE Header Analysis for Malware Detection](https://scholarworks.sjsu.edu/etd_projects/624/)
 
 #### Tutorials
  * [Assembly Programming Tutorial](https://www.tutorialspoint.com/assembly_programming/index.htm)
@@ -108,17 +151,27 @@
  * [malware_training_vol1](https://github.com/hasherezade/malware_training_vol1): Materials for Windows Malware Analysis training (volume 1)
  * [Malware Analysis - Wannacry](https://www.purpl3f0xsecur1ty.tech/2021/02/17/wannacry.html)
  * [pestudio references](https://www.winitor.com/references/)
+ * [Reverse Engineering Analysis Lab STRRAT](https://www.jaiminton.com/reverse-engineering/strrat#)
  * [Reverse Engineering tutorials by Ricardo Narvaja](http://ricardonarvaja.info/) (Spanish)
  * [The malware analyst’s guide to aPLib decompression](https://0xc0decafe.com/malware-analysts-guide-to-aplib-decompression/)
 
 #### Videotutorials
  * [Analyzing Ransomware - Beginner Static Analysis](https://www.youtube.com/watch?v=9nuo-AGg4p4)
+ * [Análisis Dinámico de Malware Parte 1 (Spanish)](https://www.youtube.com/watch?v=AWUGPxSCQ4I)
+ * [Ange Albertini: Funky File Formats](https://www.youtube.com/watch?v=hdCs6bPM4is)
  * [Building a Malware Lab - Software, Hardware, Tools and Tips for Effective Malware Analysis](https://www.youtube.com/watch?v=bBvOiADXjEQ)
+ * [CppCon 2017: James McNellis "Todo lo que siempre quisiste saber sobre las DLL"](https://www.youtube.com/watch?v=JPQWQfDhICA)
  * [CursoReversing](https://www.youtube.com/channel/UCPNPSP20z4FGfgMJ71VOJjw/playlists) (Spanish): YouTube channel about reverse engineering.
  * [CursoReversing desde cero (Ricardo Narvaja 2020)](https://www.youtube.com/watch?v=Af5pvCl0CBE) (Spanish)
+ * [How does PDF malware work? | Malicious PDF’s Explained – What is a malicious pdf?](https://www.youtube.com/watch?v=U8xExM3ykYA)
+ * [JNLP Dangers - Java Malware Detection & Analysis](https://www.youtube.com/watch?v=9b-I2t-uwx0) 
  * [Malware Analysis Bootcamp - Analyzing The PE Header](https://www.youtube.com/watch?v=z0e306Jod5A)
  * [Process Injection](https://www.youtube.com/playlist?list=PLXm1FM6zsxpBt7vZiS9Q4-4nvybd9il3t) (Spanish)
  * [Reverse Engineering desde 0](https://www.youtube.com/watch?v=-9xChS3ZgvU&list=PL6RJR1V-uAbzSW9EF_5AMmt_0P7vhGa3N) (Spanish)
+
+
+
+---
 
 
 
@@ -127,6 +180,7 @@
 #### Articles
  * [Dependency Confusion: How I Hacked Into Apple, Microsoft and Dozens of Other Companies](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610)
  * [index-of.es](http://index-of.es/)
+ * [PDF Tricks](https://github.com/corkami/docs/blob/master/PDF/PDF.md)
  * [What Actually is Threat Hunting?](https://blogs.gartner.com/pete-shoard/whats-threat-hunting/)
 
 #### Cheat sheets
@@ -144,6 +198,10 @@
 #### Cheat sheets
  * [Wireshark cheat sheet](https://cdn.comparitech.com/wp-content/uploads/2019/06/Wireshark-Cheat-Sheet.pdf)
   
+
+
+---
+
 
 
 ### Programming
@@ -164,13 +222,22 @@
  * [Violent Python: A Cookbook for Hackers, Forensic Analysts, Penetration Testers and Security Engineers](https://amzn.to/3r0GV24)
 
 
+
+---
+
+
+
 ### Protection
 
 #### Articles
  * [Awesome-CobaltStrike-Defence](https://github.com/MichaelKoczwara/Awesome-CobaltStrike-Defence): Defences against Cobalt Strike.
 
 
-  
+
+---
+
+
+
 ### Salesforce
 
 #### Articles
@@ -192,7 +259,14 @@
 
 
 
+---
+
+
+
 ### Social engineering
+
+#### Articles
+ * [4 new and devious phishing techniques with example phishing emails](https://fractionalciso.com/4-new-and-devious-phishing-techniques-with-example-phishing-emails/)
 
 #### Books
  * [Ingeniería social. El arte del hacking personal](https://amzn.to/3aYSxNp) (Spanish)
@@ -202,11 +276,17 @@
  * [Ingeniería Social, el verdadero poder seguridad informática phishing ciberseguridad](https://www.youtube.com/watch?v=qyJsBjvw2dc&t=1707s) (Spanish)
 
 
+
+---
+
+
+
 ### System hacking
 
 #### Articles
  * [CTFs. Otra perspectiva del hacking.](https://derechodelared.com/ctfs-hacking/) (Spanish)
  * [Identifying Named Pipe Impersonation and Other Malicious Privilege Escalation Techniques](https://securityintelligence.com/identifying-named-pipe-impersonation-and-other-malicious-privilege-escalation-techniques/)
+ * [Learning Linux Kernel Exploitation - Part 1](https://lkmidas.github.io/posts/20210123-linux-kernel-pwn-part-1/)
 
 #### Cheat sheet
  * [Beacon](https://github.com/HarmJ0y/CheatSheets/blob/master/Beacon.pdf)
