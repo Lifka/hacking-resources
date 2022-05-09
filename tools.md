@@ -26,6 +26,7 @@
  * [wafw00f](https://github.com/EnableSecurity/wafw00f): Allows one to identify and fingerprint Web Application Firewall (WAF) products protecting a website.
  * [Wayback Machine](https://archive.org/web/)
  * [WhoIsHostingThis](https://www.whoishostingthis.com/): Get information about the web host, IP address, name servers & more.
+ * [Sub3 Suite](https://github.com/3nock/sub3suite): A suite of tools for intelligence gathering and target mapping.
 
 #### Competitive Intelligence Gathering
 
