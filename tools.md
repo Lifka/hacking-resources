@@ -27,6 +27,7 @@
  * [Wayback Machine](https://archive.org/web/)
  * [WhoIsHostingThis](https://www.whoishostingthis.com/): Get information about the web host, IP address, name servers & more.
  * [Sub3 Suite](https://github.com/3nock/sub3suite): A suite of tools for intelligence gathering and target mapping.
+ * [Builtwith](https://builtwith.com/): A website/platform to check what technologies is used in a website.
 
 #### Competitive Intelligence Gathering
 
@@ -59,7 +60,9 @@
  * [pwndb](https://github.com/davidtavarez/pwndb): Search for leaked credentials.
  * [Social Catfish](https://socialcatfish.com/): Searching people.
  * [theHarvester](https://github.com/laramies/theHarvester): E-mails, subdomains and names Harvester - OSINT.
- * [VerifyEmailAddress.org](http://verifyemailaddress.org/) 
+ * [VerifyEmailAddress.org](http://verifyemailaddress.org/)
+ * [1.4 billion clear text user pwds](https://github.com/philipperemy/tensorflow-1.4-billion-password-analysis ): This project's objective is training a generative model,uses deep learning and NLP to analyze
+ * large corpus of clear text passwords.(Size of the Torrent File: 44 GBs)
 
 #### Email tracking tools
 * [eMailTrackerPro](http://www.emailtrackerpro.com/): Trace an email using the email header.
