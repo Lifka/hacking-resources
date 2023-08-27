@@ -380,6 +380,7 @@
 ### Malwares
  * [4n4lDetector](http://www.enelpc.com/p/4n4ldetector.html): It is a tool for analysis of Windows executable files, in order to quickly identify if this is or is not a malware. Most analyzes are based on the extraction of strings "ANSI" and "UNICODE" in disk, but also works with "Memory Dumps".
  * [Advanced AV Evasion Tool For Red Team Ops](https://github.com/1y0n/AV_Evasion_Tool)
+ * [Antispy](https://hakin9.org/antispy-a-free-but-powerful-anti-virus-and-rootkits-toolkit/): AntiSpy is a free but powerful anti virus and rootkits toolkit.It offers you the ability with the highest privileges that can detect, analyze and restore various kernel modifications and hooks.With its assistance, you can easily spot and neutralize malware, hidden from normal detectors.
  * [awesome-malware-analysis](https://github.com/rshipp/awesome-malware-analysis): A curated list of awesome malware analysis tools and resources.
  * [awesome-yara](https://github.com/InQuest/awesome-yara): A curated list of awesome YARA rules, tools, and people.
  * [Bytehist](https://cert.at/en/downloads/software/software-bytehist): A tool for generating byte-usage-histograms for all types of files with a special focus on binary executables in PE-format (Windows).
@@ -387,10 +388,11 @@
  * [Disk pulse](https://www.diskpulse.com/): It is a real-time disk change monitoring solution allowing one to monitor one or more disks or directories, save reports and disk change monitoring statistics, export detected changes to a centralized SQL database, execute custom commands and send E-Mail notifications when unauthorized changes are detected in critical system files.
  * [EvilClippy](https://github.com/outflanknl/EvilClippy): A cross-platform assistant for creating malicious MS Office documents. Can hide VBA macros, stomp VBA code (via P-Code) and confuse macro analysis tools. Runs on Linux, OSX and Windows.
  * [Ghidra-Scripts](https://github.com/AGDCservices/Ghidra-Scripts): Malware analysis scripts for Ghidra.
- * [Malicious PDF Generator](https://github.com/jonaslejon/malicious-pdf): Generate a bunch of malicious pdf files with phone-home functionality. Can be used with Burp Collaborator.
- * [MalwareAnalysis.co](https://malwareanalysis.co/): Collection of malware tool and resources: [Windows](https://malwareanalysis.co/resources/tools/windows/), [macOS](https://malwareanalysis.co/resources/tools/macos/), [Linux](https://malwareanalysis.co/resources/tools/linux/), [https://malwareanalysis.co/resources/tools/android/](Android).
  * [hijackthis](https://github.com/dragokas/hijackthis/): A free utility that finds malware, adware and other security threats.
  * [Indetectables Toolkit](https://github.com/indetectables-net/toolkit): Fundamental reverse/analysis/cracking toolkit.
+ * [MalAPI.io](https://malapi.io/): List of Windows API functions ranked based on their usefulness in malware.
+ * [Malicious PDF Generator](https://github.com/jonaslejon/malicious-pdf): Generate a bunch of malicious pdf files with phone-home functionality. Can be used with Burp Collaborator.
+ * [MalwareAnalysis.co](https://malwareanalysis.co/): Collection of malware tool and resources: [Windows](https://malwareanalysis.co/resources/tools/windows/), [macOS](https://malwareanalysis.co/resources/tools/macos/), [Linux](https://malwareanalysis.co/resources/tools/linux/), [https://malwareanalysis.co/resources/tools/android/](Android).
  * [M/Monit](https://mmonit.com/): Can monitor and manage distributed computer systems, conduct automatic maintenance and repair and execute meaningful causal actions in error situations.
  * [obfuscation_detection](https://github.com/mrphrazer/obfuscation_detection): Collection of scripts to pinpoint obfuscated code.
  * [PELock Software Protection & Software License Key System](https://github.com/PELock/PELock-Software-Protection-and-Licensing-SDK)
@@ -535,6 +537,7 @@ Collection of malware source code for a variety of platforms in an array of diff
 
 #### Packers
  * [.NET Generic Unpacker](https://ntcore.com/?page_id=353): This is a program to dump .NET packed applications. Of course no serious .NET protection relies on packing. In fact, this software shows how easily you can unpack a protected assemly. This .NET Generic Unpacker was written in a couple of hours and despite of the fact that it’s very simple, it might turn useful having it: otherwise you have to unpack manually, which is quite easy as well.
+ * [ASL](https://github.com/ExeinfoASL/ASL): Detect packer , compiler , protector , .NET obfuscator.
  * [ASPack](http://aspack.com/): It is an advanced EXE packer created to compress Win32 executable files and to protect them against non-professional reverse engineering.
  * [https://github.com/horsicq/Detect-It-Easy](https://github.com/horsicq/Detect-It-Easy): Program for determining types of files for Windows, Linux and MacOS.
  * [PEiD](https://www.softpedia.com/get/Programming/Packers-Crypters-Protectors/PEiD-updated.shtml): It is an intuitive application that relies on its user-friendly interface to detect packers, cryptors and compilers found in PE executable files – its detection rate is higher than that of other similar tools since the app packs more than 600 different signatures in PE files.
@@ -545,6 +548,7 @@ Collection of malware source code for a variety of platforms in an array of diff
 #### Portable Executable (PE) explorer
  * [CFF Explorer](https://ntcore.com/?page_id=388): CFF Explorer was designed to make PE editing as easy as possible, but without losing sight on the portable executable’s internal structure. 
  * [Detect It Easy (DiE)](https://horsicq.github.io/): Determining types of files.
+ * [dllcharacteristics.py](https://github.com/accidentalrebel/dllcharacteristics.py): A simple Python tool for getting and setting the values of DLL characteristics for PE files.
  * [Exeinfo PE](http://exeinfo.atwebpages.com/)
  * [Lord PE](https://www.aldeid.com/wiki/LordPE): LordPE is a tool for system programmers/reverse engineers which is able to edit/view many parts of PE (Portable Executable) files, dump them from memory, optimize them, validate, analyze, edit, etc.
  * [PE Explorer](http://www.heaventools.com/overview.htm): Lets you open, view and edit a variety of different 32-bit Windows executable file types (also called PE files) ranging from the common, such as EXE, DLL and ActiveX Controls, to the less familiar types, such as SCR (Screensavers), CPL (Control Panel Applets), SYS, MSSTYLES, BPL, DPL and more (including executable files that run on MS Windows Mobile platform).
@@ -559,6 +563,9 @@ Collection of malware source code for a variety of platforms in an array of diff
  * [Portable Executable Scanner (pescan)](https://tzworks.net/prototype_page.php?proto_id=15): It is a command line tool to scan portable executable (PE) files to identify how they were constructed.
  * [PPEE (puppy)](https://www.mzrst.com/): It is a Professional PE file Explorer for reversers, malware researchers and those who want to statically inspect PE files in more details.
  * [Resource Hacker](http://www.angusj.com/resourcehacker/): It is a resource editor for 32bit and 64bit Windows® applications. It's both a resource compiler (for *.rc files), and a decompiler - enabling viewing and editing of resources in executables (*.exe; *.dll; *.scr; etc) and compiled resource libraries (*.res, *.mui). While Resource Hacker™ is primarily a GUI application, it also provides many options for compiling and decompiling resources from the command-line.
+
+#### Ransomware
+ * [ransomware-sources](https://github.com/theanonhackuk/ransomware-sources): Collection of source code of some ransomware on Github.
 
 #### RATs
  * [RAT-NjRat-0.7d-modded-source-code](https://github.com/AliBawazeEer/RAT-NjRat-0.7d-modded-source-code)
@@ -588,6 +595,7 @@ Collection of malware source code for a variety of platforms in an array of diff
  * [BinText](https://www.aldeid.com/wiki/BinText): A small, very fast and powerful text extractor that will be of particular interest to programmers. It can extract text from any kind of file and includes the ability to find plain ASCII text, Unicode (double byte ANSI) text and Resource strings, providing useful information for each item in the optional "advanced" view mode. Its comprehensive filtering helps prevent unwanted text being listed. The gathered list can be searched and saved to a separate file as either a plain text file or in informative tabular format.
  * [FireEye Labs Obfuscated String Solver](https://github.com/fireeye/flare-floss): Automatically extract obfuscated strings from malware.
  * [Strings](https://docs.microsoft.com/en-us/sysinternals/downloads/strings)
+ * [stringsifter](https://github.com/mandiant/stringsifter): A machine learning tool that ranks strings based on their relevance for malware analysis.
 
 #### Virus
  * [DELmE's Batch Virus Maker](https://github.com/hacktoolspack/hack-tools/tree/master/DELmE's%20Batch%20Virus%20Maker%20v%202.0)
@@ -609,6 +617,11 @@ Collection of malware source code for a variety of platforms in an array of diff
  * [Process Hacker](https://processhacker.sourceforge.io/)
  * [Service+](https://www.activeplus.com/products/serviceplus)
  * [SrvMan](https://sysprogs.com/legacy/tools/srvman/): Windows Service Manager is a small tool that simplifies all common tasks related to Windows services. It can create services (both Win32 and Legacy Driver) without restarting Windows, delete existing services and change service configuration. It has both GUI and Command-line modes. It can also be used to run arbitrary Win32 applications as services (when such service is stopped, main application window is closed automatically).
+
+
+
+---
+
 
 
 ### Session hijacking
@@ -916,7 +929,7 @@ Collection of malware source code for a variety of platforms in an array of diff
 
 ## License
 
-© 2021 [javierizquierdovera.com](https://javierizquierdovera.com)
+© 2023 [javierizquierdovera.com](https://javierizquierdovera.com)
 
 Licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0) ([`LICENSE-APACHE`](LICENSE-APACHE)) or the [MIT license](https://opensource.org/licenses/MIT) ([`LICENSE-MIT`](LICENSE-MIT)), at your option.
 

@@ -56,7 +56,7 @@ aircrack-ng -a2 -b [TARGET BSSID] -w dictionary.txt 'wireless-data-01.cap'
 ---
 ## License
 
-© 2021 [javierizquierdovera.com](https://javierizquierdovera.com)
+© 2023 [javierizquierdovera.com](https://javierizquierdovera.com)
 
 Licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0) ([`LICENSE-APACHE`](LICENSE-APACHE)) or the [MIT license](https://opensource.org/licenses/MIT) ([`LICENSE-MIT`](LICENSE-MIT)), at your option.
 

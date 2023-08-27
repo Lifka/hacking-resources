@@ -13,6 +13,7 @@
  * [Amossys  - Security Blog](https://blog.amossys.fr/) (French)
  * [Adepts of 0xCC](https://adepts.of0x.cc/): A brotherhood of owls praying to the debugger God.
  * [Back Engineering](https://back.engineering/)
+ * [COUNT UPON SECURITY](https://countuponsecurity.com/)
  * [Dissecting Malware](https://dissectingmalwa.re/)
  * [El Soctano](https://soctano.blogspot.com/) (Spanish) - Discontinued
  * [Ero Carrera's blog](http://blog.dkbza.org/) - Discontinued
@@ -182,7 +183,7 @@
 ---
 ## License
 
-© 2021 [javierizquierdovera.com](https://javierizquierdovera.com)
+© 2023 [javierizquierdovera.com](https://javierizquierdovera.com)
 
 Licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0) ([`LICENSE-APACHE`](LICENSE-APACHE)) or the [MIT license](https://opensource.org/licenses/MIT) ([`LICENSE-MIT`](LICENSE-MIT)), at your option.
 
