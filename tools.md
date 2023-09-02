@@ -6,6 +6,7 @@
  * [BuzzSumo](https://buzzsumo.com/): Find the most shared content for a topic, author, or a domain.
  * [Censys](https://censys.io/): Full view of every server and device exposed.
  * [CeWL](https://github.com/digininja/CeWL): Gathering Wordlist from the Target Website.
+ * [Deepinfo](https://deepinfo.com): Provides data about domain names, IP addresses, historical and current WHOIS/DNS records.
  * [DNSRecon](https://github.com/darkoperator/dnsrecon): Reverse DNS lookup.
  * [Extract Meta Data](https://citizenevidence.amnestyusa.org/): Gather Information from Video Search Engines.
  * [exposing.ai](https://exposing.ai/): Check if your Flickr photos were used to build face recognition.
