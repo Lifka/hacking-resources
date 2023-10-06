@@ -166,6 +166,7 @@
  * [Nmap](https://github.com/nmap/nmap): The Network Mapper.
  * [Omnipeek Network Protocol Analyzer](https://www.liveaction.com/products/omnipeek-network-protocol-analyzer/)
  * [Ostinato](https://github.com/pstavirs/ostinato): Packet/Traffic Generator and Analyzer.
+ * [PETEP](https://github.com/Warxim/petep): Extensible TCP/UDP proxy with GUI for traffic analysis & modification with SSL/TLS support.
  * [sparta](https://github.com/SECFORCE/sparta): Network Infrastructure Penetration Testing Tool: NMap + hydra.
  * [SteelCentral Packet Analyzer](https://support.riverbed.com/content/support/software/steelcentral-npm/packet-analyzer.html)
  * [Unicornscan](https://github.com/dneufeld/unicornscan)
