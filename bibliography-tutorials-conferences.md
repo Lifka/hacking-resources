@@ -147,7 +147,7 @@
 #### Tutorials
  * [Assembly Programming Tutorial](https://www.tutorialspoint.com/assembly_programming/index.htm)
  * [Debugging TLS Callbacks](https://resources.infosecinstitute.com/topic/debugging-tls-callbacks/)
- * [Code Survival: Debug a Compiled DLL](https://rift.stacktitan.com/debug-survival-the-compiled-dll/)
+ * [Code Survival: Debug a Compiled DLL](https://rift.stacktitan.com/code-survival-debug-compiled-dll/)
  * [malware_training_vol1](https://github.com/hasherezade/malware_training_vol1): Materials for Windows Malware Analysis training (volume 1)
  * [Malware Analysis - Wannacry](https://www.purpl3f0xsecur1ty.tech/2021/02/17/wannacry.html)
  * [pestudio references](https://www.winitor.com/references/)
