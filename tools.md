@@ -52,6 +52,7 @@
  * [Contact Out](https://contactout.com/): Get private information from LinkedIn accounts.
  * [';--have i been pwned?](https://haveibeenpwned.com/): Check if your email address is in a data breach.
  * [hunter.io](https://hunter.io/): Hunter lets you find email addresses in seconds and connect with the people that matter for your business.
+ * [Hudson Rock](https://www.hudsonrock.com/threat-intelligence-cybercrime-tools): Check if a specific email address was compromised in global Infostealer malware campaign
  * [Instant People Search](https://www.privateeye.com/): Searching people.
  * [intelius](https://www.intelius.com/): Searching people.
  * [peekyou](https://www.peekyou.com/): Searching people.
