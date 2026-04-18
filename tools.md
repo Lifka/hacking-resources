@@ -112,6 +112,7 @@
 #### Monitoring webpages for updates and changes
  * [visualping](https://visualping.io/): Monitor website changes… so you don't have to!
  * [Website-Watcher](https://www.aignes.com/): Monitor websites for new content and changes.
+ * [Snaplert](https://snaplert.com): Visual pixel diffs + AI summaries for monitoring webpage changes. Element-level zone picker. Free during open beta.
 
 #### Monitoring website traffic of target company
  * [Alexa](https://www.alexa.com/): Find, Reach, and Convert Your Audience.
