@@ -70,6 +70,7 @@
 
 #### Extracting Metadata of Public Documents
  * [Exiftool](https://github.com/exiftool/exiftool): ExifTool meta information reader/writer.
+ * [MetadataRemover.ai](https://metadataremover.ai/): Open-source browser toolkit to inspect supported image and document metadata locally, with optional removal on a separate copy.
  * [Metagoofil](https://github.com/laramies/metagoofil): Metadata harvester.
  * [Opanda IExif](http://opanda.com/en/iexif/index.html): It is a professional Exif viewer in Windows / IE /  Firefox, From a photographer's eye, It displays the image taken from digital camera and every item of EXIF data in the image from beginning to end.
  * [Web Data Extractor](http://www.webextractor.com/): Web Data Extractor Pro is a web scraping tool specifically designed for mass-gathering of various data types. It can harvest URLs, phone and fax numbers, email addresses, as well as meta tag information and body text. Special feature of WDE Pro is custom extraction of structured data.
