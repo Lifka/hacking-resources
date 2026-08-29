@@ -128,12 +128,10 @@
 
 #### Twitter
  * [#onemilliontweetmap](https://onemilliontweetmap.com/)
- * [Creepy](https://www.geocreepy.com/): Creepy is a geolocation OSINT tool. Gathers geolocation related information from online sources, and allows for presentation on map, search filtering based on exact location and/or date, export in csv format or kml for further analysis in Google Maps.
- * [First Tweet - Who Said It First on Twitter](http://ctrlq.org/first/)
  * [foller.me](https://foller.me/): Twitter analytics application that gives you rich insights about any public Twitter profile. We gather near real-time data about topics, mentions, hashtags, followers, location and more!
  * [Followerwonk](https://followerwonk.com/): Help to explore and grow one's social graph by digging deeper into Twitter analytics.
- * [Omnisci](https://www.omnisci.com/demos/tweetmap)
  * [tinfoleak](https://github.com/vaguileradiaz/tinfoleak): The most complete open-source tool for Twitter intelligence analysis.
+ * [Xquik public X OSINT workflow](x-osint-cheat-sheet.md): Run bounded public post searches and save source-preserving JSONL evidence.
 
 #### Website footprinting
  * [Burp Suite](https://portswigger.net/burp)

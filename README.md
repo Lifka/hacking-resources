@@ -7,6 +7,7 @@ List of hacking utilities. Resources that I consider useful and that I have been
 ## Index
 
  * [Tools](tools.md)
+ * [Public X OSINT cheat sheet](x-osint-cheat-sheet.md)
  * [OS distributions / Virtual machines](os-distribution-virual-machines.md)
  * [Bibliography / Tutorials / Conferences](bibliography-tutorials-conferences.md)
  * [Other links](other-links.md)

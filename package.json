@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "test": "sh tests/xquik-search.test.sh"
+  },
   "devDependencies": {
     "all-contributors-cli": "^6.20.0"
   }
