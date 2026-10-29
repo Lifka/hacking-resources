@@ -307,6 +307,7 @@
 
 
 ### System hacking
+ * [Exploit Pack](https://www.exploitpack.com/products/exploit-pack): Commercial exploit-development and initial-access framework with exploit discovery, module execution, payload construction, remote testing, debugging, and result collection.
  * [https://github.com/9emin1/charlotte](https://github.com/9emin1/charlotte): c++ fully undetected shellcode launcher ;).
  * [DSInternals](https://github.com/MichaelGrafnetter/DSInternals): The DSInternals project consists of these two parts: 1 - The DSInternals Framework exposes several internal features of Active Directory and can be used from any .NET application. The codebase has already been integrated into several 3rd party commercial products that use it in scenarios like Active Directory disaster recovery, identity management, cross-forest migrations and password strength auditing. 2 - The DSInternals PowerShell Module provides easy-to-use cmdlets that are built on top of the Framework.
  * [EagleShell](https://github.com/TRSTN4/EagleShell): EagleShell is a high-quality tool that aims to improve your pentest.
